@@ -38,6 +38,7 @@
 
 %following are the parameters used in the examples. 
 \newcommand{\alphval}{0.33}
+\newcommand{\betaval}{0.64}
 \newcommand{\sig}{0.2}
 \newcommand{\lbar}{0.5}
 \newcommand{\mulow}{0.0}
@@ -257,7 +258,7 @@ which reduces to the claimed expression by Proposition \ref{propREST}. High prod
 %rearrangement reveals that
 %The expressions for the drift and diffusion of normalized utility follow by combining the expression \eqref{riskADJ} with the quadratic in
 
-If a process $X$ satisfies $dX_t = \mu_XX_tdt + \sigma_XX_tdZ_t$ for some constants $\mu_X$ and $\sigma_X$ then it admits the representation $\ln(X_t/X_0) = (\mu_X - \sigma_X^2/2)t + \sigma_XZ_t$ almost surely for all $t\geq0$. The long-run pathwise behavior is then determined not by the drift $\mu_X$ but instead by $\mu_X - \sigma_X^2/2$, which may be interpreted as a risk-adjusted growth rate. Lemma \ref{lawu} shows that the risk-adjusted growth of normalized utility is the difference between two terms. The first, $-\overline{\gamma}\sigma^2E(l)^2x(l)^2/2$, represents a force common in economies with private information, in which the principal gradually ``immiserates'' the agent in order to relax future incentive constraints, while the second, $\mu_{\theta}(l) - \sigma_{\theta}(l)^2/2$, is the risk-adjusted growth in productivity. 
+If a process $X$ satisfies $dX_t = \mu_XX_tdt + \sigma_XX_tdZ_t$ for some constants $\mu_X$ and $\sigma_X$ then it admits the representation $\ln(X_t/X_0) = (\mu_X - \sigma_X^2/2)t + \sigma_XZ_t$ almost surely for all $t\geq0$. The long-run pathwise behavior is then determined not by the drift $\mu_X$ but instead by $\mu_X - \sigma_X^2/2$, which may be interpreted as a risk-adjusted growth rate. Lemma \ref{lawu} shows that the risk-adjusted growth of normalized utility is the difference between two terms. The first, $-\overline{\gamma}\sigma^2E(l)^2x(l)^2/2$, represents a force common in economies with private information, in which the principal gradually immiserates the agent in order to relax future incentive constraints, while the second, $\mu_{\theta}(l) - \sigma_{\theta}(l)^2/2$, is the risk-adjusted growth in productivity. 
 
 
 The fact that effort affects growth rather than flow output implies that the dynamics of risk-sharing here are different from the seminal contributions of \cite{phelan_computing_1991} and \cite{sannikov_continuous-time_2008}, in which the mapping from effort to output is fixed over time. In these models agents are typically retired at high levels of utility because they are too costly to motivate. Although it remains true here that the cost of motivating the agent increases with utility, there is also a simple but novel offsetting effect: agents in this model typically have high utility precisely because they experienced high productivity growth. After a series of favorable shocks, the cost of motivating the agent may have grown, but since actions affect the growth of output, so too has the benefit, and Lemma \ref{homogprod} shows that the principal cares solely about the ratio of these costs to benefits. Lemma \ref{lawu} even shows that in the restricted-action allocations, the dynamics of risk-sharing may be entirely reversed relative to models without persistent effects, in the sense that high shocks reduce normalized utility. Indeed, when inequality \eqref{fallNS} is satisfied, higher productivity shocks lead the principal to recommend higher effort and more risk in the agent's utility. Further, for sufficiently high risk-aversion or uncertainty, or a sufficiently patient agent, this will be true regardless of the recommended leisure level. 
@@ -292,8 +293,6 @@ However, as emphasized above, the persistent effects of effort on output in this
 Figure \ref{fig:l_c_log} in Appendix \ref{sec:add_figures} computes analogues of Figure \ref{fig:l_c} and Figure \ref{fig:law_u} when utility is logarithmic, which corresponds to the limit $\gamma \rightarrow 1$. In this case the risk-adjusted growth remains negative for small normalized utility, and the volatility is again everywhere negative, albeit closer to zero than in the $\gamma=2$ case. I emphasize that the volatility of normalized utility is not guaranteed to be negative for all parameters.\footnote{Indeed, it is easy to see that condition \eqref{fallNS} in Lemma \ref{lawu} can fail for, e.g., logarithmic utility and high discounting (high $\rho$) or higher preferences for leisure (higher $\alpha$).} However, the point of these examples is simply that the novel addition of persistent effects of effort can, in principle, completely reverse the relationship between output shocks and future effort, relative to the standard model of \cite{sannikov_continuous-time_2008}. Further, in addition to being satisfied for the parameters given here, Lemma \ref{lawu} shows that this reversal holds for all sufficiently high levels of risk. 
 
 In all of the above cases the efficient functions inherit the qualitative features of their restricted-action counterparts, but exhibit greater smoothness and vary less abruptly with normalized utility. Indeed, in numerical experimentations I have observed a kind of ``bang-bang'' solution for policy functions, with the lowest leisure level chosen at low levels of normalized utility, and the highest chosen at high levels.\footnote{This phenomenon appears to be more likely to occur when the degree of idiosyncratic risk is small.}
-
-%and so the net effect on incentives to deviate is \textit{a priori} ambiguous.
 
 Before turning to the setting with a continuum of agents, it is instructive to compare the above optimal contract with those in other environments with hidden actions, and with the dynamics of income that obtain in economies with exogenously incomplete markets. This will also serve as a prelude as to why thick right tails of consumption and firm size emerge in this environment. \cite{shourideh_optimal_2013} and \cite{phelan_optimality_2022} both consider economies with hidden consumption. To preserve incentives for investment, the risk borne by entrepreneurs must scale with the benefits of diverting capital to consumption, and so rich agents with low marginal utility of consumption control high amounts of capital. With homothetic preferences, these forces cancel and the elasticity of consumption with respect to output is common across agents, and generates Pareto distributions in consuption and firm size. However, these two papers cannot generate the need for an active stock market in which share prices depend endogenously on the expected effort exerted by the owner.
 
@@ -341,7 +340,9 @@ The consumption and leisure allocations for a particular generation are incentiv
 
 %Agents have preferences solely over their own consumption and effort and there is no altruism across generations. 
 
-For simplicity I will suppose that the planner only cares about workers and places a weight of $\alpha(T) = e^{-\rho_S T}$ on an agent born at time $T$.\footnote{This is equivalent to weighing flow utility independently of an agent's birth date. To aid the reader, elaboration of the social welfare function is given in Appendix \ref{planPREFapp}.} I now relate the planner's problem to the principal-agent problems of Section \ref{PriAg}. 
+For simplicity I will suppose that the planner only cares about workers and places a weight of $\alpha(T) = e^{-\rho_S T}$ on an agent born at time $T$, and write the utility attained by the planner over an allocation $A$ by $U^P(A)$.\footnote{This is equivalent to weighing flow utility independently of an agent's birth date. To aid the reader, elaboration of the social welfare function is given in Appendix \ref{planPREFapp}.} 
+
+%I now relate the planner's problem to the principal-agent problems of Section \ref{PriAg}. 
 \begin{defn}
 Given an initial distribution $\Phi$ over promised utility and types, the planner's problem is defined to be $V(\Phi) = \max_{A \in \mathcal{A}^{IF}} U^P(A)$.
 \end{defn} 
@@ -426,7 +427,7 @@ The stationary level of normalized utility is increasing in $\eta_E$ and $\beta$
 \begin{proof}
 Define $H(y) :=  M(y)(1-\beta)^{-1} - C(y) - y(1-\eta_E)/\eta_E$ and note that the stationary normalized utility is a root of $H$. All the claims follow from Topkis' theorem and the fact that $H$ is increasing in $\eta_E$ and $\beta$ and independent of $Z$. 
 \end{proof}
-The third claim in Corollary \ref{compstat3} may be viewed as a neutrality result, as it shows that changes in total factor productivity have no effect on the stationary value of normalized utility. Such changes therefore have no effect on inequality in the associated stationary distributions of consumption and firm size, as these are simply scaled for all agents after every history by the same amount. 
+The third claim in Corollary \ref{compstat3} may be viewed as a neutrality result, as it shows that changes in total factor productivity have no effect on the stationary value of normalized utility. Such changes therefore have no effect on inequality in consumption and firm size, as these are scaled for all agents after every history by the same amount. 
 
 Proposition \ref{propREST} shows that the restricted value and policy functions associated with the highest action are good approximations to the true value and policy functions for low levels of normalized promised utility. Since agents with low normalized utility have high productivity and so typically high consumption, one expects the right tail of the consumption distribution to look similar to that associated with the restricted-action allocation for the highest effort level, and this is what is observed in all simulations. To extend the discussion following Lemma \ref{lawu} and highlight how the efficient allocations of this paper differ from the exogenously incomplete markets model of \cite{jones_schumpeterian_2018}, I now consider the stationary distributions associated with the restricted-action policy functions. This will also serve as a prelude to the results of Section \ref{Imp}, where it is shown that these distributions correspond to those that are implemented with linear taxes in a signaling equilibrium. The formulation of the stationary resource constraints is simpler and more transparent in this case. Recall from the discussion following Proposition \ref{propREST} that $v^*_{\textnormal{r}}$ and $l_{\textnormal{r}}^*$ denote the value and policy functions of a principal who must recommend the same leisure level for the entirety of an agent's life. In this case consumption growth is characterized by constant mean and volatility, and so for any leisure level $l$ the stationary resource constraint becomes
 $$
@@ -441,6 +442,16 @@ $$
 $$
 The associated utility is $\overline{Z}u_{\textnormal{r}}$ where $\overline{Z} = (1-\beta)Z{\left(\rho_D - \mu_{\theta}(l_{\textnormal{r}}^*(u_{\textnormal{r}}))\right)}^{\beta}(\overline{L}/[\rho_D\eta_E])^{\beta}$ and $l_{\textnormal{r}}^*(u_{\textnormal{r}})$ is increasing in both $\eta_E$ and $\beta$.
 \end{prop} %\overline{Z} = (1-\beta)Z{\left(\frac{\rho_D\eta_E}{\rho_D - \mu_{\theta}(l_{\textnormal{r}}^*(u_{\textnormal{r}}))}\right)}^{-\beta}\overline{L}^{\beta}
+
+\textbf{Numerical illustration.} I now compute an example depicting aggregate output and consumption in both the efficient and restricted-action allocations. I set the labor share to $\beta = \betaval$ and consider two possible values, $\eta_E = 0.076$ and $\eta_E = 0.115$, for the fraction of the population who are entrepreneurs. These choices correspond to the fractions of the population who are ``self-employed business owners'' and ``active business owners'', respectively, in the Survey of Consumer Finances, as reported in \cite{cagetti_entrepreneurship_2006}. All other parameters are fixed at those considered in Section \ref{PriAg}. Figure \ref{fig:RC} depicts the aggregate consumption and output (the left- and right-hand sides of equation \eqref{STATy}) as functions of initial normalized utility, in both efficient allocations (solid lines) and the restricted-action allocations (dotted lines). Note that variation in aggregate consumption between efficient and restricted action allocations is hard to discern in the figure, because such changes only affect the consumption of the (relatively small) number of entrepreneurs. Obviously, the level of normalized utility to a newborn in the stationary efficient allocation corresponds to the value at which consumption and output coincide.  As implied by Corollary \ref{compstat3}, when $\eta_E$ falls, the stationary value of normalized utility falls. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.49\linewidth]{RC_75.0}
+\includegraphics[width=0.49\linewidth]{RC_115.0}
+%\includegraphics[width=0.49\linewidth]{RC}
+\caption{Efficient and restricted-action output and consumption.}\label{fig:RC}
+\end{figure}
 
 It is well-known that the stationary distribution of a geometric Brownian motion that is killed at a constant rate and reinjected at some point $\overline{X}$ has a stationary distribution of the \textit{double-Pareto} form $f(x) = A x^{\alpha^+_X-1}1_{x \leq \overline{X}} + B x^{\alpha^-_X-1}1_{x > \overline{X}}$ for some $A,B > 0$ and tail parameters $\alpha^{\pm}_X$. The expressions in Proposition \ref{propREST} then lead to the following characterization. A proof is contained in Appendix \ref{restDISTsect}.
 
@@ -824,7 +835,7 @@ Q(\overline{\iota};\tau) & = 1 + [1 + \alpha(\gamma-1)]{\left(\tau_s \overline{\
 \end{equation}
 This objective is globally concave if $\alpha \leq 1/2$, in which case Assumption \ref{imp_assump} is satisfied without any further assumptions on parameters. The first-order condition then characterizes the optimal retention choice and solves %multiplying through by $\tilde{x}(\overline{\iota};\tau) \times \overline{\iota}$
 \begin{equation}
-0 = \frac{[1 + \alpha(\gamma-1)]}{(\gamma-1)(1 - 2\alpha)}\tilde{x}'(\overline{\iota};\tau)\overline{\iota} + \tilde{x}(\overline{\iota};\tau) =: Q(\overline{\iota};\tau).
+0 = \frac{[1 + \alpha(\gamma-1)]}{(\gamma-1)(1 - 2\alpha)}\tilde{x}'(\overline{\iota};\tau)\overline{\iota} + \tilde{x}(\overline{\iota};\tau).
 \label{quadratic}
 \end{equation}
 In order to implement the efficient consumption volatility $\sigma_c^*(u_{\textnormal{r}})$, we must choose taxes such that \eqref{quadratic} is satisfied for $\overline{\iota} = \sigma_c^*(u_{\textnormal{r}})/\sigma$ and that the condition in Lemma \ref{IEsig} holds. 
@@ -836,7 +847,7 @@ Reminder about following algebra.
 \end{align*}
 \fi
 
-There are at least two cases in which we obtain substantial simplification. The first case is when utility is logarithmic. Now the quadratic $Q$ in \eqref{quadratic} does not depend on the wealth tax, and the interest tax satisfies $0 = \rho(1 - 2\alpha) + {\left(\rho \tau_s \overline{\iota} - \sigma^2 \overline{\iota}^2\right)}(1-\alpha)$. Using the fact that consumption volatility is now $\sigma_c^*(u_{\textnormal{r}}) = \sigma \alpha (1-\alpha)^{-1}(l^*(u_{\textnormal{r}}))^{-1}$, this implies
+There are at least two cases in which we obtain substantial simplification. The first case is when utility is logarithmic. Now the quadratic in \eqref{quadratic} does not depend on the wealth tax, and the interest tax satisfies $0 = \rho(1 - 2\alpha) + {\left(\rho \tau_s \overline{\iota} - \sigma^2 \overline{\iota}^2\right)}(1-\alpha)$. Using the fact that consumption volatility is now $\sigma_c^*(u_{\textnormal{r}}) = \sigma \alpha (1-\alpha)^{-1}(l^*(u_{\textnormal{r}}))^{-1}$, this implies
 \begin{equation}
 \tau_s = \frac{\sigma^2/\rho}{(1/\alpha-1)l^*(u_{\textnormal{r}})} + (1 - 1/\alpha)l^*(u_{\textnormal{r}}).
 \label{log_system}
@@ -1197,7 +1208,7 @@ where I again used $e^{-\rho_S T}e^{- \rho (t-T)} = e^{- \rho_St}e^{-\rho_D(t-T)
 \begin{align*}
 \max_{\mathcal{A}^{IC}_T} \ & \int_{0}^{\infty} e^{-\rho t} (U^T_t + \lambda_R[Y^T_t - \lambda_LL^T_t - C^T_t])dt.
 \end{align*}
-Since the planner weights only workers, he is forced to provide all agents with a common utility level. For entrepreneurs the problem becomes $\max_U \ U + \lambda_RV(U,\overline{Z}(\lambda_L))$, where $V$ is the value function of the principal in Section \ref{PriAg}. The problem of the planner facing a given generation is therefore
+Since the planner weights only workers, he provides all agents with a common utility level. For entrepreneurs the problem becomes $\max_U \ U + \lambda_RV(U,\overline{Z}(\lambda_L))$, where $V$ is the value function of the principal in Section \ref{PriAg}. The problem of the planner facing a given generation is therefore
 \begin{align*}
 V^G_{\lambda} & = \max_{\substack{U_E,U_W < 0 \\ U_E \geq U_W}} \ \eta_E{\left(U_E + \lambda_R\overline{Z}(\lambda_L)V(U_E\overline{Z}(\lambda_L)^{\overline{\gamma}-1},1)\right)} + (1-\eta_E) {\left(U_W - \lambda_R[(1-\gamma)U_W]^{\frac{1}{1-\overline{\gamma}}}\right)}
 %\\ & = \max_{U < 0} \ U + \eta_E\lambda_R\overline{Z}(\lambda_L)v([(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}/\overline{Z}(\lambda_L)) - (1-\eta_E) \lambda_R[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}
@@ -1804,7 +1815,7 @@ Using $E(l) = \rho \alpha/[(1-\alpha)(\overline{\mu}_0 - \overline{\mu}_1)l]$, t
 
 \section{Numerical method}\label{num_appendix}
 
-I will solve the Hamilton-Jacobi-Bellman equation in Proposition \ref{GENhjbMULT} using the method of \cite{kushnerNumericalMethodsStochastic2001a}. The idea is to approximate the solution of the continuous-time continuous-state control problem with a simpler discrete-time problem in which the state assumes only finitely-many values. I refer the reader to \cite{kushnerNumericalMethodsStochastic2001a} for the theory justifying the approach and only outline here the choice of approximating chains. Recall from \eqref{normlaw} that $u_t := [(1-\gamma)U_t]^{\frac{1}{1-\overline{\gamma}}}\theta_t^{-1}$ evolves according to $du_t = \mu_uu_tdt + \sigma_uu_tdZ_t$, where
+I will solve the Hamilton-Jacobi-Bellman equation in Proposition \ref{GENhjbMULT} using the method of \cite{kushner_numerical_2001}. The idea is to approximate the solution of the continuous-time continuous-state control problem with a simpler discrete-time problem in which the state assumes only finitely-many values. I refer the reader to \cite{kushner_numerical_2001} for the theory justifying the approach and only outline here the choice of approximating chains. Recall from \eqref{normlaw} that $u_t := [(1-\gamma)U_t]^{\frac{1}{1-\overline{\gamma}}}\theta_t^{-1}$ evolves according to $du_t = \mu_uu_tdt + \sigma_uu_tdZ_t$, where
 \begin{equation}
 \begin{aligned}
 \mu_u & = \rho {\left(\frac{1 - (\overline{c}^{1-\alpha}l^{\alpha})^{1-\gamma}}{1-\overline{\gamma}}\right)}  + (\overline{\gamma}-1)\frac{\sigma^2}{2} E(l)^2(\overline{c}^{1-\alpha}l^{\alpha})^{2-2\gamma} 
