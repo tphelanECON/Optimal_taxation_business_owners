@@ -1,8 +1,9 @@
 """
 Example of optimal contract with CRRA utility. Placed in main text.
 
-Note that if one reduces gamma, then one must also increase umax. The reason
-for this is that
+Note that if one reduces gamma, then one must also increase umax. If one uses a
+inappropriately small umax, then to avoid inefficient termination the consumption
+coefficient can rise for large u.
 """
 
 import numpy as np
@@ -55,7 +56,7 @@ ax.plot(X.ugrid,v,'b',label='Efficient',linewidth=1.5)
 ax.plot(X.ugrid,X.rest(X.llow,X.ugrid)[1],'b--',label='Highest effort',linewidth=1.5)
 ax.plot(X.ugrid,X.rest(X.lhigh,X.ugrid)[1],'b--',label='Lowest effort',linewidth=1.5)
 ax.plot(X.ugrid,X.rest(X.lhigh-10**-6,X.ugrid)[1],'b--',label='Lowest non-zero effort',linewidth=1.5)
-#ax.plot(X.ugrid,X.rest_l,'b--',label='Restricted-action',linewidth=1.0)
+#ax.plot(X.ugrid,X.rest_l,'b--',label='Restricted-action',linewidth=2.0)
 plt.xlim([0,r_frac*X.umax])
 ax.legend()
 ax.set_xlabel('Normalized utility', fontsize=13)
@@ -67,7 +68,7 @@ plt.show()
 
 fig, ax = plt.subplots()
 ax.plot(X.ugrid,l,'b',label='Efficient',linewidth=1.5)
-ax.plot(X.ugrid,X.rest_l,'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(X.ugrid,X.rest_l,'b--',label='Restricted-action',linewidth=2.0)
 plt.xlim([0,r_frac*X.umax])
 ax.legend()
 ax.set_xlabel('Normalized utility', fontsize=13)
@@ -78,9 +79,8 @@ plt.show()
 
 fig, ax = plt.subplots()
 ax.plot(X.ugrid,cbar,'b',label='Efficient', linewidth=1.5)
-ax.plot(X.ugrid,c_rest,'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(X.ugrid,c_rest,'b--',label='Restricted-action',linewidth=2.0)
 plt.xlim([0,r_frac*X.umax])
-#plt.xlim([0,3])
 plt.ylim([1.0, X.rest(X.llow,1)[0] + 0.15])
 ax.legend()
 ax.set_xlabel('Normalized utility', fontsize=13)
@@ -93,7 +93,7 @@ bnds = X.risk_adj(c_rest,X.rest_l)[0] - 0.01, X.risk_adj(c_rest,X.rest_l)[int(X.
 
 fig, ax = plt.subplots()
 ax.plot(X.ugrid,X.risk_adj(cbar,l),'b',label='Efficient',linewidth=1.5)
-ax.plot(X.ugrid,X.risk_adj(c_rest,X.rest_l),'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(X.ugrid,X.risk_adj(c_rest,X.rest_l),'b--',label='Restricted-action',linewidth=2.0)
 ax.legend(loc='upper left')
 plt.xlim([0,r_frac*X.umax])
 plt.ylim([bnds[0],bnds[-1]])
@@ -107,9 +107,9 @@ bnds = X.sigma_u(c_rest,X.rest_l)[0] + 0.01, X.sigma_u(c_rest,X.rest_l)[int(X.Nu
 
 fig, ax = plt.subplots()
 ax.plot(X.ugrid,X.sigma_u(cbar,l),'b',label='Efficient',linewidth=1.5)
-ax.plot(X.ugrid,X.sigma_u(c_rest,X.rest_l),'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(X.ugrid,X.sigma_u(c_rest,X.rest_l),'b--',label='Restricted-action',linewidth=2.0)
 ax.legend(loc='upper right')
-#plt.xlim([0,r_frac*X.umax])
+plt.xlim([0,r_frac*X.umax])
 plt.ylim([bnds[-1],bnds[0]])
 ax.set_xlabel('Normalized utility', fontsize=13)
 ax.set_title('Volatility', fontsize=13)

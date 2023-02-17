@@ -2,8 +2,6 @@
 Example of optimal contract with logarithmic utility.
 
 Relegated to appendix in 2023 version of paper.
-
-
 """
 
 import numpy as np
@@ -44,7 +42,7 @@ r_frac = 0.25
 
 fig, ax = plt.subplots()
 ax.plot(Y.ugrid,l,'b',label='Efficient',linewidth=1.5)
-ax.plot(Y.ugrid,Y.rest_l,'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(Y.ugrid,Y.rest_l,'b--',label='Restricted-action',linewidth=2.0)
 plt.xlim([0,r_frac*Y.umax])
 ax.legend()
 ax.set_xlabel('Normalized utility', fontsize=13)
@@ -55,7 +53,7 @@ plt.show()
 
 fig, ax = plt.subplots()
 ax.plot(Y.ugrid,cbar,'b',label='Efficient', linewidth=1.5)
-ax.plot(Y.ugrid,c_rest,'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(Y.ugrid,c_rest,'b--',label='Restricted-action',linewidth=2.0)
 plt.xlim([0,r_frac*Y.umax])
 plt.ylim([1.0, Y.rest(Y.llow,1)[0] + 0.04])
 ax.legend(loc='lower left')
@@ -69,7 +67,7 @@ bnds = Y.risk_adj(c_rest,Y.rest_l)[0] - 0.01, Y.risk_adj(c_rest,Y.rest_l)[int(Y.
 
 fig, ax = plt.subplots()
 ax.plot(Y.ugrid,Y.risk_adj(cbar,l),'b',label='Efficient',linewidth=1.5)
-ax.plot(Y.ugrid,Y.risk_adj(c_rest,Y.rest_l),'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(Y.ugrid,Y.risk_adj(c_rest,Y.rest_l),'b--',label='Restricted-action',linewidth=2.0)
 ax.legend(loc='upper left')
 plt.xlim([0,r_frac*Y.umax])
 plt.ylim([bnds[0],bnds[-1]])
@@ -83,7 +81,7 @@ bnds = Y.sigma_u(c_rest,Y.rest_l)[0] + 0.01, Y.sigma_u(c_rest,Y.rest_l)[int(Y.Nu
 
 fig, ax = plt.subplots()
 ax.plot(Y.ugrid,Y.sigma_u(cbar,l),'b',label='Efficient',linewidth=1.5)
-ax.plot(Y.ugrid,Y.sigma_u(c_rest,Y.rest_l),'b--',label='Restricted-action',linewidth=1.0)
+ax.plot(Y.ugrid,Y.sigma_u(c_rest,Y.rest_l),'b--',label='Restricted-action',linewidth=2.0)
 ax.legend(loc='lower left')
 plt.xlim([0,r_frac*Y.umax])
 plt.ylim([bnds[-1],bnds[0]])

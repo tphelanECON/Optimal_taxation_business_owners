@@ -197,12 +197,13 @@ class CRRA(object):
         mu_theta, sig_theta = self.mu_theta(1), self.sigma_theta(1)
         return self.scrap - cbar*u + self.rho*u*(cbar**(1-self.gammabar)*vF - vB)/(self.gammabar - 1)
 
+    #this is the quadratic characterizing the restricted-action allocation
     def Q(self,l):
         return self.E(l)**2*(self.gammabar-1)*(self.gammabar-1/2)*self.sigma**2*self.x(l)**2 + self.rho*(self.x(l) - 1)
 
     #following are expressions for taxation in competitive equilibrium.
-    #this was the expression adopted in WP and WP-R. It is fragile and therefore
-    #was ultimately relegated to the appendix.
+    #this was the expression adopted in WP and WP-R. However, it is fragile and
+    #therefore ultimately relegated to the appendix of subsequent versions.
     def tax_competitive(self,sigma,l):
         with np.errstate(divide='ignore',invalid='ignore'):
             A = self.rho**(-1)*self.E(l)**2*(self.gammabar-1)*(self.gammabar-1/2)*sigma**2
@@ -214,7 +215,7 @@ class CRRA(object):
         tau_a = self.gammabar**2*sigma**2*self.E(l)**2*x**2 - self.rho*tau_k
         return tau_k, tau_a
 
-    #following is common to both decentralizations:
+    #exprssions for revenue raised as a fraction of wealth
     def revenue(self,sigma,l):
         with np.errstate(divide='ignore',invalid='ignore'):
             A = self.rho**(-1)*self.E(l)**2*(self.gammabar-1)*(self.gammabar-1/2)*sigma**2
@@ -253,7 +254,7 @@ class CRRA(object):
         index = np.where(RC_excess<0)[0][0]
         y = self.ugrid[index]
         u = (1-beta)*(eta_E*M[index])**(-beta)
-        return y, u, RC_excess
+        return y, u, RC_excess, (M, C)
 
     def stat_y(self,beta,eta_E,cbar,l):
         RC_excess = 0*self.ugrid
@@ -265,7 +266,7 @@ class CRRA(object):
         index = np.where(RC_excess<0)[0][0]
         y = self.ugrid[index]
         u = (1-beta)*(eta_E*M[index])**(-beta)
-        return y, u, RC_excess
+        return y, u, RC_excess, (M, C)
 
     def tail(self,sigma,l):
         with np.errstate(divide='ignore',invalid='ignore'):

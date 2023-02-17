@@ -31,9 +31,9 @@ CRRA with gamma = 2
 """
 
 fig, ax1 = plt.subplots()
-lns1 = ax1.plot(lgrid, X.tail(X.sigma,lgrid)[0],'b',label='Consumption (LHS)',linewidth=1.5)
+lns1 = ax1.plot(lgrid, X.tail(X.sigma,lgrid)[0],'b',label='Consumption (LHS)',linewidth=2.0)
 ax2=ax1.twinx()
-lns2 = ax2.plot(lgrid, X.tail(X.sigma,lgrid)[1],'k',label='Firm size (RHS)',linewidth=1.5)
+lns2 = ax2.plot(lgrid, X.tail(X.sigma,lgrid)[1],'k',label='Firm size (RHS)',linewidth=2.0)
 leg = lns1 + lns2
 labs = [l.get_label() for l in leg]
 ax1.legend(leg, labs, loc=0)
@@ -44,9 +44,9 @@ plt.savefig(destin, format='eps', dpi=1000)
 plt.show()
 
 fig, ax1 = plt.subplots()
-lns1 = ax1.plot(sig_grid, X.tail(sig_grid, X.llow)[0],'b',label='Consumption (LHS)',linewidth=1.5)
+lns1 = ax1.plot(sig_grid, X.tail(sig_grid, X.llow)[0],'b',label='Consumption (LHS)',linewidth=2.0)
 ax2=ax1.twinx()
-lns2 = ax2.plot(sig_grid, X.tail(sig_grid, X.llow)[1],'k',label='Firm size (RHS)',linewidth=1.5)
+lns2 = ax2.plot(sig_grid, X.tail(sig_grid, X.llow)[1],'k',label='Firm size (RHS)',linewidth=2.0)
 leg = lns1 + lns2
 labs = [l.get_label() for l in leg]
 ax1.legend(leg, labs, loc=0)
@@ -61,9 +61,9 @@ Logarithmic utility (placed in the appendix)
 """
 
 fig, ax1 = plt.subplots()
-lns1 = ax1.plot(lgrid, Y.tail(Y.sigma,lgrid)[0],'b',label='Consumption (LHS)',linewidth=1.5)
+lns1 = ax1.plot(lgrid, Y.tail(Y.sigma,lgrid)[0],'b',label='Consumption (LHS)',linewidth=2.0)
 ax2=ax1.twinx()
-lns2 = ax2.plot(lgrid, Y.tail(Y.sigma,lgrid)[1],'k',label='Firm size (RHS)',linewidth=1.5)
+lns2 = ax2.plot(lgrid, Y.tail(Y.sigma,lgrid)[1],'k',label='Firm size (RHS)',linewidth=2.0)
 leg = lns1 + lns2
 labs = [l.get_label() for l in leg]
 ax1.legend(leg, labs, loc=0)
@@ -74,9 +74,9 @@ plt.savefig(destin, format='eps', dpi=1000)
 plt.show()
 
 fig, ax1 = plt.subplots()
-lns1 = ax1.plot(sig_grid, Y.tail(sig_grid, Y.llow)[0],'b',label='Consumption (LHS)',linewidth=1.5)
+lns1 = ax1.plot(sig_grid, Y.tail(sig_grid, Y.llow)[0],'b',label='Consumption (LHS)',linewidth=2.0)
 ax2=ax1.twinx()
-lns2 = ax2.plot(sig_grid, Y.tail(sig_grid, Y.llow)[1],'k',label='Firm size (RHS)',linewidth=1.5)
+lns2 = ax2.plot(sig_grid, Y.tail(sig_grid, Y.llow)[1],'k',label='Firm size (RHS)',linewidth=2.0)
 leg = lns1 + lns2
 labs = [l.get_label() for l in leg]
 ax1.legend(leg, labs, loc=0)
