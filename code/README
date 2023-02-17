@@ -1,10 +1,8 @@
-Replication code for the paper ``The Optimal Taxation of Business Owners''. 
+Replication code for the paper "The Optimal Taxation of Business Owners". 
 
 All code is written in Python 3.6.5. If you have questions or comments please email me at tom.phelan@clev.frb.org. 
 
 The numerical method used to solve the principal's problem is outlined in the appendix to the paper. 
-
-The replication files contain the following scripts:
  
 * classes.py contains two class constructors: CRRA and LOG. These compute the optimal contract, tail parametes and expressions for taxes and transfers for both a 
 general CRRA parameter and logarithmic utility. 
