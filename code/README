@@ -1,1 +1,17 @@
-Replication code
+Replication code for the paper ``The Optimal Taxation of Business Owners''. 
+
+All code is written in Python 3.6.5. If you have questions or comments please email me at tom.phelan@clev.frb.org. 
+
+The numerical method used to solve the principal's problem is outlined in the appendix to the paper. 
+
+The replication files contain the following scripts:
+ 
+* classes.py contains two class constructors: CRRA and LOG. These compute the optimal contract, tail parametes and expressions for taxes and transfers for both a 
+general CRRA parameter and logarithmic utility. 
+* parameters.py lists the parameters used in the examples in the main text. 
+* example_CRRA.py computes the policy functions and law of motion of normalized utility for the optimal contract with gamma=2 depicted in the main text.
+* example_log.py computes the policy functions and law of motion of normalized utility for the optimal contract with logarithmic utility depicted in the appendix.
+* tails.py depicts the tails for consumption and firm size in the stationary distributions associated with the restricted-action allocations. Produces figures both for $\gamma=2$ (shown in the main text) and logarithmic utility (given in the appendix). 
+* revenue.py computes the figures for the amount of revenue raised per unit of wealth in the implementation as functions of volatility and leisure.
+* stat_dist.py computes the stationary distribution of normalized utility (not shown).
+* main.py produces all of the figures in the paper by creating a figures folder and running example_CRRA, example_log, tails and revenue. 
