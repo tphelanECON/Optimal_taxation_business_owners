@@ -1,0 +1,1938 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.5)  22 FEB 2023 13:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**C:/Users/D1TMP02/Documents/WPs/JMP/main/BusinessTax2023.tex
+(C:/Users/D1TMP02/Documents/WPs/JMP/main/BusinessTax2023.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-04-29>
+(C:\RES IT Programs\MikTex\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\RES IT Programs\MikTex\tex/latex/base\size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\RES IT Programs\MikTex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\RES IT Programs\MikTex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\RES IT Programs\MikTex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\RES IT Programs\MikTex\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+
+(C:\RES IT Programs\MikTex\tex/latex/geometry\geometry.cfg))
+(C:\RES IT Programs\MikTex\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen147
+\lightrulewidth=\dimen148
+\cmidrulewidth=\dimen149
+\belowrulesep=\dimen150
+\belowbottomsep=\dimen151
+\aboverulesep=\dimen152
+\abovetopsep=\dimen153
+\cmidrulesep=\dimen154
+\cmidrulekern=\dimen155
+\defaultaddspace=\dimen156
+\@cmidla=\count196
+\@cmidlb=\count197
+\@aboverulesep=\dimen157
+\@belowrulesep=\dimen158
+\@thisruleclass=\count198
+\@lastruleclass=\count199
+\@thisrulewidth=\dimen159
+)
+(C:\RES IT Programs\MikTex\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2022-05-03 v3.1.1 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen160
+\l__siunitx_angle_marker_box=\box50
+\l__siunitx_angle_unit_box=\box51
+\l__siunitx_compound_count_int=\count266
+
+(C:\RES IT Programs\MikTex\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\RES IT Programs\MikTex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count268
+\l__siunitx_number_min_decimal_int=\count269
+\l__siunitx_number_min_integer_int=\count270
+\l__siunitx_number_round_precision_int=\count271
+\l__siunitx_number_group_first_int=\count272
+\l__siunitx_number_group_size_int=\count273
+\l__siunitx_number_group_minimum_int=\count274
+ (C:\RES IT Programs\MikTex\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\RES IT Programs\MikTex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen161
+))
+\l__siunitx_table_tmp_box=\box52
+\l__siunitx_table_tmp_dim=\dimen162
+\l__siunitx_table_column_width_dim=\dimen163
+\l__siunitx_table_integer_box=\box53
+\l__siunitx_table_decimal_box=\box54
+\l__siunitx_table_before_box=\box55
+\l__siunitx_table_after_box=\box56
+\l__siunitx_table_before_dim=\dimen164
+\l__siunitx_table_carry_dim=\dimen165
+\l__siunitx_unit_tmp_int=\count275
+\l__siunitx_unit_position_int=\count276
+\l__siunitx_unit_total_int=\count277
+
+(C:\RES IT Programs\MikTex\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(C:\RES IT Programs\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-04-29 L3 programming layer (loader) 
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count278
+\l__pdf_internal_box=\box57
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box58
+\extrarowheight=\dimen167
+\NC@list=\toks19
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box59
+))
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count279
+\TX@ftn=\toks20
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
+)
+(C:\RES IT Programs\MikTex\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\RES IT Programs\MikTex\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen173
+\captionmargin=\dimen174
+\caption@leftmargin=\dimen175
+\caption@rightmargin=\dimen176
+\caption@width=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+)
+(C:\RES IT Programs\MikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\RES IT Programs\MikTex\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+)
+(C:\RES IT Programs\MikTex\tex/generic/babel\babel.sty
+Package: babel 2022/04/30 3.74 The Babel package
+\babel@savecnt=\count282
+\U@D=\dimen181
+\l@unhyphenated=\language82
+
+(C:\RES IT Programs\MikTex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count283
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\RES IT Programs\MikTex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\RES IT Programs\MikTex\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language76). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language76). Reported on input line 108.
+))
+(C:\RES IT Programs\MikTex\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count284
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\RES IT Programs\MikTex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/kvsetkeys\kvsetkeys.st
+y
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/letltxmacro\letltxmacro.
+sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count285
+\Hy@pagecounter=\count286
+(C:\RES IT Programs\MikTex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count287
+(C:\RES IT Programs\MikTex\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count288
+
+(C:\RES IT Programs\MikTex\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen183
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count289
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (C:\RES IT Programs\MikTex\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count290
+\c@Item=\count291
+\c@Hfootnote=\count292
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\RES IT Programs\MikTex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(C:\RES IT Programs\MikTex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count293
+\c@bookmark@seq@number=\count294
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip67
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count295
+)) (C:\RES IT Programs\MikTex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count296
+\float@exts=\toks23
+\float@box=\box60
+\@float@everytoks=\toks24
+\@floatcapt=\box61
+)
+(C:\RES IT Programs\MikTex\tex/latex/etoc\etoc.sty
+Package: etoc 2021/09/23 v1.09e Completely customisable TOCs (JFB)
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count297
+\mult@box=\box62
+\multicol@leftmargin=\dimen186
+\c@unbalance=\count298
+\c@collectmore=\count299
+\doublecol@number=\count300
+\multicoltolerance=\count301
+\multicolpretolerance=\count302
+\full@width=\dimen187
+\page@free=\dimen188
+\premulticols=\dimen189
+\postmulticols=\dimen190
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box63
+\last@line=\box64
+\maxbalancingoverflow=\dimen191
+\mult@rightbox=\box65
+\mult@grightbox=\box66
+\mult@firstbox=\box67
+\mult@gfirstbox=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\c@minrows=\count303
+\c@columnbadness=\count304
+\c@finalcolumnbadness=\count305
+\last@try=\dimen192
+\multicolovershoot=\dimen193
+\multicolundershoot=\dimen194
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count306
+)
+\Etoc@toctoks=\toks25
+\c@etoc@tocid=\count307
+\c@etoc@tocdepth=\count308
+\etoc@framed@titlebox=\box107
+\etoc@framed@contentsbox=\box108
+)
+(C:\RES IT Programs\MikTex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\RES IT Programs\MikTex\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\RES IT Programs\MikTex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\RES IT Programs\MikTex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\RES IT Programs\MikTex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+)
+(C:\RES IT Programs\MikTex\tex/latex/doi\doi.sty
+Package: doi 2018/09/09 handle doi numbers
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\epstopdf.st
+y
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (C:\RES IT Programs\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+)))
+(C:\RES IT Programs\MikTex\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\RES IT Programs\MikTex\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+
+(C:\RES IT Programs\MikTex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\RES IT Programs\MikTex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\RES IT Programs\MikTex\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip70
+\thm@postskip=\skip71
+\thm@headsep=\skip72
+\dth@everypar=\toks31
+)
+(C:\RES IT Programs\MikTex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip73
+
+For additional information on amsmath, use the `?' option.
+(C:\RES IT Programs\MikTex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen197
+)
+(C:\RES IT Programs\MikTex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count309
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count310
+\leftroot@=\count311
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count312
+\DOTSCASE@=\count313
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box109
+\strutbox@=\box110
+\big@size=\dimen198
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count314
+\c@MaxMatrixCols=\count315
+\dotsspace@=\muskip17
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks32
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks33
+\eqnshift@=\dimen199
+\alignsep@=\dimen256
+\tagshift@=\dimen257
+\tagwidth@=\dimen258
+\totwidth@=\dimen259
+\lineht@=\dimen260
+\@envbody=\toks34
+\multlinegap=\skip74
+\multlinetaggap=\skip75
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:\RES IT Programs\MikTex\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+\c@thm=\count321
+\c@conj=\count322
+\c@defn=\count323
+\c@exmp=\count324
+\c@assump=\count325
+\c@rmk=\count326
+
+No file BusinessTax2023.aux.
+\openout1 = `BusinessTax2023.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\RES IT Programs\MikTex\tex/latex/translations/dicts\translations-basic-dict
+ionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 51.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 51.
+ (C:\RES IT Programs\MikTex\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\D1TMP02\AppData\Roaming\MiKTeX\2.9\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count327
+)
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
+
+No file BusinessTax2023.toc.
+(C:\RES IT Programs\MikTex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count328
+\scratchdimen=\dimen261
+\scratchbox=\box111
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen262
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks37
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+
+ (C:\RES IT Programs\MikTex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+
+
+(C:\RES IT Programs\MikTex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 60
+.
+
+(C:\RES IT Programs\MikTex\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [1
+
+{C:/Users/D1TMP02/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}]
+
+Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
+n input line 88.
+
+
+Package natbib Warning: Citation `cooper_business_2016' on page 2 undefined on 
+input line 88.
+
+
+Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
+n input line 88.
+
+
+Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
+n input line 88.
+
+
+Package natbib Warning: Citation `chamley_optimal_1986' on page 2 undefined on 
+input line 92.
+
+
+Package natbib Warning: Citation `judd_redistributive_1985' on page 2 undefined
+ on input line 92.
+
+
+Package natbib Warning: Citation `mirrlees_exploration_1971' on page 2 undefine
+d on input line 92.
+
+
+Package natbib Warning: Citation `diamond_case_2011' on page 2 undefined on inp
+ut line 92.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 2 unde
+fined on input line 97.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 2 unde
+fined on input line 97.
+
+[2]
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 3 unde
+fined on input line 99.
+
+[3]
+
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 4 undefined on
+ input line 108.
+
+
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 4 undefined on
+ input line 108.
+
+[4]
+
+Package natbib Warning: Citation `mirrlees_exploration_1971' on page 5 undefine
+d on input line 117.
+
+
+Package natbib Warning: Citation `scheuer_entrepreneurial_2014' on page 5 undef
+ined on input line 117.
+
+
+Package natbib Warning: Citation `ales_taxing_2017' on page 5 undefined on inpu
+t line 117.
+
+
+Package natbib Warning: Citation `rosen_authority_1982' on page 5 undefined on 
+input line 117.
+
+
+Package natbib Warning: Citation `lucas_size_1978' on page 5 undefined on input
+ line 117.
+
+
+Package natbib Warning: Citation `scheuer_taxation_2017' on page 5 undefined on
+ input line 117.
+
+
+Package natbib Warning: Citation `ales_taxing_2016' on page 5 undefined on inpu
+t line 117.
+
+
+Package natbib Warning: Citation `mirrlees_exploration_1971' on page 5 undefine
+d on input line 119.
+
+
+Package natbib Warning: Citation `golosov_optimal_2003' on page 5 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `golosov_redistribution_2016' on page 5 undefi
+ned on input line 119.
+
+
+Package natbib Warning: Citation `farhi_insurance_2013' on page 5 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `stantcheva_optimal_2017' on page 5 undefined 
+on input line 119.
+
+
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 5 undefined on
+ input line 119.
+
+
+Package natbib Warning: Citation `kapicka_optimal_2019' on page 5 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `best_optimal_2012' on page 5 undefined on inp
+ut line 119.
+
+
+Package natbib Warning: Citation `makris_taxation_2021' on page 5 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `makris_taxation_2021' on page 5 undefined on 
+input line 119.
+
+
+Package natbib Warning: Citation `chari_optimal_1999' on page 5 undefined on in
+put line 122.
+
+
+Package natbib Warning: Citation `guvenen_use_2019' on page 5 undefined on inpu
+t line 122.
+
+
+Package natbib Warning: Citation `guvenen_use_2019' on page 5 undefined on inpu
+t line 122.
+
+[5]
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 6 undefined
+ on input line 125.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 6 undefined
+ on input line 125.
+
+
+Package natbib Warning: Citation `ai_quantitative_2022' on page 6 undefined on 
+input line 129.
+
+
+Package natbib Warning: Citation `shourideh_optimal_2013' on page 6 undefined o
+n input line 129.
+
+
+Package natbib Warning: Citation `phelan_optimality_2022' on page 6 undefined o
+n input line 129.
+
+[6]
+
+LaTeX Warning: Reference `GenEq' on page 7 undefined on input line 152.
+
+[7]
+
+LaTeX Warning: Reference `ICapp' on page 8 undefined on input line 173.
+
+[8]
+
+LaTeX Warning: Reference `contutil' on page 9 undefined on input line 192.
+
+
+LaTeX Warning: Reference `ICapp' on page 9 undefined on input line 192.
+
+
+LaTeX Warning: Reference `contprop' on page 9 undefined on input line 196.
+
+[9]
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 10 und
+efined on input line 215.
+
+
+LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 215.
+
+
+LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 219.
+
+
+Package natbib Warning: Citation `ai_quantitative_2022' on page 10 undefined on
+ input line 219.
+
+
+Package natbib Warning: Citation `he_optimal_2009' on page 10 undefined on inpu
+t line 219.
+
+
+LaTeX Warning: Reference `contprop' on page 10 undefined on input line 221.
+
+
+LaTeX Warning: Reference `Efunc' on page 10 undefined on input line 221.
+
+
+Package natbib Warning: Citation `golosov_optimal_2003' on page 10 undefined on
+ input line 225.
+
+
+LaTeX Warning: Reference `restAPP' on page 10 undefined on input line 225.
+
+[10]
+
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 233.
+
+
+LaTeX Warning: Reference `high_eff_zero' on page 11 undefined on input line 238
+.
+
+
+Package natbib Warning: Citation `phelan_computing_1991' on page 11 undefined o
+n input line 238.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 11 und
+efined on input line 238.
+
+
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 240.
+
+
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 242.
+
+[11]
+
+LaTeX Warning: Reference `laws' on page 12 undefined on input line 253.
+
+
+LaTeX Warning: Reference `propREST' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `propREST' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `lawu' on page 12 undefined on input line 264.
+
+
+Package natbib Warning: Citation `phelan_computing_1991' on page 12 undefined o
+n input line 267.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 12 und
+efined on input line 267.
+
+
+LaTeX Warning: Reference `homogprod' on page 12 undefined on input line 267.
+
+
+LaTeX Warning: Reference `lawu' on page 12 undefined on input line 267.
+
+
+LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 267.
+
+[12]
+
+LaTeX Warning: Reference `num_appendix' on page 13 undefined on input line 270.
+
+
+
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 274.
+
+
+Package natbib Warning: Citation `angeletos_uninsured_2007' on page 13 undefine
+d on input line 274.
+
+
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 274.
+
+
+LaTeX Warning: Reference `fig:l_c' on page 13 undefined on input line 278.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 13 und
+efined on input line 278.
+
+Package epstopdf Info: Source file: <./figures//leisure_ex.eps>
+(epstopdf)                    date: 2023-02-21 15:15:27
+(epstopdf)                    size: 22674 bytes
+(epstopdf)             Output file: <./leisure_ex-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./leisure_ex-eps-con
+verted-to.pdf ./figures//leisure_ex.eps>
+(epstopdf)             \includegraphics on input line 282.
+runsystem(miktex-epstopdf --outfile=./leisure_ex-eps-converted-to.pdf ./figures
+//leisure_ex.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./leisure_ex-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:05
+(epstopdf)                    size: 13909 bytes.
+
+
+pdfTeX warning: pdflatex (file ./leisure_ex-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<./leisure_ex-eps-converted-to.pdf, id=106, 463.7325pt x 347.2975pt>
+File: ./leisure_ex-eps-converted-to.pdf Graphic file (type pdf)
+<use ./leisure_ex-eps-converted-to.pdf>
+Package pdftex.def Info: ./leisure_ex-eps-converted-to.pdf  used on input line 
+282.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//consumption_ex.eps>
+(epstopdf)                    date: 2023-02-21 15:15:57
+(epstopdf)                    size: 24610 bytes
+(epstopdf)             Output file: <./consumption_ex-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./consumption_ex-eps
+-converted-to.pdf ./figures//consumption_ex.eps>
+(epstopdf)             \includegraphics on input line 283.
+runsystem(miktex-epstopdf --outfile=./consumption_ex-eps-converted-to.pdf ./fig
+ures//consumption_ex.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./consumption_ex-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:07
+(epstopdf)                    size: 14256 bytes.
+
+
+pdfTeX warning: pdflatex (file ./consumption_ex-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<./consumption_ex-eps-converted-to.pdf, id=107, 463.7325pt x 347.2975pt>
+File: ./consumption_ex-eps-converted-to.pdf Graphic file (type pdf)
+<use ./consumption_ex-eps-converted-to.pdf>
+Package pdftex.def Info: ./consumption_ex-eps-converted-to.pdf  used on input l
+ine 283.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 13 und
+efined on input line 287.
+
+
+LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 287.
+
+
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 287.
+
+
+LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 287.
+
+[13]
+Package epstopdf Info: Source file: <./figures//risk_adj_ex.eps>
+(epstopdf)                    date: 2023-02-21 15:15:59
+(epstopdf)                    size: 22897 bytes
+(epstopdf)             Output file: <./risk_adj_ex-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./risk_adj_ex-eps-co
+nverted-to.pdf ./figures//risk_adj_ex.eps>
+(epstopdf)             \includegraphics on input line 291.
+runsystem(miktex-epstopdf --outfile=./risk_adj_ex-eps-converted-to.pdf ./figure
+s//risk_adj_ex.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./risk_adj_ex-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:09
+(epstopdf)                    size: 15469 bytes.
+
+
+pdfTeX warning: pdflatex (file ./risk_adj_ex-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<./risk_adj_ex-eps-converted-to.pdf, id=114, 463.7325pt x 347.2975pt>
+File: ./risk_adj_ex-eps-converted-to.pdf Graphic file (type pdf)
+<use ./risk_adj_ex-eps-converted-to.pdf>
+Package pdftex.def Info: ./risk_adj_ex-eps-converted-to.pdf  used on input line
+ 291.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//sig_u_ex.eps>
+(epstopdf)                    date: 2023-02-21 15:16:01
+(epstopdf)                    size: 24687 bytes
+(epstopdf)             Output file: <./sig_u_ex-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./sig_u_ex-eps-conve
+rted-to.pdf ./figures//sig_u_ex.eps>
+(epstopdf)             \includegraphics on input line 292.
+runsystem(miktex-epstopdf --outfile=./sig_u_ex-eps-converted-to.pdf ./figures//
+sig_u_ex.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./sig_u_ex-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:11
+(epstopdf)                    size: 15352 bytes.
+
+
+pdfTeX warning: pdflatex (file ./sig_u_ex-eps-converted-to.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<./sig_u_ex-eps-converted-to.pdf, id=115, 463.7325pt x 347.2975pt>
+File: ./sig_u_ex-eps-converted-to.pdf Graphic file (type pdf)
+<use ./sig_u_ex-eps-converted-to.pdf>
+Package pdftex.def Info: ./sig_u_ex-eps-converted-to.pdf  used on input line 29
+2.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+
+LaTeX Warning: Reference `fig:l_c_log' on page 14 undefined on input line 296.
+
+
+LaTeX Warning: Reference `sec:add_figures' on page 14 undefined on input line 2
+96.
+
+
+LaTeX Warning: Reference `fig:l_c' on page 14 undefined on input line 296.
+
+
+LaTeX Warning: Reference `fig:law_u' on page 14 undefined on input line 296.
+
+
+LaTeX Warning: Reference `fallNS' on page 14 undefined on input line 296.
+
+
+LaTeX Warning: Reference `lawu' on page 14 undefined on input line 296.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 14 und
+efined on input line 296.
+
+
+LaTeX Warning: Reference `lawu' on page 14 undefined on input line 296.
+
+[14 <./leisure_ex-eps-converted-to.pdf> <./consumption_ex-eps-converted-to.pdf>
+ <./risk_adj_ex-eps-converted-to.pdf> <./sig_u_ex-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `shourideh_optimal_2013' on page 15 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `phelan_optimality_2022' on page 15 undefined 
+on input line 300.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 15 undefine
+d on input line 304.
+
+
+LaTeX Warning: Reference `RESTdist' on page 15 undefined on input line 304.
+
+[15]
+
+LaTeX Warning: Reference `scalehomog' on page 16 undefined on input line 310.
+
+
+LaTeX Warning: Reference `prefagent' on page 16 undefined on input line 321.
+
+
+LaTeX Warning: Reference `flowutil2' on page 16 undefined on input line 321.
+
+[16]
+
+LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 323.
+
+
+LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 323.
+
+
+LaTeX Warning: Reference `planPREFapp' on page 17 undefined on input line 332.
+
+[17]
+
+LaTeX Warning: Reference `planPREFapp' on page 18 undefined on input line 346.
+
+
+Package natbib Warning: Citation `farhi_inequality_2007' on page 18 undefined o
+n input line 352.
+
+
+LaTeX Warning: Reference `PriAg' on page 18 undefined on input line 352.
+
+[18]
+
+LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 398.
+
+
+LaTeX Warning: Reference `scalehomog' on page 19 undefined on input line 398.
+
+
+LaTeX Warning: Reference `PriAg' on page 19 undefined on input line 398.
+
+
+LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 424.
+
+
+LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 424.
+
+
+LaTeX Warning: Reference `STATy' on page 19 undefined on input line 424.
+
+
+LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 424.
+
+[19]
+
+LaTeX Warning: Reference `STAT1' on page 20 undefined on input line 426.
+
+
+LaTeX Warning: Reference `compstat3' on page 20 undefined on input line 433.
+
+
+LaTeX Warning: Reference `propREST' on page 20 undefined on input line 435.
+
+
+LaTeX Warning: Reference `lawu' on page 20 undefined on input line 435.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 20 undefine
+d on input line 435.
+
+
+LaTeX Warning: Reference `Imp' on page 20 undefined on input line 435.
+
+
+LaTeX Warning: Reference `propREST' on page 20 undefined on input line 435.
+
+[20]
+
+LaTeX Warning: Reference `STAT1' on page 21 undefined on input line 439.
+
+
+LaTeX Warning: Reference `compstat3' on page 21 undefined on input line 439.
+
+
+LaTeX Warning: Reference `fig:RC_pre' on page 21 undefined on input line 449.
+
+
+LaTeX Warning: Reference `Output' on page 21 undefined on input line 449.
+
+
+LaTeX Warning: Reference `PriAg' on page 21 undefined on input line 449.
+
+
+LaTeX Warning: Reference `propREST' on page 21 undefined on input line 453.
+
+
+LaTeX Warning: Reference `fig:RC_pre' on page 21 undefined on input line 453.
+
+
+LaTeX Warning: Reference `STATy' on page 21 undefined on input line 453.
+
+Package epstopdf Info: Source file: <./figures//M.eps>
+(epstopdf)                    date: 2023-02-21 11:01:43
+(epstopdf)                    size: 25686 bytes
+(epstopdf)             Output file: <./M-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./M-eps-converted-to
+.pdf ./figures//M.eps>
+(epstopdf)             \includegraphics on input line 457.
+runsystem(miktex-epstopdf --outfile=./M-eps-converted-to.pdf ./figures//M.eps).
+..executed safely (allowed).
+
+Package epstopdf Info: Result file: <./M-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:13
+(epstopdf)                    size: 14024 bytes.
+
+
+pdfTeX warning: pdflatex (file ./M-eps-converted-to.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<./M-eps-converted-to.pdf, id=320, 463.7325pt x 347.2975pt>
+File: ./M-eps-converted-to.pdf Graphic file (type pdf)
+<use ./M-eps-converted-to.pdf>
+Package pdftex.def Info: ./M-eps-converted-to.pdf  used on input line 457.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//C.eps>
+(epstopdf)                    date: 2023-02-21 11:01:44
+(epstopdf)                    size: 23539 bytes
+(epstopdf)             Output file: <./C-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./C-eps-converted-to
+.pdf ./figures//C.eps>
+(epstopdf)             \includegraphics on input line 458.
+runsystem(miktex-epstopdf --outfile=./C-eps-converted-to.pdf ./figures//C.eps).
+..executed safely (allowed).
+
+Package epstopdf Info: Result file: <./C-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:14
+(epstopdf)                    size: 13193 bytes.
+
+
+pdfTeX warning: pdflatex (file ./C-eps-converted-to.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<./C-eps-converted-to.pdf, id=321, 463.7325pt x 347.2975pt>
+File: ./C-eps-converted-to.pdf Graphic file (type pdf)
+<use ./C-eps-converted-to.pdf>
+Package pdftex.def Info: ./C-eps-converted-to.pdf  used on input line 458.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+[21]
+
+LaTeX Warning: Reference `propREST' on page 22 undefined on input line 482.
+
+
+LaTeX Warning: Reference `restDISTsect' on page 22 undefined on input line 482.
+
+
+
+LaTeX Warning: Reference `RESTdist' on page 22 undefined on input line 494.
+
+
+LaTeX Warning: Reference `RESTdist' on page 22 undefined on input line 494.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 22 undefine
+d on input line 494.
+
+[22 <./M-eps-converted-to.pdf> <./C-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:l_c' on page 23 undefined on input line 496.
+
+
+LaTeX Warning: Reference `fig:tails' on page 23 undefined on input line 496.
+
+
+LaTeX Warning: Reference `fig:l_c' on page 23 undefined on input line 496.
+
+
+LaTeX Warning: Reference `fig:tails_log' on page 23 undefined on input line 496
+.
+
+
+LaTeX Warning: Reference `sec:add_figures' on page 23 undefined on input line 4
+96.
+
+Package epstopdf Info: Source file: <./figures//tails.eps>
+(epstopdf)                    date: 2023-02-17 15:36:48
+(epstopdf)                    size: 31085 bytes
+(epstopdf)             Output file: <./tails-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./tails-eps-converte
+d-to.pdf ./figures//tails.eps>
+(epstopdf)             \includegraphics on input line 502.
+runsystem(miktex-epstopdf --outfile=./tails-eps-converted-to.pdf ./figures//tai
+ls.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./tails-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:16
+(epstopdf)                    size: 18752 bytes.
+
+
+pdfTeX warning: pdflatex (file ./tails-eps-converted-to.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<./tails-eps-converted-to.pdf, id=405, 463.7325pt x 347.2975pt>
+File: ./tails-eps-converted-to.pdf Graphic file (type pdf)
+<use ./tails-eps-converted-to.pdf>
+Package pdftex.def Info: ./tails-eps-converted-to.pdf  used on input line 502.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//tails_sig.eps>
+(epstopdf)                    date: 2023-02-17 15:36:50
+(epstopdf)                    size: 28986 bytes
+(epstopdf)             Output file: <./tails_sig-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./tails_sig-eps-conv
+erted-to.pdf ./figures//tails_sig.eps>
+(epstopdf)             \includegraphics on input line 503.
+runsystem(miktex-epstopdf --outfile=./tails_sig-eps-converted-to.pdf ./figures/
+/tails_sig.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./tails_sig-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:18
+(epstopdf)                    size: 18073 bytes.
+
+
+pdfTeX warning: pdflatex (file ./tails_sig-eps-converted-to.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<./tails_sig-eps-converted-to.pdf, id=406, 463.7325pt x 347.2975pt>
+File: ./tails_sig-eps-converted-to.pdf Graphic file (type pdf)
+<use ./tails_sig-eps-converted-to.pdf>
+Package pdftex.def Info: ./tails_sig-eps-converted-to.pdf  used on input line 5
+03.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+
+Package natbib Warning: Citation `atkeson_efficient_1992' on page 23 undefined 
+on input line 513.
+
+
+LaTeX Warning: Reference `GenEq' on page 23 undefined on input line 513.
+
+[23 <./tails-eps-converted-to.pdf> <./tails_sig-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `eqcompare' on page 24 undefined on input line 516.
+
+
+LaTeX Warning: Reference `RESTdist' on page 24 undefined on input line 519.
+
+
+LaTeX Warning: Reference `RESTchar' on page 24 undefined on input line 519.
+
+[24]
+
+LaTeX Warning: Reference `GenEq' on page 25 undefined on input line 527.
+
+
+LaTeX Warning: Reference `STATlemma' on page 25 undefined on input line 531.
+
+[25]
+
+LaTeX Warning: Reference `priceRE' on page 26 undefined on input line 553.
+
+
+LaTeX Warning: Reference `return' on page 26 undefined on input line 553.
+
+
+LaTeX Warning: Reference `discCE' on page 26 undefined on input line 553.
+
+
+LaTeX Warning: Reference `return' on page 26 undefined on input line 553.
+
+
+LaTeX Warning: Reference `linearP3' on page 26 undefined on input line 556.
+
+[26]
+
+LaTeX Warning: Reference `priceRE' on page 27 undefined on input line 564.
+
+
+LaTeX Warning: Reference `return_simp' on page 27 undefined on input line 579.
+
+
+LaTeX Warning: Reference `homogprod' on page 27 undefined on input line 582.
+
+
+LaTeX Warning: Reference `FIXiotal' on page 27 undefined on input line 582.
+
+
+LaTeX Warning: Reference `conPROBlin2' on page 27 undefined on input line 582.
+
+
+LaTeX Warning: Reference `FIXiota' on page 27 undefined on input line 582.
+
+[27]
+
+LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 586.
+
+
+LaTeX Warning: Reference `conPROBlin3' on page 28 undefined on input line 594.
+
+
+LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 602.
+
+
+LaTeX Warning: Reference `conPROBlin3' on page 28 undefined on input line 602.
+
+
+LaTeX Warning: Reference `PriAg' on page 28 undefined on input line 609.
+
+
+LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 609.
+
+
+LaTeX Warning: Reference `lawu' on page 28 undefined on input line 609.
+
+[28]
+
+LaTeX Warning: Reference `conPROBlin2' on page 29 undefined on input line 630.
+
+
+LaTeX Warning: Reference `HJBVsimp0' on page 29 undefined on input line 638.
+
+[29]
+
+LaTeX Warning: Reference `FIXiotal' on page 30 undefined on input line 662.
+
+
+LaTeX Warning: Reference `return' on page 30 undefined on input line 662.
+
+
+LaTeX Warning: Reference `FIXiotal' on page 30 undefined on input line 662.
+
+[30]
+
+LaTeX Warning: Reference `FIXiotal' on page 31 undefined on input line 699.
+
+
+LaTeX Warning: Reference `FIXiotal' on page 31 undefined on input line 699.
+
+
+LaTeX Warning: Reference `FIXiota' on page 31 undefined on input line 704.
+
+
+LaTeX Warning: Reference `PriAg' on page 31 undefined on input line 704.
+
+
+Overfull \hbox (6.41005pt too wide) in paragraph at lines 709--711
+\T1/cmr/m/n/10.95 Using the above al-ge-bra and ig-nor-ing ir-rel-e-vant con-st
+ants that do not af-fect the en-trepreneur's
+ []
+
+[31]
+
+LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 747.
+
+
+LaTeX Warning: Reference `RESTchar' on page 32 undefined on input line 754.
+
+
+LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 754.
+
+[32]
+
+LaTeX Warning: Reference `FIXiota' on page 33 undefined on input line 771.
+
+
+LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `arb_eq' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `arb_eq' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `debt_pol' on page 33 undefined on input line 779.
+
+
+LaTeX Warning: Reference `imp_assump' on page 33 undefined on input line 782.
+
+
+LaTeX Warning: Reference `RESTchar' on page 33 undefined on input line 787.
+
+
+LaTeX Warning: Reference `FIXiota' on page 33 undefined on input line 791.
+
+[33]
+
+LaTeX Warning: Reference `IEsig' on page 34 undefined on input line 795.
+
+
+LaTeX Warning: Reference `linTAXmain' on page 34 undefined on input line 803.
+
+
+LaTeX Warning: Reference `debt_pol' on page 34 undefined on input line 803.
+
+
+LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 810.
+
+
+LaTeX Warning: Reference `IEsig' on page 34 undefined on input line 814.
+
+
+LaTeX Warning: Reference `RESTchar' on page 34 undefined on input line 814.
+
+
+LaTeX Warning: Reference `colREVENUEmain' on page 34 undefined on input line 81
+7.
+
+
+LaTeX Warning: Reference `linTAXmain' on page 34 undefined on input line 820.
+
+
+LaTeX Warning: Reference `arb_eq' on page 34 undefined on input line 820.
+
+
+LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 820.
+
+
+LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 820.
+
+
+LaTeX Warning: Reference `PriAg' on page 34 undefined on input line 820.
+
+
+LaTeX Warning: Reference `initial_prob' on page 34 undefined on input line 820.
+
+
+[34]
+
+LaTeX Warning: Reference `genFOC' on page 35 undefined on input line 830.
+
+
+LaTeX Warning: Reference `FIXiotal' on page 35 undefined on input line 830.
+
+
+LaTeX Warning: Reference `x_tilde_func' on page 35 undefined on input line 830.
+
+
+
+LaTeX Warning: Reference `quadratic' on page 35 undefined on input line 830.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 35 undefine
+d on input line 839.
+
+
+LaTeX Warning: Reference `x_tilde_func' on page 35 undefined on input line 839.
+
+
+[35]
+
+LaTeX Warning: Reference `alpha12' on page 36 undefined on input line 849.
+
+
+LaTeX Warning: Reference `taua12' on page 36 undefined on input line 849.
+
+
+LaTeX Warning: Reference `log_system' on page 36 undefined on input line 851.
+
+
+LaTeX Warning: Reference `alpha12' on page 36 undefined on input line 851.
+
+
+LaTeX Warning: Reference `colREVENUEmain' on page 36 undefined on input line 85
+1.
+
+
+LaTeX Warning: Reference `eqcompare' on page 36 undefined on input line 851.
+
+
+LaTeX Warning: Reference `colREVENUEmain' on page 36 undefined on input line 85
+1.
+
+Package epstopdf Info: Source file: <./figures//rev_lgrid.eps>
+(epstopdf)                    date: 2023-01-04 10:30:35
+(epstopdf)                    size: 30438 bytes
+(epstopdf)             Output file: <./rev_lgrid-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./rev_lgrid-eps-conv
+erted-to.pdf ./figures//rev_lgrid.eps>
+(epstopdf)             \includegraphics on input line 855.
+runsystem(miktex-epstopdf --outfile=./rev_lgrid-eps-converted-to.pdf ./figures/
+/rev_lgrid.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./rev_lgrid-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:20
+(epstopdf)                    size: 17756 bytes.
+
+
+pdfTeX warning: pdflatex (file ./rev_lgrid-eps-converted-to.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<./rev_lgrid-eps-converted-to.pdf, id=605, 463.7325pt x 347.2975pt>
+File: ./rev_lgrid-eps-converted-to.pdf Graphic file (type pdf)
+<use ./rev_lgrid-eps-converted-to.pdf>
+Package pdftex.def Info: ./rev_lgrid-eps-converted-to.pdf  used on input line 8
+55.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//rev_sig_grid.eps>
+(epstopdf)                    date: 2023-01-04 10:30:43
+(epstopdf)                    size: 27660 bytes
+(epstopdf)             Output file: <./rev_sig_grid-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./rev_sig_grid-eps-c
+onverted-to.pdf ./figures//rev_sig_grid.eps>
+(epstopdf)             \includegraphics on input line 856.
+runsystem(miktex-epstopdf --outfile=./rev_sig_grid-eps-converted-to.pdf ./figur
+es//rev_sig_grid.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./rev_sig_grid-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:21
+(epstopdf)                    size: 16520 bytes.
+
+
+pdfTeX warning: pdflatex (file ./rev_sig_grid-eps-converted-to.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<./rev_sig_grid-eps-converted-to.pdf, id=606, 463.7325pt x 347.2975pt>
+File: ./rev_sig_grid-eps-converted-to.pdf Graphic file (type pdf)
+<use ./rev_sig_grid-eps-converted-to.pdf>
+Package pdftex.def Info: ./rev_sig_grid-eps-converted-to.pdf  used on input lin
+e 856.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+
+LaTeX Warning: Reference `fig:rev' on page 36 undefined on input line 860.
+
+
+LaTeX Warning: Reference `fig:tails' on page 36 undefined on input line 860.
+
+[36 <./rev_lgrid-eps-converted-to.pdf> <./rev_sig_grid-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 37 undefined o
+n input line 865.
+
+
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 37 undefined o
+n input line 865.
+
+
+Package natbib Warning: Citation `smith_capitalists_2019' on page 37 undefined 
+on input line 865.
+
+
+LaTeX Warning: Reference `GenEq' on page 37 undefined on input line 865.
+
+
+LaTeX Warning: Reference `lawu' on page 37 undefined on input line 874.
+
+
+LaTeX Warning: Reference `RESTdist' on page 37 undefined on input line 874.
+
+[37]
+
+LaTeX Warning: Reference `linTAXmain' on page 38 undefined on input line 877.
+
+No file BusinessTax2023.bbl.
+\tf@lof=\write3
+\openout3 = `BusinessTax2023.lof'.
+
+
+Package natbib Warning: Citation `cvitanic_optimal_2009' on page 38 undefined o
+n input line 895.
+
+[38]
+
+LaTeX Warning: Reference `contprop' on page 39 undefined on input line 901.
+
+
+Package natbib Warning: Citation `cvitanic_optimal_2009' on page 39 undefined o
+n input line 907.
+
+
+LaTeX Warning: Reference `timezero' on page 39 undefined on input line 907.
+
+
+LaTeX Warning: Reference `punchline' on page 39 undefined on input line 918.
+
+
+Package natbib Warning: Citation `cvitanic_optimal_2009' on page 39 undefined o
+n input line 922.
+
+
+LaTeX Warning: Reference `contprop' on page 39 undefined on input line 949.
+
+
+LaTeX Warning: Reference `dU1st' on page 39 undefined on input line 956.
+
+[39]
+
+LaTeX Warning: Reference `zut' on page 40 undefined on input line 964.
+
+
+LaTeX Warning: Reference `muUsigU' on page 40 undefined on input line 971.
+
+
+LaTeX Warning: Reference `muUsigU' on page 40 undefined on input line 979.
+
+
+LaTeX Warning: Reference `zlaw0' on page 40 undefined on input line 979.
+
+
+LaTeX Warning: Reference `zlaw1' on page 40 undefined on input line 987.
+
+
+LaTeX Warning: Reference `riskADJ' on page 40 undefined on input line 1002.
+
+
+LaTeX Warning: Reference `zut' on page 40 undefined on input line 1002.
+
+
+LaTeX Warning: Reference `dU1st' on page 40 undefined on input line 1002.
+
+[40]
+
+LaTeX Warning: Reference `dU1st' on page 41 undefined on input line 1026.
+
+
+LaTeX Warning: Reference `typeevol' on page 41 undefined on input line 1026.
+
+
+LaTeX Warning: Reference `origHJB' on page 41 undefined on input line 1035.
+
+
+LaTeX Warning: Reference `CorrectHJB' on page 41 undefined on input line 1045.
+
+[41]
+
+LaTeX Warning: Reference `CorrectHJB' on page 42 undefined on input line 1055.
+
+
+LaTeX Warning: Reference `CorrectHJB' on page 42 undefined on input line 1083.
+
+
+LaTeX Warning: Reference `Efunc' on page 42 undefined on input line 1089.
+
+
+LaTeX Warning: Reference `GENhjbMULT' on page 42 undefined on input line 1097.
+
+[42]
+
+LaTeX Warning: Reference `CorrectHJBlog' on page 43 undefined on input line 110
+0.
+
+
+LaTeX Warning: Reference `propREST' on page 43 undefined on input line 1109.
+
+
+LaTeX Warning: Reference `GENhjbMULT' on page 43 undefined on input line 1110.
+
+
+LaTeX Warning: Reference `HJBconstant' on page 43 undefined on input line 1117.
+
+
+
+LaTeX Warning: Reference `HJBconstant' on page 43 undefined on input line 1126.
+
+
+
+LaTeX Warning: Reference `laws' on page 43 undefined on input line 1126.
+
+
+LaTeX Warning: Reference `zlaw1' on page 43 undefined on input line 1126.
+
+
+LaTeX Warning: Reference `propREST' on page 43 undefined on input line 1139.
+
+[43]
+
+LaTeX Warning: Reference `GENhjbMULTlog' on page 44 undefined on input line 115
+3.
+
+[44]
+
+LaTeX Warning: Reference `PriAg' on page 45 undefined on input line 1211.
+
+
+LaTeX Warning: Reference `summary_m' on page 45 undefined on input line 1297.
+
+
+LaTeX Warning: Reference `Kolm' on page 45 undefined on input line 1297.
+
+[45]
+
+LaTeX Warning: Reference `summarylemma' on page 46 undefined on input line 1308
+.
+
+[46]
+
+LaTeX Warning: Reference `ODEsummary' on page 47 undefined on input line 1335.
+
+
+LaTeX Warning: Reference `RESTdist' on page 47 undefined on input line 1347.
+
+
+LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1347.
+
+
+LaTeX Warning: Reference `propREST' on page 47 undefined on input line 1347.
+
+
+LaTeX Warning: Reference `zlaw1' on page 47 undefined on input line 1347.
+
+
+LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1356.
+
+
+LaTeX Warning: Reference `fig:l_c_log' on page 47 undefined on input line 1386.
+
+
+
+LaTeX Warning: Reference `fig:l_c' on page 47 undefined on input line 1386.
+
+
+LaTeX Warning: Reference `fig:law_u' on page 47 undefined on input line 1386.
+
+Package epstopdf Info: Source file: <./figures//leisure_log.eps>
+(epstopdf)                    date: 2023-02-17 15:37:05
+(epstopdf)                    size: 23961 bytes
+(epstopdf)             Output file: <./leisure_log-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./leisure_log-eps-co
+nverted-to.pdf ./figures//leisure_log.eps>
+(epstopdf)             \includegraphics on input line 1390.
+runsystem(miktex-epstopdf --outfile=./leisure_log-eps-converted-to.pdf ./figure
+s//leisure_log.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./leisure_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:23
+(epstopdf)                    size: 14518 bytes.
+
+
+pdfTeX warning: pdflatex (file ./leisure_log-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<./leisure_log-eps-converted-to.pdf, id=791, 463.7325pt x 347.2975pt>
+File: ./leisure_log-eps-converted-to.pdf Graphic file (type pdf)
+<use ./leisure_log-eps-converted-to.pdf>
+Package pdftex.def Info: ./leisure_log-eps-converted-to.pdf  used on input line
+ 1390.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//consumption_log.eps>
+(epstopdf)                    date: 2023-02-17 15:37:07
+(epstopdf)                    size: 24729 bytes
+(epstopdf)             Output file: <./consumption_log-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./consumption_log-ep
+s-converted-to.pdf ./figures//consumption_log.eps>
+(epstopdf)             \includegraphics on input line 1391.
+runsystem(miktex-epstopdf --outfile=./consumption_log-eps-converted-to.pdf ./fi
+gures//consumption_log.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./consumption_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:25
+(epstopdf)                    size: 14888 bytes.
+
+
+pdfTeX warning: pdflatex (file ./consumption_log-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./consumption_log-eps-converted-to.pdf, id=792, 463.7325pt x 347.2975pt>
+File: ./consumption_log-eps-converted-to.pdf Graphic file (type pdf)
+<use ./consumption_log-eps-converted-to.pdf>
+Package pdftex.def Info: ./consumption_log-eps-converted-to.pdf  used on input 
+line 1391.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//risk_adj_log.eps>
+(epstopdf)                    date: 2023-02-17 15:37:09
+(epstopdf)                    size: 24436 bytes
+(epstopdf)             Output file: <./risk_adj_log-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./risk_adj_log-eps-c
+onverted-to.pdf ./figures//risk_adj_log.eps>
+(epstopdf)             \includegraphics on input line 1392.
+runsystem(miktex-epstopdf --outfile=./risk_adj_log-eps-converted-to.pdf ./figur
+es//risk_adj_log.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./risk_adj_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:27
+(epstopdf)                    size: 15732 bytes.
+
+
+pdfTeX warning: pdflatex (file ./risk_adj_log-eps-converted-to.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<./risk_adj_log-eps-converted-to.pdf, id=793, 463.7325pt x 347.2975pt>
+File: ./risk_adj_log-eps-converted-to.pdf Graphic file (type pdf)
+<use ./risk_adj_log-eps-converted-to.pdf>
+Package pdftex.def Info: ./risk_adj_log-eps-converted-to.pdf  used on input lin
+e 1392.
+(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package epstopdf Info: Source file: <./figures//sig_u_log.eps>
+(epstopdf)                    date: 2023-02-17 15:37:10
+(epstopdf)                    size: 23978 bytes
+(epstopdf)             Output file: <./sig_u_log-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./sig_u_log-eps-conv
+erted-to.pdf ./figures//sig_u_log.eps>
+(epstopdf)             \includegraphics on input line 1393.
+runsystem(miktex-epstopdf --outfile=./sig_u_log-eps-converted-to.pdf ./figures/
+/sig_u_log.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <./sig_u_log-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-22 13:14:28
+(epstopdf)                    size: 1404 bytes.
+
+!pdfTeX error: pdflatex (file ./sig_u_log-eps-converted-to.pdf): xpdf: reading 
+PDF image failed
+ ==> Fatal error occurred, no output PDF file produced!
