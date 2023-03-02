@@ -9,7 +9,9 @@ general CRRA parameter and logarithmic utility.
 * parameters.py lists the parameters used in the examples in the main text. 
 * example_CRRA.py computes the policy functions and law of motion of normalized utility for the optimal contract with gamma=2 depicted in the main text.
 * example_log.py computes the policy functions and law of motion of normalized utility for the optimal contract with logarithmic utility depicted in the appendix.
-* tails.py depicts the tails for consumption and firm size in the stationary distributions associated with the restricted-action allocations. Produces figures both for $\gamma=2$ (shown in the main text) and logarithmic utility (given in the appendix). 
+* stat_dist.py computes output and consumption per entrepreneur as a function of initial normalized utility, and the tails of consumption and firm size for 
+several different values of the mass of entrepreneurs.
 * revenue.py computes the figures for the amount of revenue raised per unit of wealth in the implementation as functions of volatility and leisure.
-* stat_dist.py computes the stationary distribution of normalized utility (not shown).
-* main.py produces all of the figures in the paper by creating a figures folder and running example_CRRA, example_log, tails and revenue. 
+* RA_density_check.py checks the method used to compute stationary distributions by computing the restricted-action allocation for the highest effort and comparing the
+CDFs for consumption and firm size with the associated closed-form solution.
+* main.py produces all of the figures in the paper by creating a figures folder and running the above scripts.
