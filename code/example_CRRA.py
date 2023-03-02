@@ -1,9 +1,12 @@
 """
-Example of optimal contract with CRRA utility. Placed in main text.
+Example of optimal contract with CRRA utility.
 
-Note that if one reduces gamma, then one must also increase umax. If one uses a
-inappropriately small umax, then to avoid inefficient termination the consumption
-coefficient can rise for large u.
+This is the example used in the main text. This script computes policy functions
+and expressions for the law of motion of utility.
+
+Troubleshooting notes:
+    * if one reduces gamma then one must also increase umax. If umax is too small,
+    then to avoid inefficient termination the consumption coefficient can rise for large u.
 """
 
 import numpy as np
@@ -18,7 +21,7 @@ gamma = 2.
 gambar = (gamma-1)*(1 - alpha) + 1
 
 X = classes.CRRA(alpha=alpha, gamma=gamma, rhoS=rhoS, rhoD=rhoD, sigma=sigma,
-umax=5, Nu=1000, mu_0=mu_0, mu_1=mu_1, llow=llow)
+umax=10, Nu=1000, mu_0=mu_0, mu_1=mu_1, llow=llow)
 
 """
 Compute value function and policy functions together with restricted-action functions.
@@ -44,27 +47,9 @@ np.mean(check)
 
 """
 Figures: leisure, consumption, risk-adjusted growth rate, and volatility.
-
-Value function is computed but not saved here as it is not shown in the main text.
 """
 
-r_frac = 0.5
-
-"""
-fig, ax = plt.subplots()
-ax.plot(X.ugrid,v,'b',label='Efficient',linewidth=1.5)
-ax.plot(X.ugrid,X.rest(X.llow,X.ugrid)[1],'b--',label='Highest effort',linewidth=1.5)
-ax.plot(X.ugrid,X.rest(X.lhigh,X.ugrid)[1],'b--',label='Lowest effort',linewidth=1.5)
-ax.plot(X.ugrid,X.rest(X.lhigh-10**-6,X.ugrid)[1],'b--',label='Lowest non-zero effort',linewidth=1.5)
-#ax.plot(X.ugrid,X.rest_l,'b--',label='Restricted-action',linewidth=2.0)
-plt.xlim([0,r_frac*X.umax])
-ax.legend()
-ax.set_xlabel('Normalized utility', fontsize=13)
-ax.set_title('Value function', fontsize=13)
-#destin = '../main/figures/leisure_ex.eps'
-#plt.savefig(destin, format='eps', dpi=1000)
-plt.show()
-"""
+r_frac = 0.3
 
 fig, ax = plt.subplots()
 ax.plot(X.ugrid,l,'b',label='Efficient',linewidth=1.5)
@@ -89,6 +74,7 @@ destin = '../main/figures/consumption_ex.eps'
 plt.savefig(destin, format='eps', dpi=1000)
 plt.show()
 
+#following are some ad-hoc bounds for the figure
 bnds = X.risk_adj(c_rest,X.rest_l)[0] - 0.01, X.risk_adj(c_rest,X.rest_l)[int(X.Nu/2)] + 0.01
 
 fig, ax = plt.subplots()
@@ -103,6 +89,7 @@ destin = '../main/figures/risk_adj_ex.eps'
 plt.savefig(destin, format='eps', dpi=1000)
 plt.show()
 
+#following are some ad-hoc bounds for the figure
 bnds = X.sigma_u(c_rest,X.rest_l)[0] + 0.01, X.sigma_u(c_rest,X.rest_l)[int(X.Nu/2)] - 0.01
 
 fig, ax = plt.subplots()

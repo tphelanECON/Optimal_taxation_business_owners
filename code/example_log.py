@@ -13,11 +13,7 @@ mu_1, mu_0 = parameters.mu_1, parameters.mu_0
 rhoS, rhoD = parameters.rhoS, parameters.rhoD
 
 Y = classes.LOG(alpha=alpha, rhoS=rhoS, rhoD=rhoD, sigma=sigma,
-umax=12, Nu=1200, mu_0=mu_0, mu_1=mu_1, llow=llow, nu=0.5)
-
-"""
-Compute value function and policy functions together with restricted-action functions.
-"""
+umax=12, Nu=1500, mu_0=mu_0, mu_1=mu_1, llow=llow, nu=0.5)
 
 v = Y.solve_PFI()
 cbar, l = Y.polupdate(v)
@@ -38,7 +34,7 @@ print("Mean absolute error in HJB equation:", HJB_mean)
 Figures: leisure, consumption, risk-adjusted growth rate, and volatility.
 """
 
-r_frac = 0.25
+r_frac = 0.2
 
 fig, ax = plt.subplots()
 ax.plot(Y.ugrid,l,'b',label='Efficient',linewidth=1.5)

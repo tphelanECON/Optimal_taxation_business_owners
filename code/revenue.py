@@ -1,5 +1,5 @@
 """
-Figures for revenue raised by taxes. 
+Figures for revenue raised by taxes.
 """
 
 import numpy as np
@@ -22,11 +22,7 @@ def colorFader(c1,c2,mix):
     return mpl.colors.to_hex((1-mix)*np.array(mpl.colors.to_rgb(c1)) + mix*np.array(mpl.colors.to_rgb(c2)))
 
 """
-Revenue raised from taxes
-"""
-
-"""
-CRRA with gamma = 2. Revenue vanishes for log utility.
+Revenue raised from taxes for various values of gamma
 """
 
 N=5

@@ -8,5 +8,6 @@ if not os.path.exists('../main/figures'):
 
 import example_CRRA
 import example_log
-import tails
+import stat_dist
 import revenue
+import RA_density_check
