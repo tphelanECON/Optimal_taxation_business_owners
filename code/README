@@ -4,8 +4,8 @@ All code is written in Python 3.6.5. If you have questions or comments please em
 
 The numerical method used to solve the principal's problem is outlined in the appendix to the paper. 
  
-* classes.py contains two class constructors: CRRA and LOG. These compute the optimal contract, tail parametes and expressions for taxes and transfers for both a 
-general CRRA parameter and logarithmic utility. 
+* classes.py contains two class constructors: CRRA and LOG. These compute the policy functions, stationry distributions, and expressions for taxes and transfers for 
+both a general CRRA parameter and logarithmic utility. 
 * parameters.py lists the parameters used in the examples in the main text. 
 * example_CRRA.py computes the policy functions and law of motion of normalized utility for the optimal contract with gamma=2 depicted in the main text.
 * example_log.py computes the policy functions and law of motion of normalized utility for the optimal contract with logarithmic utility depicted in the appendix.
@@ -13,5 +13,5 @@ general CRRA parameter and logarithmic utility.
 several different values of the mass of entrepreneurs.
 * revenue.py computes the figures for the amount of revenue raised per unit of wealth in the implementation as functions of volatility and leisure.
 * RA_density_check.py checks the method used to compute stationary distributions by computing the restricted-action allocation for the highest effort and comparing the
-CDFs for consumption and firm size with the associated closed-form solution.
+CDFs for consumption and firm size with the associated closed-form solution (the output of this script isn't used in the paper).
 * main.py produces all of the figures in the paper by creating a figures folder and running the above scripts.
