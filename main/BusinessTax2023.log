@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.5)  22 FEB 2023 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.5)  5 MAR 2023 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,1228 +710,1173 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 {C:/Users/D1TMP02/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}]
 
 Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
-n input line 88.
+n input line 80.
 
 
 Package natbib Warning: Citation `cooper_business_2016' on page 2 undefined on 
-input line 88.
+input line 80.
 
 
 Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
-n input line 88.
+n input line 80.
 
 
 Package natbib Warning: Citation `smith_capitalists_2019' on page 2 undefined o
-n input line 88.
+n input line 80.
 
 
 Package natbib Warning: Citation `chamley_optimal_1986' on page 2 undefined on 
-input line 92.
+input line 84.
 
 
 Package natbib Warning: Citation `judd_redistributive_1985' on page 2 undefined
- on input line 92.
+ on input line 84.
 
 
 Package natbib Warning: Citation `mirrlees_exploration_1971' on page 2 undefine
-d on input line 92.
+d on input line 84.
 
 
 Package natbib Warning: Citation `diamond_case_2011' on page 2 undefined on inp
-ut line 92.
+ut line 84.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 2 unde
-fined on input line 97.
+fined on input line 90.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 2 unde
-fined on input line 97.
+fined on input line 90.
+
+
+Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 2 unde
+fined on input line 90.
 
 [2]
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 3 unde
-fined on input line 99.
+fined on input line 93.
 
 [3]
 
 Package natbib Warning: Citation `albanesi_optimal_2006' on page 4 undefined on
- input line 108.
+ input line 102.
 
 
-Package natbib Warning: Citation `albanesi_optimal_2006' on page 4 undefined on
- input line 108.
+LaTeX Warning: Reference `eqcompare' on page 4 undefined on input line 102.
 
 [4]
 
 Package natbib Warning: Citation `mirrlees_exploration_1971' on page 5 undefine
-d on input line 117.
+d on input line 108.
 
 
 Package natbib Warning: Citation `scheuer_entrepreneurial_2014' on page 5 undef
-ined on input line 117.
+ined on input line 108.
 
 
 Package natbib Warning: Citation `ales_taxing_2017' on page 5 undefined on inpu
-t line 117.
+t line 108.
 
 
 Package natbib Warning: Citation `rosen_authority_1982' on page 5 undefined on 
-input line 117.
+input line 108.
 
 
 Package natbib Warning: Citation `lucas_size_1978' on page 5 undefined on input
- line 117.
+ line 108.
 
 
 Package natbib Warning: Citation `scheuer_taxation_2017' on page 5 undefined on
- input line 117.
+ input line 108.
 
 
 Package natbib Warning: Citation `ales_taxing_2016' on page 5 undefined on inpu
-t line 117.
+t line 108.
 
 
 Package natbib Warning: Citation `mirrlees_exploration_1971' on page 5 undefine
-d on input line 119.
+d on input line 110.
 
 
 Package natbib Warning: Citation `golosov_optimal_2003' on page 5 undefined on 
-input line 119.
+input line 110.
 
 
 Package natbib Warning: Citation `golosov_redistribution_2016' on page 5 undefi
-ned on input line 119.
+ned on input line 110.
 
 
 Package natbib Warning: Citation `farhi_insurance_2013' on page 5 undefined on 
-input line 119.
+input line 110.
 
 
 Package natbib Warning: Citation `stantcheva_optimal_2017' on page 5 undefined 
-on input line 119.
+on input line 110.
 
 
 Package natbib Warning: Citation `albanesi_optimal_2006' on page 5 undefined on
- input line 119.
+ input line 110.
 
 
 Package natbib Warning: Citation `kapicka_optimal_2019' on page 5 undefined on 
-input line 119.
+input line 110.
 
 
 Package natbib Warning: Citation `best_optimal_2012' on page 5 undefined on inp
-ut line 119.
+ut line 110.
 
 
 Package natbib Warning: Citation `makris_taxation_2021' on page 5 undefined on 
-input line 119.
+input line 110.
 
 
 Package natbib Warning: Citation `makris_taxation_2021' on page 5 undefined on 
-input line 119.
-
-
-Package natbib Warning: Citation `chari_optimal_1999' on page 5 undefined on in
-put line 122.
-
-
-Package natbib Warning: Citation `guvenen_use_2019' on page 5 undefined on inpu
-t line 122.
-
-
-Package natbib Warning: Citation `guvenen_use_2019' on page 5 undefined on inpu
-t line 122.
+input line 110.
 
 [5]
 
-Package natbib Warning: Citation `jones_schumpeterian_2018' on page 6 undefined
- on input line 125.
+Package natbib Warning: Citation `chari_optimal_1999' on page 6 undefined on in
+put line 113.
+
+
+Package natbib Warning: Citation `guvenen_use_2019' on page 6 undefined on inpu
+t line 113.
+
+
+Package natbib Warning: Citation `guvenen_use_2019' on page 6 undefined on inpu
+t line 113.
 
 
 Package natbib Warning: Citation `jones_schumpeterian_2018' on page 6 undefined
- on input line 125.
+ on input line 116.
+
+
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 6 undefined
+ on input line 116.
 
 
 Package natbib Warning: Citation `ai_quantitative_2022' on page 6 undefined on 
-input line 129.
+input line 116.
 
 
 Package natbib Warning: Citation `shourideh_optimal_2013' on page 6 undefined o
-n input line 129.
+n input line 116.
 
 
 Package natbib Warning: Citation `phelan_optimality_2022' on page 6 undefined o
-n input line 129.
+n input line 116.
 
 [6]
 
-LaTeX Warning: Reference `GenEq' on page 7 undefined on input line 152.
+LaTeX Warning: Reference `GenEq' on page 7 undefined on input line 138.
 
 [7]
 
-LaTeX Warning: Reference `ICapp' on page 8 undefined on input line 173.
+LaTeX Warning: Reference `ICapp' on page 8 undefined on input line 159.
 
 [8]
 
-LaTeX Warning: Reference `contutil' on page 9 undefined on input line 192.
+LaTeX Warning: Reference `contutil' on page 9 undefined on input line 178.
 
 
-LaTeX Warning: Reference `ICapp' on page 9 undefined on input line 192.
+LaTeX Warning: Reference `ICapp' on page 9 undefined on input line 178.
 
 
-LaTeX Warning: Reference `contprop' on page 9 undefined on input line 196.
+LaTeX Warning: Reference `contprop' on page 9 undefined on input line 182.
 
 [9]
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 10 und
-efined on input line 215.
+efined on input line 201.
 
 
-LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 215.
+LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 201.
 
 
-LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 219.
+LaTeX Warning: Reference `homogprod' on page 10 undefined on input line 205.
 
 
 Package natbib Warning: Citation `ai_quantitative_2022' on page 10 undefined on
- input line 219.
+ input line 205.
 
 
 Package natbib Warning: Citation `he_optimal_2009' on page 10 undefined on inpu
-t line 219.
+t line 205.
 
 
-LaTeX Warning: Reference `contprop' on page 10 undefined on input line 221.
+LaTeX Warning: Reference `contprop' on page 10 undefined on input line 207.
 
 
-LaTeX Warning: Reference `Efunc' on page 10 undefined on input line 221.
+LaTeX Warning: Reference `Efunc' on page 10 undefined on input line 207.
 
 
 Package natbib Warning: Citation `golosov_optimal_2003' on page 10 undefined on
- input line 225.
+ input line 211.
 
 
-LaTeX Warning: Reference `restAPP' on page 10 undefined on input line 225.
+LaTeX Warning: Reference `restAPP' on page 10 undefined on input line 211.
 
 [10]
 
-LaTeX Warning: Reference `propREST' on page 11 undefined on input line 233.
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 219.
 
 
-LaTeX Warning: Reference `high_eff_zero' on page 11 undefined on input line 238
+LaTeX Warning: Reference `high_eff_zero' on page 11 undefined on input line 224
 .
 
 
 Package natbib Warning: Citation `phelan_computing_1991' on page 11 undefined o
-n input line 238.
+n input line 224.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 11 und
-efined on input line 238.
+efined on input line 224.
 
 
-LaTeX Warning: Reference `propREST' on page 11 undefined on input line 240.
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 226.
 
 
-LaTeX Warning: Reference `propREST' on page 11 undefined on input line 242.
+LaTeX Warning: Reference `propREST' on page 11 undefined on input line 228.
 
 [11]
 
-LaTeX Warning: Reference `laws' on page 12 undefined on input line 253.
+LaTeX Warning: Reference `laws' on page 12 undefined on input line 239.
 
 
-LaTeX Warning: Reference `propREST' on page 12 undefined on input line 258.
+LaTeX Warning: Reference `propREST' on page 12 undefined on input line 244.
 
 
-LaTeX Warning: Reference `propREST' on page 12 undefined on input line 258.
+LaTeX Warning: Reference `propREST' on page 12 undefined on input line 244.
 
 
-LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 258.
+LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 244.
 
 
-LaTeX Warning: Reference `lawu' on page 12 undefined on input line 264.
+LaTeX Warning: Reference `lawu' on page 12 undefined on input line 247.
 
 
 Package natbib Warning: Citation `phelan_computing_1991' on page 12 undefined o
-n input line 267.
+n input line 250.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 12 und
-efined on input line 267.
+efined on input line 250.
 
 
-LaTeX Warning: Reference `homogprod' on page 12 undefined on input line 267.
+LaTeX Warning: Reference `homogprod' on page 12 undefined on input line 250.
 
 
-LaTeX Warning: Reference `lawu' on page 12 undefined on input line 267.
+LaTeX Warning: Reference `lawu' on page 12 undefined on input line 250.
 
 
-LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 267.
+LaTeX Warning: Reference `fallNS' on page 12 undefined on input line 250.
 
 [12]
 
-LaTeX Warning: Reference `num_appendix' on page 13 undefined on input line 270.
+LaTeX Warning: Reference `num_appendix' on page 13 undefined on input line 253.
 
 
 
-LaTeX Warning: Reference `lawu' on page 13 undefined on input line 274.
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 256.
 
 
 Package natbib Warning: Citation `angeletos_uninsured_2007' on page 13 undefine
-d on input line 274.
+d on input line 256.
 
 
-LaTeX Warning: Reference `lawu' on page 13 undefined on input line 274.
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 256.
 
 
-LaTeX Warning: Reference `fig:l_c' on page 13 undefined on input line 278.
+LaTeX Warning: Reference `fig:l_c' on page 13 undefined on input line 259.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 13 und
-efined on input line 278.
+efined on input line 259.
 
 Package epstopdf Info: Source file: <./figures//leisure_ex.eps>
-(epstopdf)                    date: 2023-02-21 15:15:27
-(epstopdf)                    size: 22674 bytes
+(epstopdf)                    date: 2023-03-02 16:57:18
+(epstopdf)                    size: 23538 bytes
 (epstopdf)             Output file: <./leisure_ex-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./leisure_ex-eps-con
 verted-to.pdf ./figures//leisure_ex.eps>
-(epstopdf)             \includegraphics on input line 282.
+(epstopdf)             \includegraphics on input line 263.
 runsystem(miktex-epstopdf --outfile=./leisure_ex-eps-converted-to.pdf ./figures
 //leisure_ex.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./leisure_ex-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:05
-(epstopdf)                    size: 13909 bytes.
+(epstopdf)                    date: 2023-03-05 18:49:40
+(epstopdf)                    size: 14350 bytes.
 
 
 pdfTeX warning: pdflatex (file ./leisure_ex-eps-converted-to.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<./leisure_ex-eps-converted-to.pdf, id=106, 463.7325pt x 347.2975pt>
+<./leisure_ex-eps-converted-to.pdf, id=108, 463.7325pt x 347.2975pt>
 File: ./leisure_ex-eps-converted-to.pdf Graphic file (type pdf)
 <use ./leisure_ex-eps-converted-to.pdf>
 Package pdftex.def Info: ./leisure_ex-eps-converted-to.pdf  used on input line 
-282.
+263.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//consumption_ex.eps>
-(epstopdf)                    date: 2023-02-21 15:15:57
-(epstopdf)                    size: 24610 bytes
+(epstopdf)                    date: 2023-03-02 16:57:21
+(epstopdf)                    size: 25705 bytes
 (epstopdf)             Output file: <./consumption_ex-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./consumption_ex-eps
 -converted-to.pdf ./figures//consumption_ex.eps>
-(epstopdf)             \includegraphics on input line 283.
+(epstopdf)             \includegraphics on input line 264.
 runsystem(miktex-epstopdf --outfile=./consumption_ex-eps-converted-to.pdf ./fig
 ures//consumption_ex.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./consumption_ex-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:07
-(epstopdf)                    size: 14256 bytes.
+(epstopdf)                    date: 2023-03-05 18:49:43
+(epstopdf)                    size: 14775 bytes.
 
 
 pdfTeX warning: pdflatex (file ./consumption_ex-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<./consumption_ex-eps-converted-to.pdf, id=107, 463.7325pt x 347.2975pt>
+<./consumption_ex-eps-converted-to.pdf, id=109, 463.7325pt x 347.2975pt>
 File: ./consumption_ex-eps-converted-to.pdf Graphic file (type pdf)
 <use ./consumption_ex-eps-converted-to.pdf>
 Package pdftex.def Info: ./consumption_ex-eps-converted-to.pdf  used on input l
-ine 283.
+ine 264.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 13 und
-efined on input line 287.
+efined on input line 268.
 
 
-LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 287.
+LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 268.
 
 
-LaTeX Warning: Reference `lawu' on page 13 undefined on input line 287.
+LaTeX Warning: Reference `lawu' on page 13 undefined on input line 268.
 
 
-LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 287.
+LaTeX Warning: Reference `fig:law_u' on page 13 undefined on input line 268.
 
 [13]
 Package epstopdf Info: Source file: <./figures//risk_adj_ex.eps>
-(epstopdf)                    date: 2023-02-21 15:15:59
-(epstopdf)                    size: 22897 bytes
+(epstopdf)                    date: 2023-03-02 16:57:22
+(epstopdf)                    size: 23912 bytes
 (epstopdf)             Output file: <./risk_adj_ex-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./risk_adj_ex-eps-co
 nverted-to.pdf ./figures//risk_adj_ex.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 272.
 runsystem(miktex-epstopdf --outfile=./risk_adj_ex-eps-converted-to.pdf ./figure
 s//risk_adj_ex.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./risk_adj_ex-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:09
-(epstopdf)                    size: 15469 bytes.
+(epstopdf)                    date: 2023-03-05 18:49:45
+(epstopdf)                    size: 15527 bytes.
 
 
 pdfTeX warning: pdflatex (file ./risk_adj_ex-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<./risk_adj_ex-eps-converted-to.pdf, id=114, 463.7325pt x 347.2975pt>
+<./risk_adj_ex-eps-converted-to.pdf, id=116, 463.7325pt x 347.2975pt>
 File: ./risk_adj_ex-eps-converted-to.pdf Graphic file (type pdf)
 <use ./risk_adj_ex-eps-converted-to.pdf>
 Package pdftex.def Info: ./risk_adj_ex-eps-converted-to.pdf  used on input line
- 291.
+ 272.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//sig_u_ex.eps>
-(epstopdf)                    date: 2023-02-21 15:16:01
-(epstopdf)                    size: 24687 bytes
+(epstopdf)                    date: 2023-03-02 16:57:23
+(epstopdf)                    size: 25620 bytes
 (epstopdf)             Output file: <./sig_u_ex-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./sig_u_ex-eps-conve
 rted-to.pdf ./figures//sig_u_ex.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 273.
 runsystem(miktex-epstopdf --outfile=./sig_u_ex-eps-converted-to.pdf ./figures//
 sig_u_ex.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./sig_u_ex-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:11
-(epstopdf)                    size: 15352 bytes.
+(epstopdf)                    date: 2023-03-05 18:49:47
+(epstopdf)                    size: 16410 bytes.
 
 
 pdfTeX warning: pdflatex (file ./sig_u_ex-eps-converted-to.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<./sig_u_ex-eps-converted-to.pdf, id=115, 463.7325pt x 347.2975pt>
+<./sig_u_ex-eps-converted-to.pdf, id=117, 463.7325pt x 347.2975pt>
 File: ./sig_u_ex-eps-converted-to.pdf Graphic file (type pdf)
 <use ./sig_u_ex-eps-converted-to.pdf>
-Package pdftex.def Info: ./sig_u_ex-eps-converted-to.pdf  used on input line 29
-2.
+Package pdftex.def Info: ./sig_u_ex-eps-converted-to.pdf  used on input line 27
+3.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 
-LaTeX Warning: Reference `fig:l_c_log' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `fig:l_c_log' on page 14 undefined on input line 277.
 
 
 LaTeX Warning: Reference `sec:add_figures' on page 14 undefined on input line 2
-96.
+77.
 
 
-LaTeX Warning: Reference `fig:l_c' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `fig:l_c' on page 14 undefined on input line 277.
 
 
-LaTeX Warning: Reference `fig:law_u' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `fig:law_u' on page 14 undefined on input line 277.
 
 
-LaTeX Warning: Reference `fallNS' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `fallNS' on page 14 undefined on input line 277.
 
 
-LaTeX Warning: Reference `lawu' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `lawu' on page 14 undefined on input line 277.
 
 
 Package natbib Warning: Citation `sannikov_continuous-time_2008' on page 14 und
-efined on input line 296.
+efined on input line 277.
 
 
-LaTeX Warning: Reference `lawu' on page 14 undefined on input line 296.
+LaTeX Warning: Reference `lawu' on page 14 undefined on input line 277.
 
 [14 <./leisure_ex-eps-converted-to.pdf> <./consumption_ex-eps-converted-to.pdf>
- <./risk_adj_ex-eps-converted-to.pdf> <./sig_u_ex-eps-converted-to.pdf>]
+]
 
 Package natbib Warning: Citation `shourideh_optimal_2013' on page 15 undefined 
-on input line 300.
+on input line 283.
 
 
 Package natbib Warning: Citation `phelan_optimality_2022' on page 15 undefined 
-on input line 300.
+on input line 283.
 
 
 Package natbib Warning: Citation `jones_schumpeterian_2018' on page 15 undefine
-d on input line 304.
+d on input line 287.
 
 
-LaTeX Warning: Reference `RESTdist' on page 15 undefined on input line 304.
+LaTeX Warning: Reference `RESTdist' on page 15 undefined on input line 287.
 
-[15]
+[15 <./risk_adj_ex-eps-converted-to.pdf> <./sig_u_ex-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `scalehomog' on page 16 undefined on input line 310.
-
-
-LaTeX Warning: Reference `prefagent' on page 16 undefined on input line 321.
+LaTeX Warning: Reference `scalehomog' on page 16 undefined on input line 293.
 
 
-LaTeX Warning: Reference `flowutil2' on page 16 undefined on input line 321.
+LaTeX Warning: Reference `prefagent' on page 16 undefined on input line 302.
+
+
+LaTeX Warning: Reference `flowutil2' on page 16 undefined on input line 302.
 
 [16]
 
-LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 323.
+LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 305.
 
 
-LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 323.
+LaTeX Warning: Reference `PriAg' on page 17 undefined on input line 305.
 
 
-LaTeX Warning: Reference `planPREFapp' on page 17 undefined on input line 332.
+LaTeX Warning: Reference `planPREFapp' on page 17 undefined on input line 313.
 
 [17]
 
-LaTeX Warning: Reference `planPREFapp' on page 18 undefined on input line 346.
+LaTeX Warning: Reference `planPREFapp' on page 18 undefined on input line 325.
 
 
 Package natbib Warning: Citation `farhi_inequality_2007' on page 18 undefined o
-n input line 352.
+n input line 330.
 
 
-LaTeX Warning: Reference `PriAg' on page 18 undefined on input line 352.
+LaTeX Warning: Reference `PriAg' on page 18 undefined on input line 330.
 
 [18]
 
-LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 398.
+LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 376.
 
 
-LaTeX Warning: Reference `scalehomog' on page 19 undefined on input line 398.
+LaTeX Warning: Reference `scalehomog' on page 19 undefined on input line 376.
 
 
-LaTeX Warning: Reference `PriAg' on page 19 undefined on input line 398.
+LaTeX Warning: Reference `PriAg' on page 19 undefined on input line 376.
 
 
-LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 424.
+LaTeX Warning: Reference `STATlemma' on page 19 undefined on input line 402.
 
 
-LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 424.
+LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 402.
 
 
-LaTeX Warning: Reference `STATy' on page 19 undefined on input line 424.
+LaTeX Warning: Reference `STATy' on page 19 undefined on input line 402.
 
 
-LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 424.
+LaTeX Warning: Reference `LRcons7' on page 19 undefined on input line 402.
 
 [19]
 
-LaTeX Warning: Reference `STAT1' on page 20 undefined on input line 426.
+LaTeX Warning: Reference `STAT1' on page 20 undefined on input line 404.
 
 
-LaTeX Warning: Reference `compstat3' on page 20 undefined on input line 433.
+LaTeX Warning: Reference `compstat3' on page 20 undefined on input line 411.
 
 
-LaTeX Warning: Reference `propREST' on page 20 undefined on input line 435.
+LaTeX Warning: Reference `propREST' on page 20 undefined on input line 413.
 
 
-LaTeX Warning: Reference `lawu' on page 20 undefined on input line 435.
+LaTeX Warning: Reference `lawu' on page 20 undefined on input line 413.
 
 
 Package natbib Warning: Citation `jones_schumpeterian_2018' on page 20 undefine
-d on input line 435.
+d on input line 413.
 
 
-LaTeX Warning: Reference `Imp' on page 20 undefined on input line 435.
+LaTeX Warning: Reference `Imp' on page 20 undefined on input line 413.
 
 
-LaTeX Warning: Reference `propREST' on page 20 undefined on input line 435.
+LaTeX Warning: Reference `propREST' on page 20 undefined on input line 413.
 
 [20]
 
-LaTeX Warning: Reference `STAT1' on page 21 undefined on input line 439.
+LaTeX Warning: Reference `STAT1' on page 21 undefined on input line 417.
 
 
-LaTeX Warning: Reference `compstat3' on page 21 undefined on input line 439.
+LaTeX Warning: Reference `compstat3' on page 21 undefined on input line 417.
 
 
-LaTeX Warning: Reference `fig:RC_pre' on page 21 undefined on input line 449.
+LaTeX Warning: Reference `propREST' on page 21 undefined on input line 429.
 
 
-LaTeX Warning: Reference `Output' on page 21 undefined on input line 449.
+LaTeX Warning: Reference `restDISTsect' on page 21 undefined on input line 429.
 
 
-LaTeX Warning: Reference `PriAg' on page 21 undefined on input line 449.
+
+LaTeX Warning: Reference `RESTdist' on page 21 undefined on input line 441.
 
 
-LaTeX Warning: Reference `propREST' on page 21 undefined on input line 453.
+LaTeX Warning: Reference `RESTdist' on page 21 undefined on input line 441.
 
 
-LaTeX Warning: Reference `fig:RC_pre' on page 21 undefined on input line 453.
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 21 undefine
+d on input line 441.
 
 
-LaTeX Warning: Reference `STATy' on page 21 undefined on input line 453.
-
-Package epstopdf Info: Source file: <./figures//M.eps>
-(epstopdf)                    date: 2023-02-21 11:01:43
-(epstopdf)                    size: 25686 bytes
-(epstopdf)             Output file: <./M-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=./M-eps-converted-to
-.pdf ./figures//M.eps>
-(epstopdf)             \includegraphics on input line 457.
-runsystem(miktex-epstopdf --outfile=./M-eps-converted-to.pdf ./figures//M.eps).
-..executed safely (allowed).
-
-Package epstopdf Info: Result file: <./M-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:13
-(epstopdf)                    size: 14024 bytes.
+LaTeX Warning: Reference `PriAg' on page 21 undefined on input line 444.
 
 
-pdfTeX warning: pdflatex (file ./M-eps-converted-to.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<./M-eps-converted-to.pdf, id=320, 463.7325pt x 347.2975pt>
-File: ./M-eps-converted-to.pdf Graphic file (type pdf)
-<use ./M-eps-converted-to.pdf>
-Package pdftex.def Info: ./M-eps-converted-to.pdf  used on input line 457.
-(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
-Package epstopdf Info: Source file: <./figures//C.eps>
-(epstopdf)                    date: 2023-02-21 11:01:44
-(epstopdf)                    size: 23539 bytes
-(epstopdf)             Output file: <./C-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=./C-eps-converted-to
-.pdf ./figures//C.eps>
-(epstopdf)             \includegraphics on input line 458.
-runsystem(miktex-epstopdf --outfile=./C-eps-converted-to.pdf ./figures//C.eps).
-..executed safely (allowed).
-
-Package epstopdf Info: Result file: <./C-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:14
-(epstopdf)                    size: 13193 bytes.
+LaTeX Warning: Reference `fig:l_c' on page 21 undefined on input line 444.
 
 
-pdfTeX warning: pdflatex (file ./C-eps-converted-to.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<./C-eps-converted-to.pdf, id=321, 463.7325pt x 347.2975pt>
-File: ./C-eps-converted-to.pdf Graphic file (type pdf)
-<use ./C-eps-converted-to.pdf>
-Package pdftex.def Info: ./C-eps-converted-to.pdf  used on input line 458.
-(pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+Package natbib Warning: Citation `cagetti_entrepreneurship_2006' on page 21 und
+efined on input line 444.
+
 [21]
+Package epstopdf Info: Source file: <./figures//cdf_c_main.eps>
+(epstopdf)                    date: 2023-03-02 17:12:22
+(epstopdf)                    size: 33187 bytes
+(epstopdf)             Output file: <./cdf_c_main-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./cdf_c_main-eps-con
+verted-to.pdf ./figures//cdf_c_main.eps>
+(epstopdf)             \includegraphics on input line 448.
+runsystem(miktex-epstopdf --outfile=./cdf_c_main-eps-converted-to.pdf ./figures
+//cdf_c_main.eps)...executed safely (allowed).
 
-LaTeX Warning: Reference `propREST' on page 22 undefined on input line 482.
-
-
-LaTeX Warning: Reference `restDISTsect' on page 22 undefined on input line 482.
-
-
-
-LaTeX Warning: Reference `RESTdist' on page 22 undefined on input line 494.
-
-
-LaTeX Warning: Reference `RESTdist' on page 22 undefined on input line 494.
-
-
-Package natbib Warning: Citation `jones_schumpeterian_2018' on page 22 undefine
-d on input line 494.
-
-[22 <./M-eps-converted-to.pdf> <./C-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:l_c' on page 23 undefined on input line 496.
+Package epstopdf Info: Result file: <./cdf_c_main-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-03-05 18:49:49
+(epstopdf)                    size: 19455 bytes.
 
 
-LaTeX Warning: Reference `fig:tails' on page 23 undefined on input line 496.
-
-
-LaTeX Warning: Reference `fig:l_c' on page 23 undefined on input line 496.
-
-
-LaTeX Warning: Reference `fig:tails_log' on page 23 undefined on input line 496
-.
-
-
-LaTeX Warning: Reference `sec:add_figures' on page 23 undefined on input line 4
-96.
-
-Package epstopdf Info: Source file: <./figures//tails.eps>
-(epstopdf)                    date: 2023-02-17 15:36:48
-(epstopdf)                    size: 31085 bytes
-(epstopdf)             Output file: <./tails-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=./tails-eps-converte
-d-to.pdf ./figures//tails.eps>
-(epstopdf)             \includegraphics on input line 502.
-runsystem(miktex-epstopdf --outfile=./tails-eps-converted-to.pdf ./figures//tai
-ls.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./tails-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:16
-(epstopdf)                    size: 18752 bytes.
-
-
-pdfTeX warning: pdflatex (file ./tails-eps-converted-to.pdf): PDF inclusion: fo
-und PDF version <1.7>, but at most version <1.5> allowed
-<./tails-eps-converted-to.pdf, id=405, 463.7325pt x 347.2975pt>
-File: ./tails-eps-converted-to.pdf Graphic file (type pdf)
-<use ./tails-eps-converted-to.pdf>
-Package pdftex.def Info: ./tails-eps-converted-to.pdf  used on input line 502.
+pdfTeX warning: pdflatex (file ./cdf_c_main-eps-converted-to.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<./cdf_c_main-eps-converted-to.pdf, id=336, 463.7325pt x 347.2975pt>
+File: ./cdf_c_main-eps-converted-to.pdf Graphic file (type pdf)
+<use ./cdf_c_main-eps-converted-to.pdf>
+Package pdftex.def Info: ./cdf_c_main-eps-converted-to.pdf  used on input line 
+448.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
-Package epstopdf Info: Source file: <./figures//tails_sig.eps>
-(epstopdf)                    date: 2023-02-17 15:36:50
-(epstopdf)                    size: 28986 bytes
-(epstopdf)             Output file: <./tails_sig-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=./tails_sig-eps-conv
-erted-to.pdf ./figures//tails_sig.eps>
-(epstopdf)             \includegraphics on input line 503.
-runsystem(miktex-epstopdf --outfile=./tails_sig-eps-converted-to.pdf ./figures/
-/tails_sig.eps)...executed safely (allowed).
+Package epstopdf Info: Source file: <./figures//cdf_theta_main.eps>
+(epstopdf)                    date: 2023-03-02 17:12:25
+(epstopdf)                    size: 46189 bytes
+(epstopdf)             Output file: <./cdf_theta_main-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=./cdf_theta_main-eps
+-converted-to.pdf ./figures//cdf_theta_main.eps>
+(epstopdf)             \includegraphics on input line 449.
+runsystem(miktex-epstopdf --outfile=./cdf_theta_main-eps-converted-to.pdf ./fig
+ures//cdf_theta_main.eps)...executed safely (allowed).
 
-Package epstopdf Info: Result file: <./tails_sig-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:18
-(epstopdf)                    size: 18073 bytes.
+Package epstopdf Info: Result file: <./cdf_theta_main-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-03-05 18:49:51
+(epstopdf)                    size: 22585 bytes.
 
 
-pdfTeX warning: pdflatex (file ./tails_sig-eps-converted-to.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<./tails_sig-eps-converted-to.pdf, id=406, 463.7325pt x 347.2975pt>
-File: ./tails_sig-eps-converted-to.pdf Graphic file (type pdf)
-<use ./tails_sig-eps-converted-to.pdf>
-Package pdftex.def Info: ./tails_sig-eps-converted-to.pdf  used on input line 5
-03.
+pdfTeX warning: pdflatex (file ./cdf_theta_main-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<./cdf_theta_main-eps-converted-to.pdf, id=337, 463.7325pt x 347.2975pt>
+File: ./cdf_theta_main-eps-converted-to.pdf Graphic file (type pdf)
+<use ./cdf_theta_main-eps-converted-to.pdf>
+Package pdftex.def Info: ./cdf_theta_main-eps-converted-to.pdf  used on input l
+ine 449.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
+
+LaTeX Warning: Reference `fig:tails_dist' on page 22 undefined on input line 45
+3.
+
+
+LaTeX Warning: Reference `num_appendix' on page 22 undefined on input line 453.
+
+
+
+LaTeX Warning: Reference `STATy' on page 22 undefined on input line 453.
+
+[22 <./cdf_c_main-eps-converted-to.pdf> <./cdf_theta_main-eps-converted-to.pdf>
+]
 
 Package natbib Warning: Citation `atkeson_efficient_1992' on page 23 undefined 
-on input line 513.
+on input line 457.
 
 
-LaTeX Warning: Reference `GenEq' on page 23 undefined on input line 513.
-
-[23 <./tails-eps-converted-to.pdf> <./tails_sig-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `eqcompare' on page 24 undefined on input line 516.
+LaTeX Warning: Reference `GenEq' on page 23 undefined on input line 457.
 
 
-LaTeX Warning: Reference `RESTdist' on page 24 undefined on input line 519.
+LaTeX Warning: Reference `eqcompare' on page 23 undefined on input line 460.
 
 
-LaTeX Warning: Reference `RESTchar' on page 24 undefined on input line 519.
+LaTeX Warning: Reference `RESTdist' on page 23 undefined on input line 463.
+
+
+LaTeX Warning: Reference `RESTchar' on page 23 undefined on input line 463.
+
+[23]
+
+LaTeX Warning: Reference `GenEq' on page 24 undefined on input line 472.
+
+
+LaTeX Warning: Reference `STATlemma' on page 24 undefined on input line 476.
 
 [24]
 
-LaTeX Warning: Reference `GenEq' on page 25 undefined on input line 527.
+LaTeX Warning: Reference `priceRE' on page 25 undefined on input line 495.
 
 
-LaTeX Warning: Reference `STATlemma' on page 25 undefined on input line 531.
+LaTeX Warning: Reference `return' on page 25 undefined on input line 495.
+
+
+LaTeX Warning: Reference `discCE' on page 25 undefined on input line 495.
+
+
+LaTeX Warning: Reference `return' on page 25 undefined on input line 495.
+
+
+LaTeX Warning: Reference `linearP3' on page 25 undefined on input line 498.
 
 [25]
 
-LaTeX Warning: Reference `priceRE' on page 26 undefined on input line 553.
-
-
-LaTeX Warning: Reference `return' on page 26 undefined on input line 553.
-
-
-LaTeX Warning: Reference `discCE' on page 26 undefined on input line 553.
-
-
-LaTeX Warning: Reference `return' on page 26 undefined on input line 553.
-
-
-LaTeX Warning: Reference `linearP3' on page 26 undefined on input line 556.
+LaTeX Warning: Reference `priceRE' on page 26 undefined on input line 506.
 
 [26]
 
-LaTeX Warning: Reference `priceRE' on page 27 undefined on input line 564.
+LaTeX Warning: Reference `return_simp' on page 27 undefined on input line 552.
 
 
-LaTeX Warning: Reference `return_simp' on page 27 undefined on input line 579.
+LaTeX Warning: Reference `homogprod' on page 27 undefined on input line 562.
 
 
-LaTeX Warning: Reference `homogprod' on page 27 undefined on input line 582.
+LaTeX Warning: Reference `FIXiotal' on page 27 undefined on input line 562.
 
 
-LaTeX Warning: Reference `FIXiotal' on page 27 undefined on input line 582.
+LaTeX Warning: Reference `conPROBlin2' on page 27 undefined on input line 562.
 
 
-LaTeX Warning: Reference `conPROBlin2' on page 27 undefined on input line 582.
+LaTeX Warning: Reference `FIXiota' on page 27 undefined on input line 562.
 
 
-LaTeX Warning: Reference `FIXiota' on page 27 undefined on input line 582.
+LaTeX Warning: Reference `conPROBlin2' on page 27 undefined on input line 565.
+
+
+LaTeX Warning: Reference `conPROBlin3' on page 27 undefined on input line 573.
 
 [27]
 
 LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 586.
 
 
-LaTeX Warning: Reference `conPROBlin3' on page 28 undefined on input line 594.
+LaTeX Warning: Reference `conPROBlin3' on page 28 undefined on input line 586.
 
 
-LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 602.
+LaTeX Warning: Reference `reveal_cons' on page 28 undefined on input line 589.
 
 
-LaTeX Warning: Reference `conPROBlin3' on page 28 undefined on input line 602.
+LaTeX Warning: Reference `PriAg' on page 28 undefined on input line 593.
 
 
-LaTeX Warning: Reference `PriAg' on page 28 undefined on input line 609.
+LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 593.
 
 
-LaTeX Warning: Reference `conPROBlin2' on page 28 undefined on input line 609.
-
-
-LaTeX Warning: Reference `lawu' on page 28 undefined on input line 609.
+LaTeX Warning: Reference `propREST' on page 28 undefined on input line 593.
 
 [28]
 
-LaTeX Warning: Reference `conPROBlin2' on page 29 undefined on input line 630.
+LaTeX Warning: Reference `ind_decision' on page 29 undefined on input line 596.
 
 
-LaTeX Warning: Reference `HJBVsimp0' on page 29 undefined on input line 638.
+
+LaTeX Warning: Reference `FIXiotal' on page 29 undefined on input line 608.
+
+
+LaTeX Warning: Reference `return' on page 29 undefined on input line 608.
+
+
+LaTeX Warning: Reference `FIXiotal' on page 29 undefined on input line 608.
+
+
+LaTeX Warning: Reference `ind_decision' on page 29 undefined on input line 612.
+
 
 [29]
 
-LaTeX Warning: Reference `FIXiotal' on page 30 undefined on input line 662.
+LaTeX Warning: Reference `FIXiota' on page 30 undefined on input line 632.
 
 
-LaTeX Warning: Reference `return' on page 30 undefined on input line 662.
-
-
-LaTeX Warning: Reference `FIXiotal' on page 30 undefined on input line 662.
+LaTeX Warning: Reference `PriAg' on page 30 undefined on input line 632.
 
 [30]
 
-LaTeX Warning: Reference `FIXiotal' on page 31 undefined on input line 699.
+LaTeX Warning: Reference `arb_eq' on page 31 undefined on input line 675.
 
 
-LaTeX Warning: Reference `FIXiotal' on page 31 undefined on input line 699.
+LaTeX Warning: Reference `RESTchar' on page 31 undefined on input line 682.
 
 
-LaTeX Warning: Reference `FIXiota' on page 31 undefined on input line 704.
-
-
-LaTeX Warning: Reference `PriAg' on page 31 undefined on input line 704.
-
-
-Overfull \hbox (6.41005pt too wide) in paragraph at lines 709--711
-\T1/cmr/m/n/10.95 Using the above al-ge-bra and ig-nor-ing ir-rel-e-vant con-st
-ants that do not af-fect the en-trepreneur's
- []
+LaTeX Warning: Reference `arb_eq' on page 31 undefined on input line 682.
 
 [31]
 
-LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 747.
+LaTeX Warning: Reference `FIXiota' on page 32 undefined on input line 699.
 
 
-LaTeX Warning: Reference `RESTchar' on page 32 undefined on input line 754.
+LaTeX Warning: Reference `IEsig' on page 32 undefined on input line 707.
 
 
-LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 754.
+LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 707.
+
+
+LaTeX Warning: Reference `IEsig' on page 32 undefined on input line 707.
+
+
+LaTeX Warning: Reference `arb_eq' on page 32 undefined on input line 707.
+
+
+LaTeX Warning: Reference `IEsig' on page 32 undefined on input line 707.
+
+
+LaTeX Warning: Reference `debt_pol' on page 32 undefined on input line 707.
+
+
+LaTeX Warning: Reference `imp_assump' on page 32 undefined on input line 710.
+
+
+LaTeX Warning: Reference `RESTchar' on page 32 undefined on input line 715.
+
+
+LaTeX Warning: Reference `FIXiota' on page 32 undefined on input line 719.
+
+
+LaTeX Warning: Reference `IEsig' on page 32 undefined on input line 723.
 
 [32]
 
-LaTeX Warning: Reference `FIXiota' on page 33 undefined on input line 771.
+LaTeX Warning: Reference `linTAXmain' on page 33 undefined on input line 731.
 
 
-LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `debt_pol' on page 33 undefined on input line 731.
 
 
-LaTeX Warning: Reference `arb_eq' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `imp_assump' on page 33 undefined on input line 735.
 
 
-LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 739.
 
 
-LaTeX Warning: Reference `arb_eq' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `RESTchar' on page 33 undefined on input line 739.
 
 
-LaTeX Warning: Reference `IEsig' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `colREVENUEmain' on page 33 undefined on input line 74
+2.
 
 
-LaTeX Warning: Reference `debt_pol' on page 33 undefined on input line 779.
+LaTeX Warning: Reference `linTAXmain' on page 33 undefined on input line 745.
 
 
-LaTeX Warning: Reference `imp_assump' on page 33 undefined on input line 782.
+LaTeX Warning: Reference `arb_eq' on page 33 undefined on input line 745.
 
 
-LaTeX Warning: Reference `RESTchar' on page 33 undefined on input line 787.
+LaTeX Warning: Reference `imp_assump' on page 33 undefined on input line 745.
 
 
-LaTeX Warning: Reference `FIXiota' on page 33 undefined on input line 791.
+LaTeX Warning: Reference `imp_assump' on page 33 undefined on input line 745.
+
+
+LaTeX Warning: Reference `PriAg' on page 33 undefined on input line 745.
+
+
+LaTeX Warning: Reference `initial_prob' on page 33 undefined on input line 745.
+
 
 [33]
 
-LaTeX Warning: Reference `IEsig' on page 34 undefined on input line 795.
+LaTeX Warning: Reference `genFOC' on page 34 undefined on input line 755.
 
 
-LaTeX Warning: Reference `linTAXmain' on page 34 undefined on input line 803.
+LaTeX Warning: Reference `FIXiotal' on page 34 undefined on input line 755.
 
 
-LaTeX Warning: Reference `debt_pol' on page 34 undefined on input line 803.
+LaTeX Warning: Reference `x_tilde_func' on page 34 undefined on input line 755.
 
 
-LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 810.
+
+LaTeX Warning: Reference `quadratic' on page 34 undefined on input line 755.
 
 
-LaTeX Warning: Reference `IEsig' on page 34 undefined on input line 814.
+Package natbib Warning: Citation `jones_schumpeterian_2018' on page 34 undefine
+d on input line 763.
 
 
-LaTeX Warning: Reference `RESTchar' on page 34 undefined on input line 814.
+LaTeX Warning: Reference `x_tilde_func' on page 34 undefined on input line 763.
 
 
-LaTeX Warning: Reference `colREVENUEmain' on page 34 undefined on input line 81
-7.
+
+LaTeX Warning: Reference `alpha12' on page 34 undefined on input line 773.
 
 
-LaTeX Warning: Reference `linTAXmain' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `taua12' on page 34 undefined on input line 773.
 
 
-LaTeX Warning: Reference `arb_eq' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `log_system' on page 34 undefined on input line 775.
 
 
-LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `alpha12' on page 34 undefined on input line 775.
 
 
-LaTeX Warning: Reference `imp_assump' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `colREVENUEmain' on page 34 undefined on input line 77
+5.
 
 
-LaTeX Warning: Reference `PriAg' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `fig:rev' on page 34 undefined on input line 775.
 
 
-LaTeX Warning: Reference `initial_prob' on page 34 undefined on input line 820.
+LaTeX Warning: Reference `PriAg' on page 34 undefined on input line 775.
 
+
+LaTeX Warning: Reference `eqcompare' on page 34 undefined on input line 775.
+
+
+LaTeX Warning: Reference `colREVENUEmain' on page 34 undefined on input line 77
+5.
 
 [34]
-
-LaTeX Warning: Reference `genFOC' on page 35 undefined on input line 830.
-
-
-LaTeX Warning: Reference `FIXiotal' on page 35 undefined on input line 830.
-
-
-LaTeX Warning: Reference `x_tilde_func' on page 35 undefined on input line 830.
-
-
-
-LaTeX Warning: Reference `quadratic' on page 35 undefined on input line 830.
-
-
-Package natbib Warning: Citation `jones_schumpeterian_2018' on page 35 undefine
-d on input line 839.
-
-
-LaTeX Warning: Reference `x_tilde_func' on page 35 undefined on input line 839.
-
-
-[35]
-
-LaTeX Warning: Reference `alpha12' on page 36 undefined on input line 849.
-
-
-LaTeX Warning: Reference `taua12' on page 36 undefined on input line 849.
-
-
-LaTeX Warning: Reference `log_system' on page 36 undefined on input line 851.
-
-
-LaTeX Warning: Reference `alpha12' on page 36 undefined on input line 851.
-
-
-LaTeX Warning: Reference `colREVENUEmain' on page 36 undefined on input line 85
-1.
-
-
-LaTeX Warning: Reference `eqcompare' on page 36 undefined on input line 851.
-
-
-LaTeX Warning: Reference `colREVENUEmain' on page 36 undefined on input line 85
-1.
-
 Package epstopdf Info: Source file: <./figures//rev_lgrid.eps>
-(epstopdf)                    date: 2023-01-04 10:30:35
+(epstopdf)                    date: 2023-03-02 16:58:08
 (epstopdf)                    size: 30438 bytes
 (epstopdf)             Output file: <./rev_lgrid-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./rev_lgrid-eps-conv
 erted-to.pdf ./figures//rev_lgrid.eps>
-(epstopdf)             \includegraphics on input line 855.
+(epstopdf)             \includegraphics on input line 779.
 runsystem(miktex-epstopdf --outfile=./rev_lgrid-eps-converted-to.pdf ./figures/
 /rev_lgrid.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./rev_lgrid-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:20
+(epstopdf)                    date: 2023-03-05 18:49:53
 (epstopdf)                    size: 17756 bytes.
 
 
 pdfTeX warning: pdflatex (file ./rev_lgrid-eps-converted-to.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<./rev_lgrid-eps-converted-to.pdf, id=605, 463.7325pt x 347.2975pt>
+<./rev_lgrid-eps-converted-to.pdf, id=537, 463.7325pt x 347.2975pt>
 File: ./rev_lgrid-eps-converted-to.pdf Graphic file (type pdf)
 <use ./rev_lgrid-eps-converted-to.pdf>
-Package pdftex.def Info: ./rev_lgrid-eps-converted-to.pdf  used on input line 8
-55.
+Package pdftex.def Info: ./rev_lgrid-eps-converted-to.pdf  used on input line 7
+79.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//rev_sig_grid.eps>
-(epstopdf)                    date: 2023-01-04 10:30:43
+(epstopdf)                    date: 2023-03-02 16:58:12
 (epstopdf)                    size: 27660 bytes
 (epstopdf)             Output file: <./rev_sig_grid-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./rev_sig_grid-eps-c
 onverted-to.pdf ./figures//rev_sig_grid.eps>
-(epstopdf)             \includegraphics on input line 856.
+(epstopdf)             \includegraphics on input line 780.
 runsystem(miktex-epstopdf --outfile=./rev_sig_grid-eps-converted-to.pdf ./figur
 es//rev_sig_grid.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./rev_sig_grid-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:21
+(epstopdf)                    date: 2023-03-05 18:49:56
 (epstopdf)                    size: 16520 bytes.
 
 
 pdfTeX warning: pdflatex (file ./rev_sig_grid-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<./rev_sig_grid-eps-converted-to.pdf, id=606, 463.7325pt x 347.2975pt>
+<./rev_sig_grid-eps-converted-to.pdf, id=538, 463.7325pt x 347.2975pt>
 File: ./rev_sig_grid-eps-converted-to.pdf Graphic file (type pdf)
 <use ./rev_sig_grid-eps-converted-to.pdf>
 Package pdftex.def Info: ./rev_sig_grid-eps-converted-to.pdf  used on input lin
-e 856.
+e 780.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 
-LaTeX Warning: Reference `fig:rev' on page 36 undefined on input line 860.
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 35 undefined o
+n input line 784.
 
 
-LaTeX Warning: Reference `fig:tails' on page 36 undefined on input line 860.
-
-[36 <./rev_lgrid-eps-converted-to.pdf> <./rev_sig_grid-eps-converted-to.pdf>]
-
-Package natbib Warning: Citation `albanesi_optimal_2006' on page 37 undefined o
-n input line 865.
+Package natbib Warning: Citation `albanesi_optimal_2006' on page 35 undefined o
+n input line 784.
 
 
-Package natbib Warning: Citation `albanesi_optimal_2006' on page 37 undefined o
-n input line 865.
+Package natbib Warning: Citation `smith_capitalists_2019' on page 35 undefined 
+on input line 784.
 
 
-Package natbib Warning: Citation `smith_capitalists_2019' on page 37 undefined 
-on input line 865.
+LaTeX Warning: Reference `GenEq' on page 35 undefined on input line 784.
 
-
-LaTeX Warning: Reference `GenEq' on page 37 undefined on input line 865.
-
-
-LaTeX Warning: Reference `lawu' on page 37 undefined on input line 874.
-
-
-LaTeX Warning: Reference `RESTdist' on page 37 undefined on input line 874.
-
-[37]
-
-LaTeX Warning: Reference `linTAXmain' on page 38 undefined on input line 877.
-
+[35 <./rev_lgrid-eps-converted-to.pdf> <./rev_sig_grid-eps-converted-to.pdf>]
+[36]
 No file BusinessTax2023.bbl.
 \tf@lof=\write3
 \openout3 = `BusinessTax2023.lof'.
 
 
+Package natbib Warning: Citation `cvitanic_optimal_2009' on page 37 undefined o
+n input line 814.
+
+
+LaTeX Warning: Reference `contprop' on page 37 undefined on input line 820.
+
+
+Package natbib Warning: Citation `cvitanic_optimal_2009' on page 37 undefined o
+n input line 826.
+
+
+LaTeX Warning: Reference `timezero' on page 37 undefined on input line 826.
+
+[37]
+
+LaTeX Warning: Reference `punchline' on page 38 undefined on input line 837.
+
+
 Package natbib Warning: Citation `cvitanic_optimal_2009' on page 38 undefined o
-n input line 895.
+n input line 841.
+
+
+LaTeX Warning: Reference `contprop' on page 38 undefined on input line 868.
+
+
+LaTeX Warning: Reference `dU1st' on page 38 undefined on input line 875.
+
+
+LaTeX Warning: Reference `zut' on page 38 undefined on input line 883.
 
 [38]
 
-LaTeX Warning: Reference `contprop' on page 39 undefined on input line 901.
+LaTeX Warning: Reference `muUsigU' on page 39 undefined on input line 890.
 
 
-Package natbib Warning: Citation `cvitanic_optimal_2009' on page 39 undefined o
-n input line 907.
+LaTeX Warning: Reference `muUsigU' on page 39 undefined on input line 898.
 
 
-LaTeX Warning: Reference `timezero' on page 39 undefined on input line 907.
+LaTeX Warning: Reference `zlaw0' on page 39 undefined on input line 898.
 
 
-LaTeX Warning: Reference `punchline' on page 39 undefined on input line 918.
+LaTeX Warning: Reference `zlaw1' on page 39 undefined on input line 906.
 
 
-Package natbib Warning: Citation `cvitanic_optimal_2009' on page 39 undefined o
-n input line 922.
+LaTeX Warning: Reference `riskADJ' on page 39 undefined on input line 921.
 
 
-LaTeX Warning: Reference `contprop' on page 39 undefined on input line 949.
+LaTeX Warning: Reference `zut' on page 39 undefined on input line 921.
 
 
-LaTeX Warning: Reference `dU1st' on page 39 undefined on input line 956.
+LaTeX Warning: Reference `dU1st' on page 39 undefined on input line 921.
 
 [39]
 
-LaTeX Warning: Reference `zut' on page 40 undefined on input line 964.
+LaTeX Warning: Reference `dU1st' on page 40 undefined on input line 964.
 
 
-LaTeX Warning: Reference `muUsigU' on page 40 undefined on input line 971.
+LaTeX Warning: Reference `typeevol' on page 40 undefined on input line 964.
 
 
-LaTeX Warning: Reference `muUsigU' on page 40 undefined on input line 979.
+LaTeX Warning: Reference `origHJB' on page 40 undefined on input line 973.
 
 
-LaTeX Warning: Reference `zlaw0' on page 40 undefined on input line 979.
-
-
-LaTeX Warning: Reference `zlaw1' on page 40 undefined on input line 987.
-
-
-LaTeX Warning: Reference `riskADJ' on page 40 undefined on input line 1002.
-
-
-LaTeX Warning: Reference `zut' on page 40 undefined on input line 1002.
-
-
-LaTeX Warning: Reference `dU1st' on page 40 undefined on input line 1002.
+LaTeX Warning: Reference `CorrectHJB' on page 40 undefined on input line 983.
 
 [40]
 
-LaTeX Warning: Reference `dU1st' on page 41 undefined on input line 1026.
+LaTeX Warning: Reference `CorrectHJB' on page 41 undefined on input line 993.
 
 
-LaTeX Warning: Reference `typeevol' on page 41 undefined on input line 1026.
+LaTeX Warning: Reference `CorrectHJB' on page 41 undefined on input line 1021.
 
 
-LaTeX Warning: Reference `origHJB' on page 41 undefined on input line 1035.
-
-
-LaTeX Warning: Reference `CorrectHJB' on page 41 undefined on input line 1045.
+LaTeX Warning: Reference `Efunc' on page 41 undefined on input line 1027.
 
 [41]
 
-LaTeX Warning: Reference `CorrectHJB' on page 42 undefined on input line 1055.
+LaTeX Warning: Reference `GENhjbMULT' on page 42 undefined on input line 1035.
 
 
-LaTeX Warning: Reference `CorrectHJB' on page 42 undefined on input line 1083.
+LaTeX Warning: Reference `CorrectHJBlog' on page 42 undefined on input line 103
+8.
 
 
-LaTeX Warning: Reference `Efunc' on page 42 undefined on input line 1089.
+LaTeX Warning: Reference `propREST' on page 42 undefined on input line 1047.
 
 
-LaTeX Warning: Reference `GENhjbMULT' on page 42 undefined on input line 1097.
+LaTeX Warning: Reference `GENhjbMULT' on page 42 undefined on input line 1048.
+
+
+LaTeX Warning: Reference `HJBconstant' on page 42 undefined on input line 1055.
+
+
+
+LaTeX Warning: Reference `HJBconstant' on page 42 undefined on input line 1064.
+
+
+
+LaTeX Warning: Reference `laws' on page 42 undefined on input line 1064.
+
+
+LaTeX Warning: Reference `zlaw1' on page 42 undefined on input line 1064.
 
 [42]
 
-LaTeX Warning: Reference `CorrectHJBlog' on page 43 undefined on input line 110
-0.
+LaTeX Warning: Reference `propREST' on page 43 undefined on input line 1077.
 
 
-LaTeX Warning: Reference `propREST' on page 43 undefined on input line 1109.
+LaTeX Warning: Reference `GENhjbMULTlog' on page 43 undefined on input line 109
+1.
+
+[43] [44]
+
+LaTeX Warning: Reference `PriAg' on page 45 undefined on input line 1149.
 
 
-LaTeX Warning: Reference `GENhjbMULT' on page 43 undefined on input line 1110.
+LaTeX Warning: Reference `summary_m' on page 45 undefined on input line 1235.
 
 
-LaTeX Warning: Reference `HJBconstant' on page 43 undefined on input line 1117.
+LaTeX Warning: Reference `Kolm' on page 45 undefined on input line 1235.
 
 
-
-LaTeX Warning: Reference `HJBconstant' on page 43 undefined on input line 1126.
-
-
-
-LaTeX Warning: Reference `laws' on page 43 undefined on input line 1126.
-
-
-LaTeX Warning: Reference `zlaw1' on page 43 undefined on input line 1126.
-
-
-LaTeX Warning: Reference `propREST' on page 43 undefined on input line 1139.
-
-[43]
-
-LaTeX Warning: Reference `GENhjbMULTlog' on page 44 undefined on input line 115
-3.
-
-[44]
-
-LaTeX Warning: Reference `PriAg' on page 45 undefined on input line 1211.
-
-
-LaTeX Warning: Reference `summary_m' on page 45 undefined on input line 1297.
-
-
-LaTeX Warning: Reference `Kolm' on page 45 undefined on input line 1297.
+LaTeX Warning: Reference `summarylemma' on page 45 undefined on input line 1246
+.
 
 [45]
 
-LaTeX Warning: Reference `summarylemma' on page 46 undefined on input line 1308
-.
+LaTeX Warning: Reference `ODEsummary' on page 46 undefined on input line 1273.
 
 [46]
 
-LaTeX Warning: Reference `ODEsummary' on page 47 undefined on input line 1335.
+LaTeX Warning: Reference `RESTdist' on page 47 undefined on input line 1285.
 
 
-LaTeX Warning: Reference `RESTdist' on page 47 undefined on input line 1347.
+LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1285.
 
 
-LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1347.
+LaTeX Warning: Reference `propREST' on page 47 undefined on input line 1285.
 
 
-LaTeX Warning: Reference `propREST' on page 47 undefined on input line 1347.
+LaTeX Warning: Reference `zlaw1' on page 47 undefined on input line 1285.
 
 
-LaTeX Warning: Reference `zlaw1' on page 47 undefined on input line 1347.
+LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1294.
 
 
-LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1356.
+LaTeX Warning: Reference `genLEMMA' on page 47 undefined on input line 1301.
 
 
-LaTeX Warning: Reference `fig:l_c_log' on page 47 undefined on input line 1386.
+LaTeX Warning: Reference `AB_relation' on page 47 undefined on input line 1312.
+
+
+[47]
+
+LaTeX Warning: Reference `AB_relation' on page 48 undefined on input line 1326.
 
 
 
-LaTeX Warning: Reference `fig:l_c' on page 47 undefined on input line 1386.
+LaTeX Warning: Reference `B' on page 48 undefined on input line 1326.
 
 
-LaTeX Warning: Reference `fig:law_u' on page 47 undefined on input line 1386.
+LaTeX Warning: Reference `fig:l_c_log' on page 48 undefined on input line 1360.
+
+
+
+LaTeX Warning: Reference `fig:l_c' on page 48 undefined on input line 1360.
+
+
+LaTeX Warning: Reference `fig:law_u' on page 48 undefined on input line 1360.
 
 Package epstopdf Info: Source file: <./figures//leisure_log.eps>
-(epstopdf)                    date: 2023-02-17 15:37:05
-(epstopdf)                    size: 23961 bytes
+(epstopdf)                    date: 2023-03-02 16:57:35
+(epstopdf)                    size: 22644 bytes
 (epstopdf)             Output file: <./leisure_log-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./leisure_log-eps-co
 nverted-to.pdf ./figures//leisure_log.eps>
-(epstopdf)             \includegraphics on input line 1390.
+(epstopdf)             \includegraphics on input line 1364.
 runsystem(miktex-epstopdf --outfile=./leisure_log-eps-converted-to.pdf ./figure
 s//leisure_log.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./leisure_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:23
-(epstopdf)                    size: 14518 bytes.
+(epstopdf)                    date: 2023-03-05 18:49:58
+(epstopdf)                    size: 14019 bytes.
 
 
 pdfTeX warning: pdflatex (file ./leisure_log-eps-converted-to.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<./leisure_log-eps-converted-to.pdf, id=791, 463.7325pt x 347.2975pt>
+<./leisure_log-eps-converted-to.pdf, id=735, 463.7325pt x 347.2975pt>
 File: ./leisure_log-eps-converted-to.pdf Graphic file (type pdf)
 <use ./leisure_log-eps-converted-to.pdf>
 Package pdftex.def Info: ./leisure_log-eps-converted-to.pdf  used on input line
- 1390.
+ 1364.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//consumption_log.eps>
-(epstopdf)                    date: 2023-02-17 15:37:07
-(epstopdf)                    size: 24729 bytes
+(epstopdf)                    date: 2023-03-02 16:57:38
+(epstopdf)                    size: 23323 bytes
 (epstopdf)             Output file: <./consumption_log-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./consumption_log-ep
 s-converted-to.pdf ./figures//consumption_log.eps>
-(epstopdf)             \includegraphics on input line 1391.
+(epstopdf)             \includegraphics on input line 1365.
 runsystem(miktex-epstopdf --outfile=./consumption_log-eps-converted-to.pdf ./fi
 gures//consumption_log.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./consumption_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:25
-(epstopdf)                    size: 14888 bytes.
+(epstopdf)                    date: 2023-03-05 18:50:00
+(epstopdf)                    size: 14354 bytes.
 
 
 pdfTeX warning: pdflatex (file ./consumption_log-eps-converted-to.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./consumption_log-eps-converted-to.pdf, id=792, 463.7325pt x 347.2975pt>
+<./consumption_log-eps-converted-to.pdf, id=736, 463.7325pt x 347.2975pt>
 File: ./consumption_log-eps-converted-to.pdf Graphic file (type pdf)
 <use ./consumption_log-eps-converted-to.pdf>
 Package pdftex.def Info: ./consumption_log-eps-converted-to.pdf  used on input 
-line 1391.
+line 1365.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//risk_adj_log.eps>
-(epstopdf)                    date: 2023-02-17 15:37:09
-(epstopdf)                    size: 24436 bytes
+(epstopdf)                    date: 2023-03-02 16:57:39
+(epstopdf)                    size: 23067 bytes
 (epstopdf)             Output file: <./risk_adj_log-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./risk_adj_log-eps-c
 onverted-to.pdf ./figures//risk_adj_log.eps>
-(epstopdf)             \includegraphics on input line 1392.
+(epstopdf)             \includegraphics on input line 1366.
 runsystem(miktex-epstopdf --outfile=./risk_adj_log-eps-converted-to.pdf ./figur
 es//risk_adj_log.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./risk_adj_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:27
-(epstopdf)                    size: 15732 bytes.
+(epstopdf)                    date: 2023-03-05 18:50:02
+(epstopdf)                    size: 15625 bytes.
 
 
 pdfTeX warning: pdflatex (file ./risk_adj_log-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<./risk_adj_log-eps-converted-to.pdf, id=793, 463.7325pt x 347.2975pt>
+<./risk_adj_log-eps-converted-to.pdf, id=737, 463.7325pt x 347.2975pt>
 File: ./risk_adj_log-eps-converted-to.pdf Graphic file (type pdf)
 <use ./risk_adj_log-eps-converted-to.pdf>
 Package pdftex.def Info: ./risk_adj_log-eps-converted-to.pdf  used on input lin
-e 1392.
+e 1366.
 (pdftex.def)             Requested size: 210.70462pt x 157.80333pt.
 Package epstopdf Info: Source file: <./figures//sig_u_log.eps>
-(epstopdf)                    date: 2023-02-17 15:37:10
-(epstopdf)                    size: 23978 bytes
+(epstopdf)                    date: 2023-03-02 16:57:40
+(epstopdf)                    size: 22675 bytes
 (epstopdf)             Output file: <./sig_u_log-eps-converted-to.pdf>
 (epstopdf)             Command: <miktex-epstopdf --outfile=./sig_u_log-eps-conv
 erted-to.pdf ./figures//sig_u_log.eps>
-(epstopdf)             \includegraphics on input line 1393.
+(epstopdf)             \includegraphics on input line 1367.
 runsystem(miktex-epstopdf --outfile=./sig_u_log-eps-converted-to.pdf ./figures/
 /sig_u_log.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <./sig_u_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-02-22 13:14:28
-(epstopdf)                    size: 1404 bytes.
+(epstopdf)                    date: 2023-03-05 18:50:04
+(epstopdf)                    size: 1437 bytes.
 
 !pdfTeX error: pdflatex (file ./sig_u_log-eps-converted-to.pdf): xpdf: reading 
 PDF image failed

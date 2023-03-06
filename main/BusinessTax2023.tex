@@ -52,7 +52,9 @@
 
 \title{The Optimal Taxation of Business Owners}
 \date{\today} 
-\author{Thomas Phelan\thanks{This is a revised version of the first chapter of my Ph.D. dissertation completed at the University of Minnesota and previously circulated as, "On the efficient level of inequality in business income." I have benefited from discussions with Brian Albrecht, Hengjie Ai, Anmol Bhandari, V.V. Chari, Sebastian Di Tella, Sergio Ocampo, Chris Phelan, Guillaume Sublet, and seminar participants at various conferences. Replication files may be found at \href{https://github.com/tphelanECON/Optimal_taxation_business_owners}{https://github.com/tphelanECON/Optimal\_taxation\_business\_owners}. All remaining errors are of course my own.} \\ Federal Reserve Bank of Cleveland}
+\author{Thomas Phelan\thanks{This is a revised version of the first chapter of my Ph.D. dissertation completed at the University of Minnesota and previously circulated as, "On the efficient level of inequality in business income." I have benefited from discussions with Brian Albrecht, Hengjie Ai, Anmol Bhandari, V.V. Chari, Sebastian Di Tella, Sergio Ocampo, Chris Phelan, Guillaume Sublet, and seminar participants at various conferences. Replication files may be found at \href{https://github.com/tphelanECON/Optimal_taxation_business_owners}{https://github.com/tphelanECON/Optimal\_taxation\_business\_owners}.} \\ Federal Reserve Bank of Cleveland}
+
+%All remaining errors are of course my own.
 
 \maketitle
 
@@ -69,12 +71,10 @@ Business owners in the United States are disproportionately represented among th
 
 \end{abstract}
 
-
 \iffalse
-
-main change since 2021 version: implementation of restricted-action allocations now assumptions a signaling market structure, rather than a competitive one. 
-
+Concern: is Assumption 4.1 satisfied for the example I compute in the earlier section? 
 \fi
+
 
 \newpage
 
@@ -91,24 +91,22 @@ The appropriate policy response to these facts naturally depends on their underl
 Motivated by these considerations, this paper characterizes stationary efficient allocations and signaling equilibria with linear taxes in an environment in which business income is risky, grows over time, and depends on the past (unobserved) effort exerted by the owner. I first adopt a mechanism design approach and consider the problem of a planner who may choose any allocation which satisfies the constraints imposed by asymmetric information. I then use the insights obtained from this abstract framework to sharply characterize optimal linear taxes in an environment in which entrepreneurs signal a willingness to exert unobservable effort by promising to retain a fraction of their wealth in their firm. 
 
 
-In order to characterize constrained-efficient allocations, I first alter the principal-agent model of \cite{sannikov_continuous-time_2008} to incorporate persistent effects of effort on output. I assume that the output of a firm at any moment is publicly observable and independent of current choices, but that the growth of this output over time is stochastic and depends on the owner's effort. To induce the owner to exert high effort, high realizations of output growth must be followed by either high consumption or leisure, leading to imperfect risk-sharing and inequality in all efficient allocations. For standard preferences, it becomes increasingly expensive to motivate agents with histories of high shocks. When the expected return to effort is fixed over time as in \cite{sannikov_continuous-time_2008}, the principal therefore rewards rich agents with leisure (instead of only consumption) and such agents bear little to no risk. In contrast, the dependence of growth on effort in this paper implies that the return to effort is increasing in firm size, which has important implications for both the dynamics of risk-sharing and its distribution across income levels. Although the cost of motivating agents still rises with high shocks, such shocks also make the agent more productive, and so the benefits of inducing effort rise along with the costs. The persistent effects of effort can therefore lead rich agents to bear more risk and work harder than poor agents in this environment, potentially reversing the incidence of risk given in \cite{sannikov_continuous-time_2008}.
+In order to characterize constrained-efficient allocations, I first alter the principal-agent model of \cite{sannikov_continuous-time_2008} to incorporate persistent effects of effort on output. I assume that the output of a firm at any moment is publicly observable and independent of current choices, but that the growth of this output over time is stochastic and depends on the owner's effort. To induce the owner to exert high effort, high realizations of output growth must be followed by either high consumption or leisure, leading to imperfect risk-sharing and inequality in all efficient allocations. For standard preferences, it becomes increasingly expensive to motivate agents with histories of high shocks. When the expected return to effort is fixed over time as in \cite{sannikov_continuous-time_2008}, the principal therefore rewards rich agents with leisure (instead of only consumption) and such agents bear little to no risk. In contrast, the dependence of growth on effort in this paper implies that the return to effort is increasing in firm size, which has important implications for both the dynamics of risk-sharing and its distribution across income levels. Although the cost of motivating agents still rises with high shocks, such shocks also make the agent more productive, and so the payoff from high effort also rises. The persistent effects of effort can therefore lead rich agents to bear more risk and work harder than poor agents in this environment, potentially reversing the incidence of risk given in \cite{sannikov_continuous-time_2008}.
 
  
-After characterizing the optimal contract, I show how the problem of a planner facing an economy with entrepreneurs and workers decomposes into a series of problems identical in form to a principal-agent problem. The persistent effects of effort have important implications for the stationary distributions of consumption and firm size, where the latter is measured either by output or employment. In contrast with \cite{sannikov_continuous-time_2008}, in which rich agents bear no risk and consumption is bounded above, the distribution of consumption in the stationary efficient allocations of this paper is approximately Pareto in the right tail. Further, when I restrict effort to be fixed over time, the distributions of both consumption and firm size are double Pareto with tail parameters that can be characterized in closed-form and which in general differ from one another. These ``restricted-action'' allocations, the optimal allocations attainable with constant effort, are both simple to characterize and provide a guide for the right tail of the (true) efficient allocation. Intuitively, the right tails are populated by agents whose productivity growth outpaced their consumption growth, and these are precisely those for whom high effort is efficient. Further, the welfare loss from recommending the highest effort to such agents forever vanishes as their productivity rises, and so the tail of this fixed-action allocation should coincide with that of the true efficient allocation, a conjecture that is borne out in numerical simulations. 
+After characterizing the optimal contract, I show how the problem of a planner facing an economy with entrepreneurs and workers decomposes into a series of problems identical in form to a principal-agent problem. The persistent effects of effort have important implications for the stationary distributions of consumption and firm size, where the latter is measured either by output or employment. In contrast with \cite{sannikov_continuous-time_2008}, in which rich agents bear no risk and consumption is bounded above, the distribution of consumption in the stationary efficient allocations of this paper is approximately Pareto in the right tail. Indeed, when I restrict effort to be fixed over time, the distributions of both consumption and firm size are exactly double Pareto with tail parameters that can be characterized in closed-form and which in general differ from one another. These ``restricted-action'' allocations, the optimal allocations attainable with constant effort, are both simple to characterize and provide a guide for the right tail of the (true) efficient allocation. Intuitively, the right tails are populated by agents whose productivity growth outpaced their consumption growth, and these are precisely those for whom high effort is efficient. Further, the welfare loss from recommending the highest effort to such agents forever vanishes as their productivity rises, and so one expects the tail of this fixed-action allocation to coincide with that of the true efficient allocation, a conjecture that is borne out in numerical simulations. 
 
 
 Following this characterization I consider the implications for taxation policy. Prescriptions for taxes unavoidably depend on the degree of risk-sharing present in private markets and contracts that agents are capable of signing. At one extreme, if agents may write contracts of arbitrary complexity with financial intermediaries, then the optimal policy calls only for lump-sum transfers between agents at birth, because the government has no advantage over the private sector at overcoming agency frictions. However, since the assumption of such contracts may be unrealistic, to complement the above I characterize the optimal linear taxes on profits, capital income and wealth in an environment in which agents may save in a risk-free bond and trade shares in their firms. 
 
 
-I consider equilibria of a signaling type, in which each entrepreneur announces at the initial date a fraction of their wealth that they will retain in their business in perpetuity, and at subsequent periods make consumption-savings and (unobservable) effort choices. The price per share of the firm depends on the beliefs of outside investors over the owner's effort, and the equilibrium notion imposes the requirement that these beliefs are true in equilibrium, given the incentives of the owner. The entrepreneur faces a simple tradeoff when contemplating the initial retention choice: retaining equity exposes them to higher idiosyncratic risk in wealth and consumption, but also increases the price per share of the firm by (credibly) signaling high future effort. Although the class of linear taxes does not exactly implement the efficient allocation, this taxation exercise draws upon the characterization of constant effort allocations to obtain novel insights in an environment with heterogeneous agents and endogenous productivity. Further, the welfare loss from adhering to linear taxes becomes arbitrarily small as the number of workers per entrepreneur grows large, and the optimal equilibrium allocation approaches the efficient allocation. 
+I consider equilibria of a signaling type, in which each entrepreneur announces at the initial date a fraction of their wealth that they will retain in their business in perpetuity, and at subsequent periods make consumption-savings and (unobservable) effort choices. The price per share of the firm depends on the beliefs of outside investors over the owner's effort, and the equilibrium notion imposes the requirement that these beliefs are true in equilibrium. The entrepreneur therefore faces a simple tradeoff when contemplating the initial retention choice: retaining equity exposes them to higher idiosyncratic risk in wealth and consumption, but also increases the price per share of the firm by (credibly) signaling high future effort. Although the class of linear taxes does not exactly implement the efficient allocation, this taxation exercise draws upon the characterization of constant effort allocations to obtain novel insights in an environment with heterogeneous agents and endogenous productivity. Further, the welfare loss from adhering to linear taxes becomes arbitrarily small as the number of workers per entrepreneur grows large, and the optimal equilibrium allocation approaches the efficient allocation. 
 
 
-The dependence of productivity on unobserved effort implies an important effect of taxation policy in the presence of active equity markets: taxes on interest affect the incentives for outside investors to purchase shares in a business and hence affect the degree of risk-sharing in the private sector. Intuitively, the willingness of investors to purchase shares in a firm will depend on the incentives of the owner to exert continued effort to improve productivity, and hence on the fraction of their wealth invested in the firm. This in turn depends upon the outside option available to the owner, th]e return on risk-free savings, which is endogenous to taxation policy. These taxation results are reminiscent of \cite{albanesi_optimal_2006}, who shows that the need to provide incentives for effort can justify the double taxation of capital income in a competitive two-period model in which physical capital is exogenously distributed equally across entrepreneurs. In contrast with \cite{albanesi_optimal_2006}, I allow firm size to be endogenous to tax policy, grow over time and to depend on the entire history of the owner's effort. The dependence of output on the owner's productivity ensures that unlike the case of physical capital, it is simply not feasible to reallocate all factors of production across agents. Consequently, in both the efficient and equilibrium allocations in this paper, even arbitrarily successful entrepreneurs remain exposed to the output of their firm and continue to exert effort to improve productivity, as only they are capable of doing so. 
+The dependence of productivity on unobserved effort implies an important effect of taxation policy in the presence of active equity markets: taxes on interest affect the incentives for outside investors to purchase shares in a business and hence affect the degree of risk-sharing in the private sector. Intuitively, the willingness of investors to purchase shares in a firm will depend on the incentives of the owner to exert continued effort to improve productivity, and hence on the fraction of their wealth invested in the firm. This in turn depends upon the outside option available to the owner, the return on risk-free savings, which is endogenous to taxation policy. These insights are reminiscent of \cite{albanesi_optimal_2006}, who shows that the need to provide incentives for effort can justify the double taxation of capital income in a two-period model with competitive markets in which (physical) capital is distributed equally across entrepreneurs. In this paper I depart from the competitive framework and consider signaling equilibria, and in addition allow firm size to be endogenous, grow over time and to depend on the entire history of the owner's effort.\footnote{Earlier versions of this paper considered competitive equilibria. However, as discussed further in Appendix \ref{eqcompare}, in this environment such equilibria may fail to exist for certain parameters.} The dependence of output on the owner's productivity ensures that unlike the case of physical capital, it is simply not feasible to reallocate all factors of production across agents. Consequently, in both the efficient and equilibrium allocations in this paper, even arbitrarily successful entrepreneurs remain exposed to the output of their firm and continue to exert effort to improve productivity, as only they are capable of doing so. 
 
 
-Under the above assumptions, the optimal stationary equilibrium with linear taxes calls for different taxes on profits, interest, and wealth, playing conceptually distinct roles. The redistributive role is played by the profits tax, as this effectively taxes the inelastic quantity of the model: the endowed ability of the firm owner. The profits tax reduces the ex-ante value of the firm, but has no effect on the subsequent incentives to save or issue shares throughout the agent's life. In contrast, taxes on interest income and wealth alter the private return to effort in one's business and consumption smoothing, respectively. Further, whether or not the taxes on interest and wealth raise any revenue depends crucially on the nature of preferences. In particular, in the case of logarithmic utility, consumption is a martingale in the optimal competitive equilibrium and the taxes on interest income and wealth raise no revenue in the aggregate. 
-
-%admits a simple closed-form expression in terms of 
+Under the above assumptions, the optimal stationary equilibrium with linear taxes calls for different taxes on profits, interest, and wealth, playing conceptually distinct roles. The redistributive role is played by the profits tax, as this effectively taxes the inelastic quantity of the model: the endowed ability of the firm owner. The profits tax reduces the ex-ante value of the firm, but has no effect on the subsequent incentives to save or issue shares throughout the agent's life. In contrast, taxes on interest income and wealth alter the private return to effort in one's business and consumption smoothing, respectively. Further, the revenue raised by these taxes is simply the product of the variance of consumption growth and a term depending only on preferences that governs the sign of expected consumption growth. In particular, in the case of logarithmic utility, consumption is a martingale and the taxes on interest income and wealth raise no revenue. 
 
 
 \textbf{Related literature.} A vast literature builds upon \cite{mirrlees_exploration_1971} to derive optimal taxes in economies with asymmetric information. \cite{scheuer_entrepreneurial_2014} considers entrepreneurs and firm formation and allows for pecuniary externalities across occupations and the possibility of occupation-specific taxation. \cite{ales_taxing_2017} adopt a span-of-control technology as in \cite{rosen_authority_1982} and \cite{lucas_size_1978} and allow firm size to be endogenous. \cite{scheuer_taxation_2017} study optimal taxation policy in the presence of ``superstar'' effects in the form of assortative matching between individuals and firms, and \cite{ales_taxing_2016} consider a similar environment in which the planner has an explicit concern for the welfare of shareholders. Although the above models incorporate business income, they are static and so no agent bears risk or is subject to a moral hazard problem. 
@@ -116,12 +114,11 @@ Under the above assumptions, the optimal stationary equilibrium with linear taxe
 The study of dynamic extensions of \cite{mirrlees_exploration_1971} begins with \cite{golosov_optimal_2003}, and is often referred to as the New Dynamic Public Finance. Most papers within this literature, such as \cite{golosov_redistribution_2016} and \cite{farhi_insurance_2013}, focus on the properties of optimal taxes with exogenously evolving wages. \cite{stantcheva_optimal_2017} considers an extension of this framework in which wages depend on both exogenous ability and the stock of human capital, but there is no moral hazard and no agent employs workers or trades shares in his business. Closer to the current paper are \cite{albanesi_optimal_2006}, \cite{kapicka_optimal_2019} and \cite{best_optimal_2012}, who conduct optimal taxation exercises in two-period economies with hidden effort, and \cite{makris_taxation_2021}, who conduct a similar analysis in an environment with learning-by-doing. However, these papers do not derive implications for long-run distributions of consumption or income, and because of their two-period nature cannot address how the risk borne by any agent depends on his history of productivity.\footnote{\cite{makris_taxation_2021} calibrate their model to the average working life span in the US, but the productivity of agents only changes once and so the dynamics are identical to a two-period model.} 
 
 
-An older literature within public finance, surveyed in \cite{chari_optimal_1999} and often termed the ``Ramsey'' approach, characterizes optimal policy when the government is restricted to choosing linear taxes on consumption and income. \cite{guvenen_use_2019} work within this framework to analyze the merits of capital income and wealth taxes in an economy with heterogeneous entrepreneurs in which financial frictions inhibit the allocation of physical capital. In this setting capital income and wealth taxes place different burdens on productive and unproductive entrepreneurs and so affect allocative efficiency. In addition to the explicit modeling of moral hazard, the approach of the current paper differs from \cite{guvenen_use_2019} in allowing the productivity of a firm to depend on the past effort of the owner, and for agents to trade multiple assets (bonds and shares) in the decentralization.
+An older literature within public finance, surveyed in \cite{chari_optimal_1999} and often termed the ``Ramsey'' approach, characterizes optimal policy when the government is restricted to choosing linear taxes on consumption and income. \cite{guvenen_use_2023} work within this framework to analyze the merits of capital income and wealth taxes in an economy with heterogeneous entrepreneurs in which financial frictions inhibit the allocation of physical capital. In this setting capital income and wealth taxes place different burdens on productive and unproductive entrepreneurs and so affect allocative efficiency. In addition to the explicit modeling of moral hazard, the approach of the current paper differs from \cite{guvenen_use_2023} in allowing the productivity of a firm to depend on the past effort of the owner, and for agents to trade multiple assets (bonds and shares) in the decentralization.
 
 
 \cite{jones_schumpeterian_2018} characterize competitive equilibria in an environment in which entrepreneurs are cannot save and the evolution of productivity is identical to that adopted in this paper. The combination of exponential growth and stochastic death can both generate a Pareto distribution for income and allow it to respond to policy. However, in contrast with \cite{jones_schumpeterian_2018}, in the first part of this paper I do not impose a market structure and instead require only that allocations respect the restrictions imposed by asymmetric information. Further, by allowing business owners to both save in a risk-free bond and sell shares in their business, I can investigate how the portfolio decisions of owners depend on taxation policy. \cite{ai_quantitative_2022}, \cite{shourideh_optimal_2013}, and \cite{phelan_optimality_2022} all show how a Pareto distribution of consumption may emerge in efficient allocations in environments with asymmetric information. The difference here is the nature of the agency problem: instead of allowing entrepreneurs to divert assets to consumption, in this paper entrepreneurs exert (unobservable) effort to improve firm productivity. Importantly, unlike all of the above papers, the equilibria in this paper do not possess the counterfactual property that the Pareto exponents for income and firm size must coincide. Although the focus of this paper is normative rather than positive, I emphasize that the optimal taxation exercise is conducted in an environment that can replicate this fact, and to the best of my knowledge, this distinguishes the current paper from the rest of the optimal taxation literature. Furthermore, the above papers assume that agents cannot issue equity, and so do not explore how the degree of private risk-sharing depends on taxation policy. 
 
-%I consider this friction in order to model the importance of individual-specific characteristics for business income. 
 
 In this paper, output depends both on individual productivity and a shadow price of labor, and so the model allows me to study how changes in the number of entrepreneurs translate into changes in (efficient) inequality. I view this as complementary to the standard approach in the optimal taxation literature in which wages (or productivity) evolve exogenously, but current income is endogenous to taxation policy. Since I model a dynamic moral hazard problem with an active stock market, I simplify the ex-ante heterogeneity and leave the quantitative importance of these two margins for future work. 
 
@@ -131,7 +128,6 @@ In this paper, output depends both on individual productivity and a shadow price
 
 For ease of exposition, I will first proceed in partial equilibrium and characterize the optimal contract between a risk-averse agent operating a risky technology and a risk-neutral principal who may trade at exogenously given prices. In the following section I show how the problem of a benevolent planner in an overlapping generations economy may be decomposed into a series of principal-agent problems of the above form.
 
-%\subsection{Formal setup}
 
 Time is continuous and extends indefinitely. The economy consists of a single risk-averse agent and a risk-neutral principal, both of whom live forever. At any moment in time the agent may consume a flow amount $c$ of a single good and take an action $l \in [\underline{l},1]$, referred to as leisure, for some $\underline{l}$. In what follows it will sometimes be more natural to describe the economic intuition in terms of effort, which is defined as $e := 1- l$. The agent has preferences over stochastic sequences of consumption and leisure given by
 \begin{equation}
@@ -217,7 +213,7 @@ To give a sense of why such allocations admit a simple characterization, note th
 \frac{dU_t}{U_t} & = \rho{\left(1-(\overline{c}^{1-\alpha}l^{\alpha})^{1-\gamma}\right)}dt + \sigma E(l)(\overline{c}^{1-\alpha}l^{\alpha})^{1-\gamma}(1-\overline{\gamma})dZ_t.
 \end{align*} 
 For a fixed effort level the mean and volatility of utility growth depend only on $\overline{c}$ and not utility directly. Further, for these allocations the perturbation arguments of \cite{golosov_optimal_2003} are applicable, and so the inverse Euler equation holds, which leads to the following simple characterization proved via a guess-and-verify approach in Appendix \ref{restAPP}.
-\begin{prop}\label{propREST}
+\begin{prop}\label{propREST} 
 For each $l \in [\underline{l},1]$ the restricted-action consumption function is $c_{\textnormal{r}}(u;l) = \overline{c}_{\textnormal{r}}(l) u := x(l)^{\frac{1}{1-\overline{\gamma}}}l^{-\frac{\alpha }{1-\alpha}}u$ and the restricted-action value function is
 $$
 v_{\textnormal{r}}(u;l) = \frac{1_{l<1}}{\rho - \mu_{\theta}(l)} - \frac{\overline{c}_{\textnormal{r}}(l) u}{\rho - \mu_c(l)}
@@ -233,7 +229,7 @@ Since $v(u) \leq (\rho - \mu_{\theta}(\underline{l}))^{-1}$ everywhere, it follo
 
 The second important consequence of Proposition \ref{propREST} is that $v_{\textnormal{r}}'(u;l)$ is increasing in leisure, which captures the intuitive fact that it is more expensive to provide an agent with a given level of utility when they exert higher effort. This provides insight into how effort varies with normalized utility and so allows us to build intuition for the dynamics of risk-bearing. To this end, consider the problem $v^*_{\textnormal{r}}(u) := \max_{l \in [\underline{l},1]} v_{\textnormal{r}}(u;l)$ of a principal who must fix effort throughout the agent's life, and note that Topkis' theorem implies that the associated leisure level is increasing in normalized utility. Such a ``restricted'' principal recommends high effort to individuals with low normalized utility and vice versa. 
 
-The expressions in Proposition \ref{propREST} do not, by themselves, tell us how consumption and leisure evolve over time and in response to shocks. However, the closed-form expressions allow for a simple characterization of how risk-sharing varies over time. 
+The expressions in Proposition \ref{propREST} do not, by themselves, tell us how consumption and leisure evolve over time and in response to shocks. However, the closed-form expressions allow for a simple characterization of the dynamics of normalized utility (and hence risk).
 
 %$\sigma_u = \sigma (E(l)x(l) - 1)$,
 \begin{lemma}\label{lawu}
@@ -252,9 +248,6 @@ Appendix \ref{laws} applies Ito's lemma to show that
 which reduces to the claimed expression by Proposition \ref{propREST}. High productivity shocks reduce normalized utility when $\sigma_u \equiv \sigma (E(l)x(l) - 1) < 0$, or $E(l)x(l) < 1$. Since the quadratic in Proposition \ref{propREST} is increasing for $x>0$, this is equivalent to \eqref{fallNS}.
 \end{proof}
 
-%rearrangement reveals that
-%The expressions for the drift and diffusion of normalized utility follow by combining the expression \eqref{riskADJ} with the quadratic in
-
 If a process $X$ satisfies $dX_t = \mu_XX_tdt + \sigma_XX_tdZ_t$ for some constants $\mu_X$ and $\sigma_X$ then it admits the representation $\ln(X_t/X_0) = (\mu_X - \sigma_X^2/2)t + \sigma_XZ_t$ almost surely for all $t\geq0$. The long-run pathwise behavior is then determined not by the drift $\mu_X$ but instead by $\mu_X - \sigma_X^2/2$, which may be interpreted as a risk-adjusted growth rate. Lemma \ref{lawu} shows that the risk-adjusted growth of normalized utility is the difference between two terms. The first, $-\overline{\gamma}\sigma^2E(l)^2x(l)^2/2$, represents a force common in economies with private information, in which the principal gradually immiserates the agent in order to relax future incentive constraints, while the second, $\mu_{\theta}(l) - \sigma_{\theta}(l)^2/2$, is the risk-adjusted growth in productivity. 
 
 
@@ -264,12 +257,10 @@ The fact that effort affects growth rather than flow output implies that the dyn
 \textbf{Numerical illustration.} I now compute some examples in order to illustrate the policy functions for consumption and leisure and the dynamics of risk and promised utility. For each variable of interest I will depict both the optimal restricted-action quantity alongside the true, efficient quantity. Note that since none of the above restricted-action value functions are globally optimal, the value function must be calculated numerically.\footnote{Appendix \ref{num_appendix} outlines the numerical method I use to solve the principal's problem.} However, note that the optimal restricted-action value and policy functions coincide with the efficient counterparts for both low and high levels of normalized utility. 
 
 %Recall that the complete list of parameters is $\alpha, \gamma, \rho, \sigma, \overline{\mu}_0,\overline{\mu}_1$ and $\underline{l}$. 
+The purpose of this section is to illustrate the novel mechanisms in the model, and in particular the dynamics of utility in response to shocks. Guided in part by Lemma \ref{lawu}, I will therefore fix the parameters governing discounting, labor supply, and productivity growth at the standard values $(\gamma, \rho, \alpha, \underline{\mu}_0, \overline{\mu}_1, \sigma, \underline{l}) = (2, \rhoval, \alphval, \muhigh, \mulow, \sig, \lbar)$ and consider the effect of varying $\gamma$ in the appendix. Note that the above specification for productivity amounts to minimum and maximum growth of 0 and 3 percent, respectively, and idiosyncratic volatility equal to the lower of the two values in \cite{angeletos_uninsured_2007}. Higher volatility or growth would only reinforce the points highlighted after Lemma \ref{lawu}. 
 
-The purpose of this section is to illustrate the novel mechanisms in the model, and in particular the dynamics of utility in response to shocks. Guided in part by Lemma \ref{lawu}, I will therefore fix the parameters governing discounting, labor supply, and productivity growth at the standard values $(\rho, \alpha, \underline{\mu}_0, \overline{\mu}_1, \sigma, \underline{l}) = (\rhoval, \alphval, \muhigh, \mulow, \sig, \lbar)$ and consider the effect of varying the degree of risk-aversion $\gamma$. Note that the above specification for productivity amounts to minimum and maximum growth of 0 and 3 percent, respectively, and idiosyncratic volatility equal to the lower of the two values in \cite{angeletos_uninsured_2007}. Higher volatility or growth would only reinforce the points highlighted after Lemma \ref{lawu}. 
 
-%I vary gamma only in the appendix. 
-
-I first set $\gamma = 2$. Figure \ref{fig:l_c} plots the policy functions for leisure and the coefficient of the consumption function (the $\overline{c}$ term in the above) together with the analogous optimal restricted-action functions. Note that in both the true optimal allocation and in the optimal restricted-action allocations, leisure is increasing in normalized utility and the coefficient of consumption is decreasing. This shows that as promised utility increases, the principal rewards the agent relatively more with leisure than consumption. These results for fixed productivity are qualitatively the same as those in \cite{sannikov_continuous-time_2008}.
+Figure \ref{fig:l_c} plots the policy functions for leisure and the coefficient of the consumption function (the $\overline{c}$ term in the above) together with the analogous optimal restricted-action functions. Note that in both the true optimal allocation and in the optimal restricted-action allocations, leisure is increasing in normalized utility and the coefficient of consumption is decreasing. This shows that as promised utility increases, the principal rewards the agent relatively more with leisure than consumption. These results for fixed productivity are qualitatively the same as those in \cite{sannikov_continuous-time_2008}.
 
 \begin{figure}[!htb]
 \centering
@@ -289,7 +280,9 @@ However, as emphasized above, the persistent effects of effort on output in this
 
 Figure \ref{fig:l_c_log} in Appendix \ref{sec:add_figures} computes analogues of Figure \ref{fig:l_c} and Figure \ref{fig:law_u} when utility is logarithmic, which corresponds to the limit $\gamma \rightarrow 1$. In this case the risk-adjusted growth remains negative for small normalized utility, and the volatility is again everywhere negative, albeit closer to zero than in the $\gamma=2$ case. I emphasize that the volatility of normalized utility is not guaranteed to be negative for all parameters.\footnote{Indeed, it is easy to see that condition \eqref{fallNS} in Lemma \ref{lawu} can fail for, e.g., logarithmic utility and high discounting (high $\rho$) or higher preferences for leisure (higher $\alpha$).} However, the point of these examples is simply that the novel addition of persistent effects of effort can, in principle, completely reverse the relationship between output shocks and future effort, relative to the standard model of \cite{sannikov_continuous-time_2008}. Further, in addition to being satisfied for the parameters given here, Lemma \ref{lawu} shows that this reversal holds for all sufficiently high levels of risk. 
 
+
 In all of the above cases the efficient functions inherit the qualitative features of their restricted-action counterparts, but exhibit greater smoothness and vary less abruptly with normalized utility. Indeed, in numerical experimentations I have observed a kind of ``bang-bang'' solution for restricted-action policy functions, with the lowest leisure level chosen at low levels of normalized utility, and the highest chosen at high levels.\footnote{This phenomenon appears to be more likely to occur when the idiosyncratic risk is small.}
+
 
 Before turning to the setting with a continuum of agents, it is instructive to compare the above optimal contract with those in other environments with hidden actions, and with the dynamics of income that obtain in economies with exogenously incomplete markets. This will also serve as a prelude as to why thick right tails of consumption and firm size emerge in this environment. \cite{shourideh_optimal_2013} and \cite{phelan_optimality_2022} both consider economies with hidden consumption. To preserve incentives for investment, the risk borne by entrepreneurs must scale with the benefits of diverting capital to consumption, and so rich agents with low marginal utility of consumption control high amounts of capital. With homothetic preferences, these forces cancel and the elasticity of consumption with respect to output is common across agents, and generates Pareto distributions in consumption and firm size. However, these two papers cannot generate the need for an active stock market in which share prices depend endogenously on the expected effort exerted by the owner.
 
@@ -303,16 +296,18 @@ For any parameter $\kappa > 0$, denote the normalized value function associated 
 
 \noindent Lemma \ref{scalehomog} will prove useful in the general equilibrium setting when the productivity of entrepreneurs depends on an endogenous shadow price of labor. In what follows I will write $v(\cdot) \equiv v(\cdot;1)$ for the normalized payoff function associated with unitary productivity.
 
+
 \section{Efficient stationary allocations} \label{GenEq}
+
 
 The preceding section analyzed the optimal contract between a single risk-averse agent and a risk-neutral principal. This section shows how the problem of a planner in an overlapping-generations economy may be decomposed into a series of one-on-one principal-agent problems identical in form to those considered above. General equilibrium forces affect both the level of utility that may be given to a generation and the productivity of entrepreneurs, because the latter depends on the number of agents working for their business. 
 
 
 Time is again continuous and extends indefinitely. At any instant there is a continuum of agents alive in the economy with subjective discount factor $\rho_S$ who die at rate $\rho_D$, so the preferences of agents continue to be of the form in \eqref{prefagent} and \eqref{flowutil2} with discount rate $\rho := \rho_S+\rho_D$. A flow of $\rho_D$ agents are born every unit of time so that the total population is fixed at unity. Every agent alive at the initial date is indexed by a scalar $v$ identified with promised utility. For each agent there is an associated process $(Z^v_t)_{t\geq0}$ distributed according to standard Brownian motion and referred to as the noise process for the agent. The noise processes for subsequent generations will be indexed by their date of birth. These processes are independent of one another and so by a law of large numbers the ex-post distribution of shocks across agents will coincide with the ex-ante distribution faced by each agent. 
 
+
 Agents may be one of two types, entrepreneurs and workers, which are permanent and unobservable. A fraction $\eta_E \in [0,1]$ are entrepreneurs and the remaining $1-\eta_E$ are workers. Entrepreneurs are distinguished from workers by their ability to run businesses and have productivity that evolves as in Section \ref{PriAg}, $d\theta^v_t = \mu_{\theta}(l_t)\theta^v_tdt + \sigma_{\theta}(l_t)\theta^v_t dZ^v_t$ with $\theta_0 = 1$. To ensure that output is finite in the stationary distribution I will also suppose that $\rho_D > \mu_{\theta}(l)$ for all leisure levels. In Section \ref{PriAg} the output of an entrepreneur coincided with his productivity. In contrast, in this section the output of an entrepreneur is a function of both their productivity and the effective labor assigned to him. If an entrepreneur of productivity $\theta$ is assigned $L$ units of effective labor, then for a fixed $Z>0$ and $\beta \in (0,1)$ flow output of their firm is $F(\theta,L) = Z\theta^{1-\beta}L^{\beta}$ per unit of time. Workers inelastically supply an aggregate amont of $\overline{L}$ units of effective labor, while entrepreneurs oversee production and provide no effective labor.  An allocation must specify the consumption, effort exerted, and labor assigned to every agent after every history. In the following $L^{v,\theta,i}_t$ and $L^{T,i}_t$ refer to the effective labor assigned to agents (which vanishes if $i=W$), and for agents not alive at the initial date, the superscript refers to birth date and the subscript to calendar time.
 
-%and so I omit labor supply from the definition of an allocation
 %An allocation must specify the consumption, effort exerted, and labor assigned to every member of the initial generation as a function of initial promised utility, type, and history of output, together with analogous quantities for all subsequent generations as functions of birth date and type. In the following $L^{v,\theta,i}_t$ and $L^{T,i}_t$ refer to the effective labor assigned \textit{to} a given type (which vanishes if $i=W$), and for agents not alive at the initial date, the superscript refers to birth date and the subscript to calendar time.
 
 \begin{defn} \label{defnALLOC}
@@ -331,11 +326,8 @@ Incentive-compatibility requirements are of two kinds: an entrepreneur must be i
 The consumption and leisure allocations for a particular generation are incentive compatible if for all leisure strategies $l'$, $U_E(c^E,l) \geq \max\left\{ U_E(c^E,l'), U_W(c^W,1)\right\}$. The set of incentive-compatible allocations will be denoted $\mathcal{A}^{IC}$ and the set of allocations that are incentive compatible and resource feasible is denoted $\mathcal{A}^{IF} := \mathcal{A}^{RF} \bigcap \mathcal{A}^{IC}$.
 \end{defn}
 
-%Agents have preferences solely over their own consumption and effort and there is no altruism across generations. 
-
 For simplicity I will suppose that the planner only cares about workers and places a weight of $\alpha(T) = e^{-\rho_S T}$ on an agent born at time $T$, and write the utility attained by the planner over an allocation $A$ by $U^P(A)$.\footnote{This is equivalent to weighing flow utility independently of an agent's birth date. To aid the reader, elaboration of the social welfare function is given in Appendix \ref{planPREFapp}.} 
 
-%I now relate the planner's problem to the principal-agent problems of Section \ref{PriAg}. 
 \begin{defn}
 Given an initial distribution $\Phi$ over promised utility and types, the planner's problem is defined to be $V(\Phi) = \max_{A \in \mathcal{A}^{IF}} U^P(A)$.
 \end{defn} 
@@ -358,12 +350,40 @@ Given the multiplier $\lambda_L$, labor assigned to an entrepreneur of productiv
 \end{lemma}
 
 \iffalse
+Some reminders on the algebra. The problem is $\max_{L \geq 0} \ Z\theta^{1-\beta} L^{\beta} - \lambda_LL$. The first-order conditions and rearrangement gives 
+\begin{align*}
+0 & = Z\beta \theta^{1-\beta} L^{\beta-1} - \lambda_L
+\\ (Z\beta/\lambda_L) \theta^{1-\beta}  & = L^{1-\beta}
+\\ L & = (Z\beta/\lambda_L)^{\frac{1}{1-\beta}} \theta. 
+\end{align*}
+Substituting then gives 
 \begin{align*}
 Z\theta^{1-\beta}L(\theta)^{\beta} & = Z\theta   [Z\beta/\lambda_L]^{\frac{\beta}{1-\beta}}  = Z^{\frac{1}{1-\beta}}(\beta/\lambda_L)^{\frac{\beta}{1-\beta}} \theta
 \\ Z\theta^{1-\beta}L(\theta)^{\beta} - \lambda_LL(\theta) & = Z^{\frac{1}{1-\beta}}((\beta/\lambda_L)^{\frac{\beta}{1-\beta}} - \lambda_L[\beta/\lambda_L]^{\frac{1}{1-\beta}})\theta
 \\ & = Z^{\frac{1}{1-\beta}}(\beta^{\frac{\beta}{1-\beta}}\lambda_L^{-\frac{\beta}{1-\beta}} - \lambda_L^{-\frac{\beta}{1-\beta}}\beta^{\frac{1}{1-\beta}} )\theta
 \\ & = Z^{\frac{1}{1-\beta}}\lambda_L^{-\frac{\beta}{1-\beta}}(\beta^{\frac{\beta}{1-\beta}} - \beta^{\frac{\beta}{1-\beta}+1} )\theta
 \end{align*}
+which ultimately simplifies to 
+\begin{align*}
+\overline{Z}(\lambda_L)\theta = Z\theta^{1-\beta}L(\theta)^{\beta}  - \lambda_LL(\theta) & = 
+Z^{\frac{1}{1-\beta}}(\beta/\lambda_L)^{\frac{\beta}{1-\beta}}(1 - \beta)\theta
+\end{align*}
+as claimed in the above lemma. For output (not net of labor costs), we have 
+\begin{align*}
+Z\theta^{1-\beta}L(\theta)^{\beta} & = Z^{\frac{1}{1-\beta}}(\beta/\lambda_L)^{\frac{\beta}{1-\beta}} \theta = (1-\beta)^{-1}\overline{Z}(\lambda_L)\theta. 
+\end{align*}
+Now, remind oneself of how things simplify with the labor resource constraint. This is equation \eqref{LRcons7}, which is equivalent to 
+
+\begin{align*}
+\overline{L} & = M(\overline{u}) \eta_E {\left(Z\beta/\lambda_L\right)}^{\frac{1}{1-\beta}}
+\\ \lambda_L & = [M(\overline{u}) \eta_E/\overline{L}]^{1-\beta} Z\beta.
+\end{align*}
+In this case, $\overine{Z}(\lambda_L)$ simplifies to 
+\begin{align*}
+\overline{Z}(\lambda_L) & = Z^{\frac{1}{1-\beta}}(\beta/\lambda_L)^{\frac{\beta}{1-\beta}}(1 - \beta)
+\\ & = Z(\overline{L}/[M(\overline{u}) \eta_E])^{\beta}(1 - \beta).
+\end{align*}
+
 Write: $u = [(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}$ and so $u^{1-\overline{\gamma}}/(1-\gamma) = U$, or $U = \frac{u^{1-\overline{\gamma}}}{1-\gamma} = \frac{(\overline{Z}\lambda_L^{-\frac{\beta}{1-\beta}})^{1-\overline{\gamma}}}{1-\gamma}$. $y := \overline{Z}^{-1}\lambda_L^{\frac{\beta}{1-\beta}}u$. 
 This amounts to solving the generational planner's problem and then varying the shadow prices of goods and labor until the resource constraints hold in the associated stationary distribution. 
 The stationary form of the goods and labor resource constraints are then
@@ -452,18 +472,8 @@ $$
 \end{prop}  %\footnote{And also note that $\alpha_\pm (l) \rightarrow -\overline{\gamma}$ as the death rate vanishes.} 
 Proposition \ref{RESTdist} illustrates that the forces governing the distributions of firm size and consumption are very different from one another. For a given level of effort, the tail of the firm size distribution is mechanically determined by technological parameters.\footnote{A finite mean is assured if $\alpha_{\theta}^-(l) < -1$, which is implied by the assumption $\rho_D > \mu_{\theta}(l)$.} In contrast, consumption growth depends on the technological parameters only insofar as the latter affect the tightness of the incentive constraints. Indeed, Proposition \ref{RESTdist} shows that we have the uniform bound $\alpha_\pm (l) \leq -\overline{\gamma}$ for the tail parameter for consumption, independent of the nature of the agency problem. This places strong restrictions on the degree of inequality that can arise in efficient allocations, and shows that the implied distributions contrast sharply with models with exogenously incomplete markets, such as \cite{jones_schumpeterian_2018}, in which the tails of firm size and consumption are forced to coincide. 
 
-\textbf{Numerical illustration.} I now compute several examples depicting aggregate output and consumption in both the efficient and restricted-action allocations. In Figure \ref{fig:RC_pre}, I first depict the average productivity and consumption of entrepreneurs, the functions $M$ and $C$ defined in \eqref{Output}, in both the efficient and optimal restricted-action allocations, where the parameters are fixed at those in Section \ref{PriAg}. Notice that consumption of entrepreneurs need not be increasing in normalized utility, because as utility rises the planner may compensate the agents more with leisure than consumption. However, this need not lead to multiplicity of solutions to the resource constraints, because entrepreneurs are only one part of the population and workers' consumption is increasing in normalized utility. I earlier emphasized that the difference between the efficient allocation and the optimal restricted-action allocation vanishes as normalized utility falls. This observation is also reflected in the Figure \ref{fig:RC_pre}, in which the dotted and solid lines coincide near the origin. Further, the solution to \eqref{STATy} necessarily tends to zero as the fraction of entrepreneurs become small, which reflects an intuitive point: as entrepreneurs become rarer (and hence more valuable to the economy), the efficient allocation becomes well-approximated by an allocation in which they work as hard as possible indefinitely, regardless of their history of productivity shocks.
 
-%[!htb]
-\begin{figure} %[H]
-\centering
-\includegraphics[width=0.49\linewidth]{M}
-\includegraphics[width=0.49\linewidth]{C}
-%\includegraphics[width=0.49\linewidth]{RC}
-\caption{Output and consumption per entrepreneur and leisure.}\label{fig:RC_pre}
-\end{figure}%(the left- and right-hand sides of equation \eqref{STATy})
-
-I now plot the upper tails for consumption and firm size in both the efficient and restricted-action allocations associated with the highest effort. The sole parameters relevant to the general equilibrium setting in addition to those specified in Section \ref{PriAg} are $\beta, \eta_E$ and $\rho_D$, corresponding to the labor share, the mass of entrepreneurs, and the rate of death. I adopt the same parameters as those used to generate Figure \ref{fig:l_c}, together with $\rho_D = 0.04$ and $\beta = \betaval$. If one views $\rho_D$ as the rate with which one ceases to be an entrepreneur, then this amounts to assuming that agents run their business for an average of 25 years. I then consider a range of different values for $\eta_E$ with midpoint 11.5 percent, which is the fraction of the population who are active business owners in the SCF as reported in \cite{cagetti_entrepreneurship_2006}. Figure \ref{fig:tails_dist} plots the tails of the associated distributions of consumption and firm sizes (above the 90th percentile), alongside the analogous quantities for the restricted-action allocation associated with the highest effort.\footnote{Appendix \ref{num_appendix} outlines the numerical method used to produce these figures.}
+\textbf{Numerical illustration.} I now plot the upper tails of the distributions of consumption and firm size in both the efficient and restricted-action allocations associated with the highest effort. The sole parameters relevant to the general equilibrium setting in addition to those specified in Section \ref{PriAg} are $\beta, \eta_E$ and $\rho_D$, corresponding to the labor share, the mass of entrepreneurs, and the rate of death. I adopt the same parameters as those used to generate Figure \ref{fig:l_c}, together with $\rho_D = 0.04$ and $\beta = \betaval$. If one views $\rho_D$ as the rate with which one ceases to be an entrepreneur, then this amounts to assuming that agents run their business for an average of 25 years. I then consider several values for $\eta_E$ with midpoint 11.5 percent, which is the fraction of the population who are active business owners in the SCF as reported in \cite{cagetti_entrepreneurship_2006}. 
 
 \begin{figure}[!htb]
 \centering
@@ -472,7 +482,7 @@ I now plot the upper tails for consumption and firm size in both the efficient a
 \caption{Tails for consumption and firm size.}\label{fig:tails_dist}
 \end{figure}
 
-As the mass of entrepreneurs varies, so too does the initial value of normalized utility solving equation \eqref{STATy}. The lower this mass, the harder such entrepreneurs work and the more risk they bear throughout their lifetime. However, as suggested by the above discussion, ultimately the right tails of the distributions of consumption and firm size are dominated by entrepreneurs exerting the highest level of effort. Consequently, the shape of the right tail (i.e. the slope on a log-log scale) of the efficient allocations coincides with the corresponding shape of the restricted-action allocation for the highest effort.  
+Figure \ref{fig:tails_dist} plots the tails of the associated distributions of consumption and firm sizes (above the 90th percentile), alongside the analogous quantities for the restricted-action allocation associated with the highest effort.\footnote{Appendix \ref{num_appendix} outlines the numerical method used to produce these figures.} As the mass of entrepreneurs varies, so too does the initial value of normalized utility solving equation \eqref{STATy}. The lower this mass, the harder such entrepreneurs work and the more risk they bear throughout their lifetime. However, as suggested by the above discussion, the right tails of the distributions of consumption and firm size are mainly populated by entrepreneurs exerting the highest level of effort. Consequently, the shape of the right tail (i.e. the slope on a log-log scale) of the efficient allocations coincides with the corresponding shape of the restricted-action allocation for the highest effort, and is independent of the number of entrepreneurs. 
 
 \section{Optimal linear taxes} \label{Imp}
 
@@ -534,21 +544,57 @@ regardless of taxes. The fact that the tax on interest appears in the excess ret
 
 I will now outline the entrepreneurs' problem and the equilibrium notion adopted in this setting. For clarity, I will split the individual problem in to two parts. First, I will characterize the optimal consumption and effort consistent with a given level of share retention (and hence expectations of investors). Second, I will impose rational expectations on the part of investors, and characterize the initial choice of share retention by the entrepreneur.\footnote{In the following I substitute $r = \rho_S$, so the pre-tax return on the bond is $\rho = \rho_S + \rho_D$.}
 
+Since workers are subject to no private information, the government has no reason to distort their consumption-savings decisions. Consequently, they face no taxes on interest income and their problem is simpler than that of entrepreneurs, because they do not trade shares in a firm. However, in contrast with entrepreneurs, workers earn a wage $w$ from labor that they inelastically supply. The individual problems are then the following.
+
+\iffalse
+Simple guess-and-verify for the worker. Their HJB is given by
+\begin{align*}
+\rho V_W(a) & = \max_{c}\rho \frac{c^{1-\overline{\gamma}}}{1-\gamma} + [\rho a - ca + wL]V_W'(a).
+\end{align*}
+Now assume $V_W(a) = \overline{V}_W(a + wL/\rho)^{1-\overline{\gamma}}/(1-\gamma)$ for some $\overline{V}_W$. Also assume that $c(a) = \overline{c}(a+ wL/\rho)$ for some $\overline{c}$. Then substitution gives
+\begin{align*}
+\rho \overline{V}_W \frac{(a + wL/\rho)^{1-\overline{\gamma}}}{1-\gamma} & = \max_{\overline{c}}\rho \overline{c}^{1-\overline{\gamma}}\frac{(a + wL/\rho)^{1-\overline{\gamma}}}{1-\gamma} 
+\\ & + (1-\alpha)[\rho a - \overline{c}(a+ wL/\rho) + wL]\overline{V}_W(a + wL/\rho)^{-\overline{\gamma}}.
+\end{align*}
+Rearrangement then gives 
+\begin{align*}
+\frac{\rho \overline{V}_W}{1-\gamma} & = \max_{\overline{c}}\rho \frac{\overline{c}^{1-\overline{\gamma}}}{1-\gamma}  + (1-\alpha)[\rho  - \overline{c}]\overline{V}_W.
+\end{align*}
+The first-order condition implies $\overline{c} = (\rho/\overline{V}_W)^{1/\overline{\gamma}}$. Substitution then gives
+\begin{align*}
+\frac{\rho \overline{V}_W}{1-\gamma} & = \frac{\rho}{1-\gamma} (\rho/\overline{V}_W)^{1/\overline{\gamma}-1} + (1-\alpha)[\rho  - (\rho/\overline{V}_W)^{1/\overline{\gamma}}]\overline{V}_W
+\\ \frac{\rho}{1-\overline{\gamma}} & = \frac{\rho^{1/\overline{\gamma}}}{1-\overline{\gamma}} (\overline{V}_W)^{-1/\overline{\gamma}} + \rho  - (\rho/\overline{V}_W)^{1/\overline{\gamma}}
+\\ \frac{\rho \overline{\gamma}}{1-\overline{\gamma}} & = \frac{\overline{\gamma}}{1-\overline{\gamma}} (\rho/\overline{V}_W)^{1/\overline{\gamma}}
+\end{align*}
+and so the coefficient satisfies $(\rho/\overline{V}_W)^{1/\overline{\gamma}} = \rho$ and hence $\overline{V}_W = \rho^{1-\overline{\gamma}}$. It follows that 
+\begin{align*}
+V_W(a) & = \overline{V}_W \frac{(a + wL/\rho)^{1-\overline{\gamma}}}{1-\gamma}
+\\ & = \rho^{1-\overline{\gamma}} \frac{(a + wL/\rho)^{1-\overline{\gamma}}}{1-\gamma}
+\end{align*}
+\fi
+
+
 \begin{defn}  \label{conPROBlin2}
 Given linear taxes $\tau = (\tau_s,\tau_a)$ and expectations governed by $\hat{l}$, the problem of an entrepreneur with wealth $a$ who has pledged to retain $\overline{\iota}$ of her wealth in the firm is
 \begin{align*}
-V(a; \overline{\iota}, \hat{l}) = \max_{\overline{c},l} & \ \mathbb{E}^l{\left[\int_{0}^{\infty}\rho e^{-\rho t}u(\overline{c}_ta_t,l_t)dt\right]}
+V_E(a; \overline{\iota}, \hat{l}) = \max_{\overline{c},l} & \ \mathbb{E}^l{\left[\int_{0}^{\infty}\rho e^{-\rho t}u(\overline{c}_ta_t,l_t)dt\right]}
 \\ da_t & = [(1-\tau_s)\rho - \tau_a - \overline{c}_t]a_tdt + \overline{\iota}_t a_tdR_t(l_t;\hat{l})
 \\ a_0 & = a
 \end{align*}
-where $dR_t$ is given by equation \eqref{return_simp}. 
+where $dR_t$ is given by equation \eqref{return_simp}. The problem of a worker with wealth $a$ inelastically supplying $L$ units of effective labor is given by
+\begin{align*}
+V_W(a) = \max_{c} & \ \mathbb{E}{\left[\int_{0}^{\infty}\rho e^{-\rho t}u(c_t, 1)dt\right]}
+\\ da_t & = [\rho a - c_t + wL]dt
+\\ a_0 & = a.
+\end{align*}
 \end{defn}
 
-Using a homogeneity argument almost identical to that given in Lemma \ref{homogprod}, one may show that the optimal consumption is a constant fraction of wealth and that the optimal effort is constant in wealth.\footnote{Explicit expressions for the policy functions are given in Lemma \ref{FIXiotal}.} I therefore denote by $\overline{c}^*(\overline{\iota}, \hat{l})$ and $l^*(\overline{\iota}, \hat{l})$ the optimal choices of consumption and leisure for the problem in Definition \ref{conPROBlin2} as functions of the retained wealth share and expectations of investors. Lemma \ref{FIXiota} below then shows that there is a unique solution to the equation $\hat{l} = l^*(\overline{\iota}, \hat{l})$, which I will denote by $\hat{l}(\overline{\iota})$ and which represent the leisure consistent with rational expectations. The problem of the entrepreneur at the initial date is then the following. 
+The value and policy functions for the worker are particularly simple. Using a standard guess-and-verify approach, it is straightforward to show that their consumption function is $\rho (a+wL/\rho)$, which is also their lifetime utility in consumption-equivalent units. 
+
+The problem of entrepreneurs is both more interesting and more complicated. Using a homogeneity argument almost identical to that given in Lemma \ref{homogprod}, one may show that the optimal consumption of an entrepreneur is a constant fraction of wealth and that the optimal effort is constant in wealth.\footnote{Explicit expressions for the policy functions are given in Lemma \ref{FIXiotal} below.} I therefore denote by $\overline{c}^*(\overline{\iota}, \hat{l})$ and $l^*(\overline{\iota}, \hat{l})$ the optimal choices of consumption and leisure for the problem in Definition \ref{conPROBlin2} as functions of the retained wealth share and expectations of investors. Lemma \ref{FIXiota} below then shows that there is a unique solution to the equation $\hat{l} = l^*(\overline{\iota}, \hat{l})$, which I will denote by $\hat{l}(\overline{\iota})$ and which represent the leisure consistent with rational expectations. The problem of the entrepreneur at the initial date is then the following. 
 
 \begin{defn} \label{conPROBlin3}
-Given a wage $w$ and constant linear taxes $\tau = (\tau_d,\tau_s,\tau_a)$, the problem of an entrepreneur choosing the fraction of their initial wealth to retain is given by $\max_{\overline{\iota} \geq 0} V(\overline{a}_0(\overline{\iota}); \overline{\iota}, \hat{l}(\overline{\iota}))$, where 
-$V$ is given in Definition \ref{conPROBlin2} and 
+Given a wage $w$ and constant linear taxes $\tau = (\tau_d,\tau_s,\tau_a)$, the problem of an entrepreneur choosing the fraction of their initial wealth to retain is given by $\max_{\overline{\iota} \geq 0} V_E(\overline{a}_0(\overline{\iota}); \overline{\iota}, \hat{l}(\overline{\iota}))$, where $V_E$ is given in Definition \ref{conPROBlin2} and 
 \begin{equation}
 \overline{a}_0(\overline{\iota}) = \frac{(1-\tau_d)\overline{Z}(w)\theta_0}{\rho - \mu_{\theta}(\hat{l}(\overline{\iota}))}
 \label{initiala}
@@ -558,6 +604,11 @@ denotes the initial wealth of the owner as a function of $\overline{\iota}$.
 
 The form of the problem in Definition \ref{conPROBlin3} illustrates that the entrepreneur faces a simple tradeoff when considering the fraction of their wealth to retain in the firm at the initial date. On the one hand, retaining shares exposes them to idiosyncratic risk in wealth and hence consumption, which reduces their welfare. However, retaining shares also increases their subsequent incentives to exert effort, and so increases their initial wealth, because it increases the price outside investors are willing to pay per share at the initial date. Further, this tradeoff is endogenous to tax policy, because the excess return on equity depends on the tax on savings, and all investors rationally recognize this dependence. 
 
+The sole additional requirement imposed by the fact that individual types are private information is that entrepreneurs must obtain higher lifetime utility at birth. This places a restriction on the relative magnitudes of the dividend tax and the transfer $T$ to workers at birth, and means that in equilibrium we require 
+\begin{equation}
+\max_{\overline{\iota} \geq 0} V_E(\overline{a}_0(\overline{\iota}); \overline{\iota}, \hat{l}(\overline{\iota})) \geq V_W(T).
+\label{reveal_cons}
+\end{equation}
 
 Given the above formulation of the market structure and expectation formations, the equilibrium notion I adopt is of a standard type: individuals optimize, markets clear, and expectations are consistent with individual incentives. 
 
@@ -567,11 +618,11 @@ Given constant linear taxes $\tau$, a stationary signaling equilibrium consists 
 \item The policy functions $(\overline{c},l,\overline{\iota})$ solve the consumer problem given in Definition \ref{conPROBlin2} and Definition \ref{conPROBlin3}, given expectations $\hat{l}$.  
 \item The outside investors make zero expected profits, or $l_t = \hat{l}$ for all $t\geq0$ almost surely. 
 \item The markets for goods and labor clear every instant. 
-\item The government budget constraint is satisfied. 
+\item The government budget constraint is satisfied and inequality \eqref{reveal_cons} holds, so that entrepreneurs have an incentive to reveal their type.
 \end{itemize}
 \end{defn} 
 
-Prior to characterizing signaling equilibria, I wish to emphasize once more why the characterization of restricted-action allocations in Section \ref{PriAg} is useful for determining the optimal linear taxes. Indeed, the mechanism design approach adopted earlier may be appear to be superfluous given that in this section we restrict attention to linear taxes and make no mention of incentive compatibility. However, the key insight here is that for any level of share retention, the solution to the problem in Definition \ref{conPROBlin2} with constant linear taxes implies constant effort by the entrepreneur. Given the planner's objective, these allocations are therefore weakly dominated by the restricted-action allocations, as the latter are, by definition, the optimal incentive compatible allocations with constant effort. Consequently, if we can implement the optimal restricted-action allocation as a signaling equilibrium, then we have found the optimal linear taxes, because the fact that entrepreneurs freely choose their consumption and (unobservable) leisure implies that the equilibrium allocation is incentive compatible. Further, Lemma \ref{lawu} shows that the restricted-action allocations are completely characterized by the initial consumption level and the constant mean and volatility of consumption growth. It will therefore suffice to find linear taxes such that these quantities in the signaling equilibrium coincide with their counterparts in the optimal restricted-action allocations, because then the allocations will coincide almost surely at every date. The following algebra simply shows precisely how this is done.
+Prior to characterizing signaling equilibria, I wish to emphasize once more why the characterization of restricted-action allocations in Section \ref{PriAg} is useful for determining the optimal linear taxes. Indeed, the mechanism design approach adopted earlier may be appear to be superfluous given that in this section we restrict attention to linear taxes and make no mention of incentive compatibility. However, the key insight here is that for any level of share retention, the solution to the problem in Definition \ref{conPROBlin2} with constant linear taxes implies constant effort by the entrepreneur. Given the planner's objective, these allocations are therefore weakly dominated by the restricted-action allocations, as the latter are, by definition, the optimal incentive compatible allocations with constant effort. Consequently, if we can implement the optimal restricted-action allocation as a signaling equilibrium, then we have found the optimal linear taxes, because the fact that entrepreneurs freely choose their consumption and (unobservable) leisure implies that the equilibrium allocation is incentive compatible. Further, Proposition \ref{propREST} shows that the restricted-action allocations are completely characterized by the initial consumption level and the constant mean and volatility of consumption growth. It will therefore suffice to find linear taxes such that these quantities in the signaling equilibrium coincide with their counterparts in the optimal restricted-action allocations, because then the allocations will coincide almost surely at every date. The following algebra simply shows precisely how this is done.
 
 
 I first characterize the expectations for effort consistent with a given choice of $\overline{\iota}$ and individual optimality, before turning to the initial choice of share retention. The proof of the following proceeds via a guess-and-verify approach and so is relegated to Appendix \ref{ind_decision}. 
@@ -579,9 +630,9 @@ I first characterize the expectations for effort consistent with a given choice 
 \begin{lemma} \label{FIXiotal}
 Given a retained wealth share $\overline{\iota}$ and expectations $\hat{l}$, the optimal consumption and leisure choices are given by
 $$
-\overline{c}(\overline{\iota}, \hat{l}) = \frac{\rho}{\gamma} + \frac{1}{\gamma}{\left([\overline{\mu}_0\hat{l} + \tau_s\rho]\overline{\iota} - \overline{\gamma}\sigma^2\overline{\iota}^2/2 - \tau_a + (1-\tau_s)\rho\right)}(\overline{\gamma} - 1) 
+\overline{c}^*(\overline{\iota}, \hat{l}) = \frac{\rho}{\gamma} + \frac{1}{\gamma}{\left([\overline{\mu}_0\hat{l} + \tau_s\rho]\overline{\iota} - \overline{\gamma}\sigma^2\overline{\iota}^2/2 - \tau_a + (1-\tau_s)\rho\right)}(\overline{\gamma} - 1) 
 $$
-and $l^*(\overline{\iota}, \hat{l})\overline{\mu}_0\overline{\iota}(1-\alpha) = \alpha \overline{c}(\overline{\iota}, \hat{l})$
+and $l^*(\overline{\iota}, \hat{l})\overline{\mu}_0\overline{\iota}(1-\alpha) = \alpha \overline{c}^*(\overline{\iota}, \hat{l})$
 provided that $l^*(\overline{\iota}, \hat{l}) \in [\underline{l}, 1]$. 
 \end{lemma}
 
@@ -593,7 +644,7 @@ Lemma \ref{FIXiotal} allows expectations over leisure to be arbitrary. Note that
 which ensures that there is a unique level of leisure at which expectations are consistent with individual optimality. The characterization of leisure, consumption and utility in any signaling equilibrium as a function of the initial level of share retention is then the following, the proof of which is contained in Appendix \ref{ind_decision}.
 
 \begin{lemma} \label{FIXiota}
-For any $\overline{\iota}$ there is a unique solution $l(\overline{\iota})$ to $l = l^*(\overline{\iota}, l)$, the entrepreneur's consumption and leisure are $c(\overline{\iota}) = \rho \tilde{x}(\overline{\iota};\tau)$ and $l(\overline{\iota}) = (\rho/\overline{\mu}_0)\alpha (1-\alpha)^{-1}\tilde{x}(\overline{\iota};\tau)\overline{\iota}^{-1}$, and their value function is a multiple of 
+For any $\overline{\iota}$ there is a unique solution $l(\overline{\iota})$ to $l = l^*(\overline{\iota}, l)$, the entrepreneur's consumption and leisure are $\overline{c}(\overline{\iota}) := \overline{c}^*(\overline{\iota}, l(\overline{\iota}))  = \rho \tilde{x}(\overline{\iota};\tau)$ and $l(\overline{\iota}) = (\rho/\overline{\mu}_0)\alpha (1-\alpha)^{-1}\tilde{x}(\overline{\iota};\tau)\overline{\iota}^{-1}$, and their value function is a multiple of 
 \begin{equation}
 \begin{aligned}
 %V(a) = \rho^{1 - \overline{\gamma}} {\left(1/\alpha-1\right)}^{-\alpha(1-\gamma)}
@@ -653,7 +704,7 @@ Multiplying by $1 - \gamma$, taking logs, and dividing by $1-\overline{\gamma}$ 
 from which the claimed objective follows. 
 \fi
 
-As I will explain below, in certain special cases (like logarithmic utility) the above problem can be considerably simplified. For a given pair of taxes $\tau = (\tau_s, \tau_a)$ on interest and wealth, I will denote the associated choice of share retention of the entrepreneur by $\overline{\iota}(\tau)$. For arbitrary parameters and taxes, a sharp characterization of this choice is difficult, but the comparative statics and the conceptual roles played by each tax are most transparent and are the primary concern here. The final claim in Lemma \ref{arb_eq} implies that the risk borne by the entrepreneur in any signaling equilibrium allocation is an increasing function of the tax on interest. Intuitively, an increase in this tax increases the excess return on retained equity, and therefore increase the incentive of the entrepreneur to expose themself to the performance of their firm. 
+As I will explain below, in certain special cases (like logarithmic utility) the above problem can be considerably simplified. For a given pair of taxes $\tau = (\tau_s, \tau_a)$ on interest and wealth, I will denote the associated choice of share retention of the entrepreneur by $\overline{\iota}(\tau)$. For arbitrary parameters and taxes, a sharp characterization of this choice is difficult, but the comparative statics and the conceptual roles played by each tax are the primary concern here. The final claim in Lemma \ref{arb_eq} implies that the risk borne by the entrepreneur in any signaling equilibrium allocation is an increasing function of the tax on interest. Intuitively, an increase in this tax increases the excess return on retained equity, and therefore increase the incentive of the entrepreneur to expose themself to the performance of their firm. 
 
 Once again I recall that the optimal restricted-action allocations are completely characterized by three constants, specifying initial consumption and the mean and variance of consumption growth. For an initial level of wealth, in order to find the optimal linear taxation policy it will suffice to choose taxes on interest and wealth that ensure that the inverse Euler equation holds and that the volatility of consumption growth coincides with 
 \begin{equation}
@@ -728,7 +779,7 @@ To gain intuition for Corollary \ref{colREVENUEmain}, recall that the sign of th
 \max_{\overline{\iota} \geq 0} \frac{1 + \alpha(\gamma-1)}{\overline{\gamma}-1}\ln \tilde{x}(\overline{\iota};\tau) + {\left(\frac{1 - 2\alpha}{1 - \alpha}\right)} \ln \overline{\iota}.
 \label{initial_prob_simp}
 \end{equation}
-This objective is concave if $\alpha \leq 1/2$, in which case the first-order condition is
+This objective is strictly concave if $\alpha \leq 1/2$, in which case the first-order condition characterizes the optimum and satisfies
 \begin{equation}
 0 = \frac{[1 + \alpha(\gamma-1)]}{(\gamma-1)(1 - 2\alpha)}\tilde{x}'(\overline{\iota};\tau)\overline{\iota} + \tilde{x}(\overline{\iota};\tau).
 \label{quadratic}
@@ -753,7 +804,7 @@ and the tax on wealth becomes
 \end{equation}
 In this case, the tax on interest is unambiguously positive, while the tax on wealth may assume either sign and is negative for all sufficiently small consumption volatility. Further, expressions \eqref{alpha12} and \eqref{taua12} illustrate that in this special case, the optimal taxes on interest and wealth tend to zero smoothly as the degree of idiosyncratic risk vanishes. 
 
-Note that the expressions for taxes in equations \eqref{log_system} and \eqref{alpha12} are highly sensitive to changes in the parameter $\underline{l}$, and in fact diverge as this quantity and the fraction of entrepreneurs vanish. Further, the parameter $\underline{l}$ is difficult to discipline empirically as it corresponds to the lowest amount of leisure physically possible for the entrepreneur. It is for this reason that I have emphasized the novel qualitative features of the optimal tax policy and the conceptually distinct roles played by each tax instead of emphasizing a particular calibration. Further, Corollary \ref{colREVENUEmain} shows that the potentially large statutory rates do not necessarily translate into high revenue, and that revenue depends only on the parameter $\overline{\gamma}$ and the efficient volatility of consumption. Figure \ref{fig:rev} depicts this revenue raised per unit of wealth for various values of the degree of risk aversion, leisure and volatility. On the left-hand side volatility is fixed at $\sigma=0.2$ and leisure varies, while on the right-hand side leisure is fixed at the lowest value and the volatility varies. As expected, the revenue raised is increasing in volatility $\sigma$ and decreasing in leisure. For the parameters considered in Section \ref{PriAg}, the revenue raised varies between approximately 1 and 2.5 percent, while in the logarithmic case, the revenue raised from the interest tax is completely offset by a tax/subsidy on wealth and these two taxes raise no revenue in the aggregate.\footnote{Appendix \ref{eqcompare} shows that the expression for revenue in Corollary \ref{colREVENUEmain} also holds in an implementation of the restricted-action allocations with competitive share markets wherever the latter is well-defined, although the expressions for taxes necessarily change.}
+Note that the expressions for taxes in equations \eqref{log_system} and \eqref{alpha12} are highly sensitive to changes in the parameter $\underline{l}$, and in fact diverge as this quantity and the fraction of entrepreneurs vanish. Further, the parameter $\underline{l}$ is difficult to discipline empirically as it corresponds to the lowest amount of leisure physically possible for the entrepreneur. It is for this reason that I have emphasized the novel qualitative features of the optimal tax policy and the conceptually distinct roles played by each tax instead of emphasizing a particular calibration. Further, Corollary \ref{colREVENUEmain} shows that the potentially large statutory rates do not necessarily translate into high revenue, and that revenue depends only on the parameter $\overline{\gamma}$ and the efficient volatility of consumption. Figure \ref{fig:rev} depicts this revenue raised per unit of wealth for various values of the degree of risk aversion, leisure and volatility. On the left-hand side volatility is fixed at $\sigma=\sig$ and leisure varies, while on the right-hand side leisure is fixed at the lowest value and the volatility varies. As expected, the revenue raised is increasing in volatility $\sigma$ and decreasing in leisure. For the parameters considered in Section \ref{PriAg}, the revenue raised varies between approximately 1 and 2.5 percent, while in the logarithmic case, the revenue raised from the interest tax is completely offset by a tax/subsidy on wealth and these two taxes raise no revenue in the aggregate.\footnote{Appendix \ref{eqcompare} shows that the expression for revenue in Corollary \ref{colREVENUEmain} also holds in an implementation with competitive share markets wherever the latter is well-defined, although the expressions for taxes necessarily change.}
 
 \begin{figure}[!htb]
 \centering
@@ -762,7 +813,9 @@ Note that the expressions for taxes in equations \eqref{log_system} and \eqref{a
 \caption{Revenue raised per unit of wealth.}\label{fig:rev}
 \end{figure}
 
-Having derived expressions for the optimal linear taxes and computed some examples, it is instructive to briefly return to a discussion of how these results differ from those in the literature. As mentioned above, the fact that the optimal linear taxation scheme calls for double taxation of capital income, at both the firm and individual level, is reminiscent of the seminal contribution of \cite{albanesi_optimal_2006}, who arrives at such a prescription within a two-period model with an exogenous distribution of physical capital. Since production occurs only once, the question of how capital ought to be distributed in the future never arises, and if capital could be reallocated, the planner would wish to assign it all to a single entrepreneur to minimize the costs associated with private information. The primary difference between the current paper and a dynamic extension of \cite{albanesi_optimal_2006} is therefore that business income in the current paper depends on the owner's effort. This assumption, adopted to capture the empirical evidence of \cite{smith_capitalists_2019}, implies that it is simply not possible to reallocate productive resources across entrepreneurs.  In the efficient allocations in this paper, even arbitrarily successful and rich entrepreneurs continue to exert effort as their firm grows, as only they are capable of affecting productivity growth. The above taxes simply ensure that these incentives to retain ownership and exert effort coincide imply that consumption growth coincides with that given in Section \ref{GenEq}. 
+Having derived expressions for the optimal linear taxes and computed some examples, it is instructive to briefly return to a discussion of how these results differ from those in the literature in order to highlight the novel economic forces at play here. The fact that the optimal linear taxation policy calls for double taxation of capital income, at both the firm and individual level, is reminiscent of the seminal contribution of \cite{albanesi_optimal_2006}, who derives this in a two-period model with an exogenous distribution of physical capital. Since production occurs only once, the question of how capital ought to be distributed in the future never arises, and if it could be reallocated, the planner would assign it all to a single entrepreneur to minimize the costs associated with private information. The primary difference between the current paper and a dynamic extension of \cite{albanesi_optimal_2006} is that here business income depends on entire history of the owner's effort. This assumption, adopted to capture the empirical evidence of \cite{smith_capitalists_2019}, implies that it is simply not possible to reallocate productive resources across entrepreneurs. In the efficient allocations in this paper, even arbitrarily successful and rich entrepreneurs continue to exert effort as their firm grows, as only they are capable of affecting productivity growth. The above taxes simply ensure that these incentives to retain ownership and exert effort imply that consumption growth coincides with that given in Section \ref{GenEq}. 
+
+%further, the fact that 
 
 
 \section{Conclusion} \label{Conc}
@@ -770,7 +823,7 @@ Having derived expressions for the optimal linear taxes and computed some exampl
 
 This paper characterizes a class of constrained efficient allocations in an economy with moral hazard and stochastic growth in business income. I characterize constrained-efficient allocations in an economy with persistent effects of effort and then use the insights from the mechanism design approach to derive optimal linear taxes in signaling equilibria. 
 
-The principal findings from each section were as follows. First, allowing effort to affect output growth rather than levels has important implications for the efficient bearing of risk and hence the degree of inequality in the implied stationary distribution. In dynamic agency models with fixed productivity and standard preferences, agents with high realizations of shocks become too expensive to motivate and so are eventually retired. In contrast, in the model of this paper agents become richer because they experience high productivity growth, and so the benefits of further effort rise along with the costs. In Lemma \ref{lawu} I provide sufficient conditions for this second force to overwhelm the first within a restricted class of contracts and provide numerical evidence that this often holds in the unrestricted optimal contract. In Proposition \ref{RESTdist} I then illustrate the importance of this force by characterizing the associated upper tails of the stationary distributions of consumption and firm size (in terms of output or employment), showing that they do in general differ and that the latter will typically be thicker than the former. 
+The principal findings from each section were as follows. First, allowing effort to affect output growth rather than levels has important implications for the efficient bearing of risk and hence the degree of inequality in the implied stationary distribution. In dynamic agency models with fixed productivity and standard preferences, agents with high realizations of shocks become too expensive to motivate and so are eventually retired. In contrast, in the model of this paper agents become richer because they experience high productivity growth, and so the benefits of further effort rise along with the costs. I provide sufficient conditions for this second force to overwhelm the first within a restricted class of contracts and provide numerical evidence that this often holds in the unrestricted optimal contract. I then illustrate the importance of this force by characterizing the upper tails of the stationary distributions of consumption and firm size (in output or employment), showing that they do in general differ and that the latter will typically be thicker than the former. 
 
 Second, I derived the optimal linear taxes on capital income and wealth in an environment in which agents signal a willingness to exert effort by retaining a fixed fraction of their wealth in their firm. In this setting, a tax on interest income alters the incentives of owners to retain ownership of their firm, and hence to exert continued effort to improve productivity. The optimal linear taxation policy in this environment implements the optimal restricted-action allocations and calls for separate taxes on profits, risk-free interest, and wealth, serving three qualitatively distinct purposes. The tax on profits plays a redistributive role, the tax on risk-free savings affects the incentives for retaining equity and continued effort, and the wealth tax serves to implement the efficient level of consumption smoothing. 
 
@@ -802,7 +855,7 @@ For any allocation $(c,l^P)$ and agent strategy $l$, define $V^{c,l} := (V^{c,l}
 V_t^{c,l} := \mathbb{E}^l{\left[\left. \int_{0}^{\infty}\rho e^{-\rho s}u(c_s,l_s) ds \right| \mathcal{F}_t\right]}.
 \label{timezero}
 \end{equation} %Lemma 3.1 on page 109 of \cite{cvitanic_optimal_2009}
-The law of iterated expectations ensures that $V_t^{c,l}$ is a martingale on $(\Omega, \mathcal{F}, P^l)$. The form of the martingale representation theorem given in Lemma 3.1 of \cite{cvitanic_optimal_2009} then implies the existence of $S$ such that $V_t^{c,l} = \rho \sigma \int_{0}^{t} S_sdZ^l_s$ for all $t \geq 0$ almost surely, which gives the first claim. Now consider the case in which the agent adheres to an arbitrary $l$ up until a fixed date $t$ and adheres to $l^P$ thereafter. In this case \eqref{timezero} becomes $V^{c,l}_t := \rho \int_{0}^{t} e^{-\rho s} u(c_s,l_s)ds + e^{-\rho t} U_t$, where $U_t$ is utility if the agent adheres to $l^P$ after $t$. Using $dZ^{l^P}_t = dZ^l_t - \sigma^{-1}[\mu_{\theta}(l^P_{t}) - \mu_{\theta}(l_{t})]$ we have %by the expression \eqref{martrep},
+The law of iterated expectations ensures that $V_t^{c,l}$ is a martingale on $(\Omega, \mathcal{F}, P^l)$. The form of the martingale representation theorem given in Lemma 3.1 of \cite{cvitanic_optimal_2009} then implies the existence of $S$ such that $V_t^{c,l} = \rho \sigma \int_{0}^{t} e^{-\rho s} S_sdZ^l_s$ for all $t \geq 0$ almost surely, which gives the first claim. Now consider the case in which the agent adheres to an arbitrary $l$ up until a fixed date $t$ and adheres to $l^P$ thereafter. In this case \eqref{timezero} becomes $V^{c,l}_t := \rho \int_{0}^{t} e^{-\rho s} u(c_s,l_s)ds + e^{-\rho t} U_t$, where $U_t$ is utility if the agent adheres to $l^P$ after $t$. Using $dZ^{l^P}_t = dZ^l_t - \sigma^{-1}[\mu_{\theta}(l^P_{t}) - \mu_{\theta}(l_{t})]$ we have %by the expression \eqref{martrep},
 \begin{align*}
 dV^l_t & = \rho e^{-\rho t} u(c_t,l_t)dt +  d{\left(e^{-\rho t} U_t\right)}
 \\ & = \rho e^{-\rho t} (u(c_t,l_t)dt - U_t)dt + e^{-\rho t} {\left[ \rho(U_t - u(c_t, l_t^P))dt +  \rho\sigma S_tdZ^{l^P}_t\right]}
@@ -1447,16 +1500,18 @@ where I used $\gamma(1/\alpha-1) + 1 - \overline{\gamma} = {\left(\gamma + \alph
 
 \subsection{Transfers and debt policy} \label{debt_pol}
 
-In this section I specify the transfers and debt policy necessary to support the optimal linear taxes characterized in Proposition \ref{linTAXmain}. First note that
+In this section I specify the transfers and debt policy necessary to support the optimal linear taxes characterized in Proposition \ref{linTAXmain}. I omit these expressions from the main text because they are simply chosen such that resources balances and all agents receive the same lifetime utility. The complicated expressions themselves do not appear to add to our economic understanding. 
+
+Recall that in the main text I suppose that workers receive a transfer of $T$ units of wealth at birth and that a tax of $\tau_d$ is levied on firm profits. First note that
 \begin{equation}
 \overline{Z} = (1-\beta)Z{\left(\frac{\rho_D\eta_E}{\rho_D - \mu_{\theta}(l)} \right)}^{-\beta}\overline{L}^{\beta} = \frac{(\rho_D - \mu_{\theta}(l))}{\eta_E \rho_D}(1-\beta)Y
 \label{zequil2}
 \end{equation}
 where $Y$ denotes aggregate output. The utility that agents obtain is then a solution to
 $$ 
-Y = Z{\left(\frac{\rho_D\eta_E}{\rho_D - \mu_{\theta}(l)} \right)}^{1-\beta}\overline{L}^{\beta} = {\left(\frac{\rho_D \eta_E\overline{c}_{\textnormal{r}}(l)}{\rho_D - \mu_c(l)} + 1 - \eta_E\right)}[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}} =: \kappa(l)[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}.
+Y = Z{\left(\frac{\rho_D\eta_E}{\rho_D - \mu_{\theta}(l)} \right)}^{1-\beta}\overline{L}^{\beta} = {\left(\frac{\rho_D \eta_E\overline{c}_{\textnormal{r}}(l)}{\rho_D - \mu_c(l)} + 1 - \eta_E\right)}[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}} =: \kappa(l)[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}
 $$
-The right-hand side of the above is the sum of the stationary level of worker consumption and entrepreneur consumption when the latter begins at $\overline{c}_{\textnormal{r}}(l)[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}$ and grows at $\mu_c$. Steady-state utility at birth in consumption units is $[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}} = Y/\kappa(l)$ and so by Lemma \ref{valCOEFF} the initial wealth of entrepreneurs must be 
+where the last equality defines $\kappa(l)$. The right-hand side of the above is the sum of the stationary level of worker consumption and entrepreneur consumption when the latter begins at $\overline{c}_{\textnormal{r}}(l)[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}$ and grows at $\mu_c$. Steady-state utility at birth in consumption units is $[(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}} = Y/\kappa(l)$ and so by Lemma \ref{valCOEFF} the initial wealth of entrepreneurs must be 
 $$
 a_E = \rho^{-1} [(1-\gamma)U]^{\frac{1}{1-\overline{\gamma}}}x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}} = \rho^{-1}Yx(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}  \kappa(l)^{-1}.
 $$
@@ -1465,11 +1520,12 @@ Further, we have by definition $\overline{c}_{\textnormal{r}}(l) = x(l)^{\frac{1
 \kappa(l) = \frac{\rho_D \eta_E x(l)^{\frac{1}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}}{\rho_D - (1-\overline{\gamma})\sigma^2 E(l)^2 x(l)^2/2} + 1 - \eta_E.
 \label{kappa}
 \end{equation}
-To obtain utility $Y/\kappa(l)$ workers require $(Y/\rho)\kappa(l)^{-1}$ units of wealth. They obtain $\beta Y/\rho$ from their labor income, and so the value of transfers must be $T = (Y/\rho)(1/\kappa(l) - \beta)$. Since the entrepreneurs also earn wage income the after-tax value of their firm at birth must equal $(Y/\rho){\left(x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}/\kappa(l) - \beta\right)}$. The value of the firm is $(1-\tau_d)\overline{Z}/(\rho - \mu_{\theta}(l))$, and so using \eqref{zequil2} the tax on dividends is
+To obtain utility $Y/\kappa(l)$ workers require $(Y/\rho)\kappa(l)^{-1}$ units of lifetime wealth, inclusive of the present discounted value of labor income. They obtain a flow of $\beta Y$ in labor income in the aggregate, and so the present discounted value of labor income for each worker must be $(1-\eta_E)^{-1} \times \beta Y/\rho$. The transfers at birth must therefore be $T = (Y/\rho)(1/\kappa(l) - \beta (1-\eta_E)^{-1})$ in order for them to obtain the same level of lifetime utility as entrepreneurs. Since the entrepreneurs earn no wage income the after-tax value of their firm at birth must equal $(Y/\rho) x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}/\kappa(l)$. The initial value of the firm is $(1-\tau_d)\overline{Z}/(\rho - \mu_{\theta}(l))$, and so using \eqref{zequil2} the tax on dividends the value at which they are indifferent between each of the two professions,
 \begin{align*}
-\frac{(1-\tau_d)(\rho_D - \mu_{\theta}(l))}{(\rho - \mu_{\theta}(l))\eta_E \rho_D}(1-\beta)Y & = \frac{Y}{\rho}{\left( \frac{x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}}{\kappa(l)} - \beta\right)}
-\\ \tau_d & = 1 - \frac{\rho_D(\rho - \mu_{\theta}(l))}{\rho(\rho_D - \mu_{\theta}(l))}{\left( \frac{x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}-\kappa(l)}{\kappa(l)(1-\beta)} + 1\right)}\eta_E.
+\frac{(1-\tau_d)(\rho_D - \mu_{\theta}(l))}{(\rho - \mu_{\theta}(l))\eta_E \rho_D}(1-\beta)Y & = (Y/\rho) x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}/\kappa(l)
+\\ 1-\tau_d & = \frac{1}{1-\beta} \frac{(\rho - \mu_{\theta}(l))\eta_E \rho_D}{\rho (\rho_D - \mu_{\theta}(l))} x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}/\kappa(l).
 \end{align*}
+\iffalse
 The revenue from the dividends tax minus the flow transfers as a fraction of output $Y$ is then
 \begin{align*}
 \tau_d(1-\beta) - \rho_D(1-\eta_E)\frac{T}{Y} & = 1 - \beta - \frac{\rho_D(\rho - \mu_{\theta}(l))}{\rho(\rho_D - \mu_{\theta}(l))}{\left( \frac{x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}}{\kappa(l)} - \beta\right)}\eta_E
@@ -1480,6 +1536,9 @@ The interest payments paid by the government as a fraction of profits $(1-\beta)
 1 - \frac{\rho_D}{\rho}{\left[\frac{(\rho - \mu_{\theta}(l))}{(\rho_D - \mu_{\theta}(l))}{\left( \frac{x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}-\kappa(l)}{\kappa(l)(1-\beta)} + 1\right)} \eta_E + (1-\eta_E){\left(\frac{1/\kappa(l) - \beta}{1-\beta} \right)} \right]}.
 \label{interestDY}
 \end{equation}
+\fi 
+
+\iffalse
 To demystify the above it is useful to consider some special cases. If $\beta = 0$ and $\eta_E = 1$, then
 \begin{align*}
 \tau_d & = 1 - \frac{\rho_D(\rho - \mu_{\theta}(l))}{\rho(\rho_D - \mu_{\theta}(l))}{\left( \frac{x(l)^{\frac{\overline{\gamma}}{1-\overline{\gamma}}}l^{-\frac{\alpha}{1-\alpha}}-\kappa(l)}{\kappa(l)} + 1\right)} = 1 - \frac{\rho_D(\rho - \mu_{\theta}(l))}{\rho(\rho_D - \mu_{\theta}(l))} {\left(\frac{\rho_D - \mu_c}{\rho_D}\right)}.
@@ -1499,6 +1558,7 @@ In this case the value of each firm at birth is $Y/\rho$. To understand who hold
 \\ & = \frac{Y}{\rho}{\left[\rho - \rho_D + (\rho - \rho_D) \frac{\mu_{\theta}(l)}{(\rho_D - \mu_{\theta}(l))} - \frac{\rho_D}{(\rho_D - \mu_{\theta}(l))}(\rho - \rho_D)\right]} = 0
 \end{align*}
 as expected.
+\fi
 
 \subsection{General expression for optimal taxes} \label{genFOC}
 
@@ -1563,7 +1623,7 @@ Given constant linear taxes $\tau$, a competitive stock market equilibrium consi
 \end{itemize}
 A stationary competitive stock market equilibrium is one in which the cross-sectional distributions of wealth and firm size are constant over time. 
 \end{defn} 
-The transfers to workers and the level of government debt will be set so that the goods market clears. The first observation relevant for our characterization is that if expectations are constant, then for for a given choice of effort, the entrepreneur's problem becomes a standard portfolio problem of Merton-Samuelson type and admits a homogeneous solution. However, for an arbitrary set of taxes and prices, the first-order conditions need not characterize the solution since the drift in the law of motion for wealth is not concave in $(c, l, \overline{\iota})$. I will first proceed under the assumption that such first-order conditions characterize the solution to the individual problem, and then derive sufficient conditions to ensure that this approach is valid in terms of deep parameters of the model. 
+The transfers to workers and the level of government debt will be set so that the goods market clears. The first observation relevant for our characterization is that if expectations are constant, then for a given choice of effort, the entrepreneur's problem becomes a standard portfolio problem of Merton-Samuelson type and admits a homogeneous solution. However, for an arbitrary set of taxes and prices, the first-order conditions need not characterize the solution since the drift in the law of motion for wealth is not concave in $(c, l, \overline{\iota})$. I will first proceed under the assumption that such first-order conditions characterize the solution to the individual problem, and then derive sufficient conditions to ensure that this approach is valid in terms of deep parameters of the model. 
 
 % However, the first-order conditions may be shown to characterize the optimum for sufficiently high volatility.
 
@@ -1873,7 +1933,7 @@ Solving \eqref{origHJB5} is more convenient than solving \eqref{origHJB4} becaus
 \end{aligned}
 \label{newLAW}
 \end{equation}
-where $Z_t^{(1)}$ and $Z_t^{(2)}$ are \textit{independent} Brownian motions. We choose a grid $S_u = \{\underline{u}, \Delta_u, \dots, \overline{u} - \Delta_u, \overline{u}\}$ for $\Delta_u := (\overline{u} - \underline{u})/N_u$ for some $N_u \geq 1$ and $\overline{u}$ sufficiently large that $l=1$ is recommended at $u = \overline{u}$. Given $(u,\theta) \in S_u \times \mathbb{R}_+$, we suppose that the subsequent values of the Markov chain lie within the set ${\left\{(u, \theta), (u \pm \Delta_u, \theta), (u, (1 \pm \Delta_{\theta})\theta) \right\}}$ for some $\Delta_{\theta}$. If we write $\mu_u + \sigma_u\sigma_{\theta} = \hat{\mu}_1 - \hat{\mu}_2$ where $\hat{\mu}_1, \hat{\mu}_2 \geq 0$, then the transition probabilities
+where $Z_t^{(1)}$ and $Z_t^{(2)}$ are \textit{independent} Brownian motions. I choose a grid $S_u = \{\underline{u}, \Delta_u, \dots, \overline{u} - \Delta_u, \overline{u}\}$ for $\Delta_u := (\overline{u} - \underline{u})/N_u$ for some $N_u \geq 1$ and $\overline{u}$ sufficiently large that $l=1$ is recommended at $u = \overline{u}$. Given $(u,\theta) \in S_u \times \mathbb{R}_+$, we suppose that the subsequent values of the Markov chain lie within the set ${\left\{(u, \theta), (u \pm \Delta_u, \theta), (u, (1 \pm \Delta_{\theta})\theta) \right\}}$ for some $\Delta_{\theta}$. If we write $\mu_u + \sigma_u\sigma_{\theta} = \hat{\mu}_1 - \hat{\mu}_2$ where $\hat{\mu}_1, \hat{\mu}_2 \geq 0$, then the transition probabilities
 \begin{equation}
 \begin{aligned}
 p(u+\Delta_u,\theta) & = \frac{\Delta_t}{\Delta_u^2}{\left(\frac{\sigma_u^2u^2}{2} + \Delta_u\hat{\mu}_1u\right)}
@@ -1996,7 +2056,10 @@ In view of the local consistency conditions, I would like to choose $m_1$ such t
 {\left| m_1  - \frac{|\sigma_w|/\Delta_w}{\sigma/\Delta_y} \right|}.
 \label{m1}
 \end{equation}
-The integer $m_1$ that I choose is then the minimum of this $m^*_1$ and the least integer such that the transitions remains on the grid, and the transition probability given by \eqref{3rdcond}. As we explain in further detail in \cite{phelan_applications_2022}, this three-point approximation can, in principle be inaccurate for an arbitrary control problem. However, in this example, I can ensure that the quantity in \eqref{m1} vanishes in the region of the grid in which the process spends the most time by choosing $\Delta_y$ such that $|\sigma_w|/\Delta_w = \sigma/\Delta_y$ when $\sigma_w$ equals the value associated with the highest effort. Figure \ref{fig:cdf_check} depicts the cdfs for consumption and firm size in the restricted-action allocation associated with the highest effort level computed using this method together with the associated closed-form solution. For readability I truncate below the top 1 percent. Reassuringly, the true and computed cdfs appear almost indistinguishable from one another. 
+The integer $m_1$ that I choose is then the minimum of this $m^*_1$ and the least integer such that the transitions remains on the grid, and the transition probability given by \eqref{3rdcond}. As we explain in further detail in \cite{phelan_applications_2022}, this three-point approximation can, in principle be inaccurate for an arbitrary control problem. However, for this particular problem, I can ensure that the quantity in \eqref{m1} vanishes in the region of the grid in which the process spends the most time by choosing $\Delta_y$ such that $|\sigma_w|/\Delta_w = \sigma/\Delta_y$ when $\sigma_w$ equals the value associated with the highest effort (lowest leisure).  
+
+\iffalse
+Figure \ref{fig:cdf_check} depicts the cdfs for consumption and firm size in the restricted-action allocation associated with the highest effort level computed using this method together with the associated closed-form solution. For readability I truncate below the top 1 percent. Reassuringly, the true and computed cdfs appear almost indistinguishable from one another. 
 
 \begin{figure}[!htb]
 \centering
@@ -2004,8 +2067,25 @@ The integer $m_1$ that I choose is then the minimum of this $m^*_1$ and the leas
 \includegraphics[width=0.49\linewidth]{cdf_theta_check}
 \caption{Computed and closed-form cdfs for restricted-action allocation.}\label{fig:cdf_check}
 \end{figure}
+\fi 
 
 \end{document}
+
+\iffalse 
+I now compute several stationary distributions for both the efficient and restricted-action allocations. In Figure \ref{fig:RC_pre}, I first depict the average productivity and consumption of entrepreneurs, the functions $M$ and $C$ defined in \eqref{Output}, in both the efficient and optimal restricted-action allocations, where the parameters are fixed at those in Section \ref{PriAg}. I earlier emphasized that the difference between the efficient allocation and the optimal restricted-action allocation vanishes as normalized utility fallsand so the dotted and solid lines coincide near the origin. Further, the solution to \eqref{STATy} necessarily tends to zero as the fraction of entrepreneurs become small, which reflects an intuitive point: as entrepreneurs become rarer (and hence more valuable), the efficient allocation becomes well-approximated by an allocation in which they work as hard as possible indefinitely, regardless of their history of productivity shocks.
+
+%Notice that the consumption of entrepreneurs need not be increasing in normalized utility, because as utility rises the planner may compensate the agents more with leisure than consumption. However, this need not lead to multiplicity of solutions to the resource constraints, because entrepreneurs are only one part of the population and workers' consumption is increasing in normalized utility.
+
+%[!htb]
+\begin{figure} %[H]
+\centering
+\includegraphics[width=0.49\linewidth]{M}
+\includegraphics[width=0.49\linewidth]{C}
+%\includegraphics[width=0.49\linewidth]{RC}
+\caption{Output and consumption per entrepreneur and leisure.}\label{fig:RC_pre}
+\end{figure}%(the left- and right-hand sides of equation \eqref{STATy})
+\fi
+
 
 \iffalse
 
