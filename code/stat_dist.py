@@ -120,7 +120,7 @@ for i in range(len(eta_list)):
     ax.plot(np.log(c_grid[eta_E][ind]), np.log(1-cdf_c[eta_E][ind]), label="$\eta_E$ = {0}".format(eta_E), linewidth=1.5)
 RA_cdf_c = X.RA_cdf(tail_c_l,tail_c,init_c,c_grid[eta_list[0]])
 ind = (RA_cdf_c > 0.9)*(RA_cdf_c < 0.999)
-ax.plot(np.log(c_grid[eta_list[0]][ind]), np.log(1-RA_cdf_c[ind]), label="Restrict-action", linewidth=1.5)
+ax.plot(np.log(c_grid[eta_list[0]][ind]), np.log(1-RA_cdf_c[ind]), label="Restricted-action", linewidth=1.5)
 ax.legend()
 ax.set_xlabel('log consumption', fontsize=13)
 ax.set_title('log(1-CDF)', fontsize=13)
@@ -135,30 +135,10 @@ for i in range(len(eta_list)):
     ax.plot(np.log(theta_grid[eta_E][ind]), np.log(1-cdf_theta[eta_E][ind]), label="$\eta_E$ = {0}".format(eta_E), linewidth=1.5)
 RA_cdf_theta = X.RA_cdf(tail_theta_l,tail_theta,init_theta,theta_grid[eta_list[0]])
 ind = (RA_cdf_theta > 0.9)*(RA_cdf_theta < 0.999)
-ax.plot(np.log(theta_grid[eta_list[0]][ind]), np.log(1-RA_cdf_theta[ind]), label="Restrict-action", linewidth=1.5)
+ax.plot(np.log(theta_grid[eta_list[0]][ind]), np.log(1-RA_cdf_theta[ind]), label="Restricted-action", linewidth=1.5)
 ax.legend()
 ax.set_xlabel('log productivity', fontsize=13)
 ax.set_title('log(1-CDF)', fontsize=13)
 destin = '../main/figures/cdf_theta_main.eps'
 plt.savefig(destin, format='eps', dpi=1000)
-plt.show()
-
-"""
-CDFs
-"""
-
-fig, ax = plt.subplots()
-for i in range(len(eta_list)):
-    eta_E = eta_list[i]
-    ind = (cdf_c[eta_E] > 0.75)*(cdf_c[eta_E] < 0.999)
-    ax.plot(c_grid[eta_E], cdf_c[eta_E], label="$\eta_E$ = {0}".format(eta_E), linewidth=1.5)
-RA_cdf_c = X.RA_cdf(tail_c_l,tail_c,init_c,c_grid[eta_list[0]])
-ind = (RA_cdf_c > 0.75)*(RA_cdf_c < 0.999)
-ax.plot(c_grid[eta_list[0]], RA_cdf_c, label="Restrict-action", linewidth=1.5)
-plt.xlim([0,5])
-ax.legend()
-ax.set_xlabel('log consumption', fontsize=13)
-ax.set_title('log(1-CDF)', fontsize=13)
-#destin = '../main/figures/cdf_c_main.eps'
-#plt.savefig(destin, format='eps', dpi=1000)
 plt.show()

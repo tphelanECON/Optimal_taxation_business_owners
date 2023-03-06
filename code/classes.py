@@ -95,6 +95,7 @@ class CRRA(object):
     def risk_adj(self,cbar,l):
         return self.mu_u(cbar,l) - self.sigma_u(cbar,l)**2/2 - (self.mu_theta(l) - self.sigma_theta(l)**2/2)
 
+    #following expression for v_rest uses defining quadratic for x.
     def rest(self,l,u):
         ind = l<1
         c_rest = self.x(l)**(1/(1-self.gammabar))*l**(-self.alpha/(1-self.alpha))*u
@@ -170,10 +171,13 @@ class CRRA(object):
             f_jac = lambda x: -self.M_jac(x[0], x[1], u[i], v[i], vF[i], vB[i], vC2[i])
             res = minimize(f, x0, bounds=bounds,tol=10**-9) #jac=f_jac,
             cbar[i], l[i] = res.x[0], res.x[1]
+            #probably don't need to define the following because optimal boundary
+            #consumption is available in closed-form
             f_bnd = lambda c: -self.M_bnd(c, u[i], v[i], vF[i], vB[i], vC2[i])
             cl1[i] = (np.maximum(-self.rho*vF[i], self.c_bnd[0]**self.gammabar))**(1/self.gammabar)
             eval[i] = self.M(cbar[i], l[i], u[i], v[i], vF[i], vB[i], vC2[i])
             eval_bnd[i] = self.M_bnd(cl1[i], u[i], v[i], vF[i], vB[i], vC2[i])
+            #indicator for when boundary value is superior
             ind_bnd = eval[i] < eval_bnd[i]
             cbar[i] = cbar[i]*(1-ind_bnd) + ind_bnd*cl1[i]
             l[i] = l[i]*(1-ind_bnd) + ind_bnd
@@ -200,6 +204,8 @@ class CRRA(object):
         b[0] = b[0] + self.tran_func(cbar,l)[(-1)][0]*self.rest_PA(self.llow,0)
         return b + self.T_tran(cbar,l)*v
 
+    #the following is the maximand defined on the RHS of the HJB appearing in
+    #numerical appendix F.
     def M(self, cbar, l, u, v, vF, vB, vC2):
         mu_u, sig_u = self.mu_u(cbar,l), self.sigma_u(cbar,l)
         mu_theta, sig_theta = self.mu_theta(l), self.sigma_theta(l)
@@ -222,6 +228,7 @@ class CRRA(object):
         + self.sigma**2*(self.E(l)*x - 1)*(self.alpha*(1-self.gammabar)-1)*self.E(l)*x*u**2*vC2/l
         return np.array([Mc, Ml])
 
+    #following is the special maximand in the case in which l=1.
     def M_bnd(self, cbar, u, v, vF, vB, vC2):
         mu_u, sig_u = self.mu_u(cbar,1), self.sigma_u(cbar,1)
         mu_theta, sig_theta = self.mu_theta(1), self.sigma_theta(1)
@@ -232,7 +239,7 @@ class CRRA(object):
         return self.E(l)**2*(self.gammabar-1)*(self.gammabar-1/2)*self.sigma**2*self.x(l)**2 + self.rho*(self.x(l) - 1)
 
     #Expressions for taxation in competitive equilibrium (used in WP and WP-R).
-    #However, it is fragile and therefore relegated to appendix of subsequent versions.
+    #However, it is FRAGILE and therefore relegated to appendix of subsequent versions.
     def tax_competitive(self,sigma,l):
         with np.errstate(divide='ignore',invalid='ignore'):
             A = self.rho**(-1)*self.E(l)**2*(self.gammabar-1)*(self.gammabar-1/2)*sigma**2
@@ -281,6 +288,7 @@ class CRRA(object):
         P = P + self.T_func(row,column,pdown[1:])
         return sp.linalg.spsolve(sp.eye(self.Nu-1) - P.T, b).reshape((self.Nu-1,))
 
+    #following are the local transitions in the stationary distribution calculations
     def p_func_local(self,cbar,l):
         p_func = {}
         ww, yy = self.ww,self.yy
